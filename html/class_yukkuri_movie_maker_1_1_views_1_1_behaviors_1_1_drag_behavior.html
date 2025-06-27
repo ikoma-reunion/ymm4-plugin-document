@@ -1,0 +1,765 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Views.Behaviors.DragBehavior クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_views_1_1_behaviors_1_1_drag_behavior.html','','class_yukkuri_movie_maker_1_1_views_1_1_behaviors_1_1_drag_behavior-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Views.Behaviors.DragBehavior クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>UI要素に対するドラッグ操作を検出・処理するためのビヘイビアです。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.Views.Behaviors.DragBehavior の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_views_1_1_behaviors_1_1_drag_behavior.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+クラス</h2></td></tr>
+<tr class="memitem:DragCommandParameter" id="r_DragCommandParameter"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_yukkuri_movie_maker_1_1_views_1_1_behaviors_1_1_drag_behavior_1_1_drag_command_parameter.html">DragCommandParameter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作に関する情報を提供するコマンドパラメータです。  <a href="class_yukkuri_movie_maker_1_1_views_1_1_behaviors_1_1_drag_behavior_1_1_drag_command_parameter.html#details">[詳解]</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+公開型</h2></td></tr>
+<tr class="memitem:aed2a083dea6976bb5744d2b2535b1098" id="r_aed2a083dea6976bb5744d2b2535b1098"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed2a083dea6976bb5744d2b2535b1098">DragBase</a> { <br />
+&#160;&#160;<a class="el" href="#aed2a083dea6976bb5744d2b2535b1098aad6e7652b1bdfb38783486c2c3d5e806">Self</a>
+, <a class="el" href="#aed2a083dea6976bb5744d2b2535b1098a30269022e9d8f51beaabb52e5d0de2b7">Parent</a>
+, <a class="el" href="#aed2a083dea6976bb5744d2b2535b1098afc2ef09cd73455b09d54ad47f33bf56f">ParentCanvas</a>
+, <a class="el" href="#aed2a083dea6976bb5744d2b2535b1098a95b3656db098a502222ac85c2f1c6a48">ParentFastCanvasItemsControl</a>
+, <br />
+&#160;&#160;<a class="el" href="#aed2a083dea6976bb5744d2b2535b1098ac89686a387d2b12b3c729ce35a0bcb5b">Window</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:aed2a083dea6976bb5744d2b2535b1098"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作の基準となるコントロールの種類を定義します。  <a href="#aed2a083dea6976bb5744d2b2535b1098">[詳解]</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+静的公開変数類</h2></td></tr>
+<tr class="memitem:a641cadc0dc59e340617f66c566e7de7a" id="r_a641cadc0dc59e340617f66c566e7de7a"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a641cadc0dc59e340617f66c566e7de7a">IsDraggingProperty</a></td></tr>
+<tr class="memdesc:a641cadc0dc59e340617f66c566e7de7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作が現在行われているかどうかを示す依存関係プロパティです。  <br /></td></tr>
+<tr class="memitem:a443a22268aeeffe89ab95e4a2b7eed8c" id="r_a443a22268aeeffe89ab95e4a2b7eed8c"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a443a22268aeeffe89ab95e4a2b7eed8c">DragStartCommandProperty</a></td></tr>
+<tr class="memdesc:a443a22268aeeffe89ab95e4a2b7eed8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ開始時に実行されるコマンドの依存関係プロパティです。  <br /></td></tr>
+<tr class="memitem:a7db593828379911cd204bb43c4ed020a" id="r_a7db593828379911cd204bb43c4ed020a"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db593828379911cd204bb43c4ed020a">DragDeltaCommandProperty</a></td></tr>
+<tr class="memdesc:a7db593828379911cd204bb43c4ed020a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ中に移動するたびに実行されるコマンドの依存関係プロパティです。  <br /></td></tr>
+<tr class="memitem:a6c0acd452048e7e60437c24b53d991db" id="r_a6c0acd452048e7e60437c24b53d991db"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c0acd452048e7e60437c24b53d991db">DragCompleteCommandProperty</a></td></tr>
+<tr class="memdesc:a6c0acd452048e7e60437c24b53d991db"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ完了時に実行されるコマンドの依存関係プロパティです。  <br /></td></tr>
+<tr class="memitem:aa1168664d9841aa1a0503117c15624f1" id="r_aa1168664d9841aa1a0503117c15624f1"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1168664d9841aa1a0503117c15624f1">DragDistanceThresholdProperty</a></td></tr>
+<tr class="memdesc:aa1168664d9841aa1a0503117c15624f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグと見なされる最小の移動距離の依存関係プロパティです。  <br /></td></tr>
+<tr class="memitem:a5af761fa6665137218ee7aff1f48ccb3" id="r_a5af761fa6665137218ee7aff1f48ccb3"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5af761fa6665137218ee7aff1f48ccb3">ClickCommandProperty</a></td></tr>
+<tr class="memdesc:a5af761fa6665137218ee7aff1f48ccb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">クリック時に実行されるコマンドの依存関係プロパティです。  <br /></td></tr>
+<tr class="memitem:a1797711fbcabbf16ae66b2a1576f9475" id="r_a1797711fbcabbf16ae66b2a1576f9475"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1797711fbcabbf16ae66b2a1576f9475">DoubleClickCommandProperty</a></td></tr>
+<tr class="memdesc:a1797711fbcabbf16ae66b2a1576f9475"><td class="mdescLeft">&#160;</td><td class="mdescRight">ダブルクリック時に実行されるコマンドの依存関係プロパティです。  <br /></td></tr>
+<tr class="memitem:a65d188670913b52b007f64202e207fc0" id="r_a65d188670913b52b007f64202e207fc0"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65d188670913b52b007f64202e207fc0">MouseButtonProperty</a></td></tr>
+<tr class="memdesc:a65d188670913b52b007f64202e207fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作をトリガーするマウスボタンの依存関係プロパティです。  <br /></td></tr>
+<tr class="memitem:add48d35cf70b9f32265a990195f05770" id="r_add48d35cf70b9f32265a990195f05770"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add48d35cf70b9f32265a990195f05770">ModifierKeysProperty</a></td></tr>
+<tr class="memdesc:add48d35cf70b9f32265a990195f05770"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作をトリガーする修飾キーの依存関係プロパティです。  <br /></td></tr>
+<tr class="memitem:a6a1098facf469ebdb96d55d48ef6d0f2" id="r_a6a1098facf469ebdb96d55d48ef6d0f2"><td class="memItemLeft" align="right" valign="top">static readonly DependencyProperty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a1098facf469ebdb96d55d48ef6d0f2">DragBaseControlProperty</a></td></tr>
+<tr class="memdesc:a6a1098facf469ebdb96d55d48ef6d0f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作の基準となるコントロールを指定する依存関係プロパティです。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a5bf55b606b808b5c10888a50ae3bf77a" id="r_a5bf55b606b808b5c10888a50ae3bf77a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bf55b606b808b5c10888a50ae3bf77a">OnAttached</a> ()</td></tr>
+<tr class="memdesc:a5bf55b606b808b5c10888a50ae3bf77a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ビヘイビアがアタッチされたときに呼び出されます。  <br /></td></tr>
+<tr class="memitem:ac0bea5e4c9c214e4d270217befda5cd8" id="r_ac0bea5e4c9c214e4d270217befda5cd8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0bea5e4c9c214e4d270217befda5cd8">OnDetaching</a> ()</td></tr>
+<tr class="memdesc:ac0bea5e4c9c214e4d270217befda5cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ビヘイビアがデタッチされたときに呼び出されます。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a8a3e4439918cdd04346a845a68f2d313" id="r_a8a3e4439918cdd04346a845a68f2d313"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a3e4439918cdd04346a845a68f2d313">IsDragging</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8a3e4439918cdd04346a845a68f2d313"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作が現在行われているかどうかを取得または設定します。  <br /></td></tr>
+<tr class="memitem:aef51589f69b711143bca1fd067bf1269" id="r_aef51589f69b711143bca1fd067bf1269"><td class="memItemLeft" align="right" valign="top">ICommand&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef51589f69b711143bca1fd067bf1269">DragStartCommand</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aef51589f69b711143bca1fd067bf1269"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ開始時に実行されるコマンドを取得または設定します。  <br /></td></tr>
+<tr class="memitem:ad4382a3f0433e6932d21df2ac1194679" id="r_ad4382a3f0433e6932d21df2ac1194679"><td class="memItemLeft" align="right" valign="top">ICommand&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4382a3f0433e6932d21df2ac1194679">DragDeltaCommand</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad4382a3f0433e6932d21df2ac1194679"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ中に移動するたびに実行されるコマンドを取得または設定します。  <br /></td></tr>
+<tr class="memitem:afed7e1bed9d074592fc51aeeaa093dfb" id="r_afed7e1bed9d074592fc51aeeaa093dfb"><td class="memItemLeft" align="right" valign="top">ICommand&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afed7e1bed9d074592fc51aeeaa093dfb">DragCompleteCommand</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:afed7e1bed9d074592fc51aeeaa093dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ完了時に実行されるコマンドを取得または設定します。  <br /></td></tr>
+<tr class="memitem:a570faa4ace4ae00fd90bda340329bc6d" id="r_a570faa4ace4ae00fd90bda340329bc6d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a570faa4ace4ae00fd90bda340329bc6d">DragDistanceThreshold</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a570faa4ace4ae00fd90bda340329bc6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグと見なされる最小の移動距離を取得または設定します。  <br /></td></tr>
+<tr class="memitem:aaa018b15c65c0b9e4445533b346f0df9" id="r_aaa018b15c65c0b9e4445533b346f0df9"><td class="memItemLeft" align="right" valign="top">ICommand&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa018b15c65c0b9e4445533b346f0df9">ClickCommand</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aaa018b15c65c0b9e4445533b346f0df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">クリック時に実行されるコマンドを取得または設定します。  <br /></td></tr>
+<tr class="memitem:a0395513933e6bf71be71bd3015ab072f" id="r_a0395513933e6bf71be71bd3015ab072f"><td class="memItemLeft" align="right" valign="top">ICommand&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0395513933e6bf71be71bd3015ab072f">DoubleClickCommand</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a0395513933e6bf71be71bd3015ab072f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ダブルクリック時に実行されるコマンドを取得または設定します。  <br /></td></tr>
+<tr class="memitem:a5ead19917ce0ac753c23af38bf7c1d46" id="r_a5ead19917ce0ac753c23af38bf7c1d46"><td class="memItemLeft" align="right" valign="top">MouseButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ead19917ce0ac753c23af38bf7c1d46">MouseButton</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5ead19917ce0ac753c23af38bf7c1d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作をトリガーするマウスボタンを取得または設定します。  <br /></td></tr>
+<tr class="memitem:a280103e9a2dc66705897554a16333bf3" id="r_a280103e9a2dc66705897554a16333bf3"><td class="memItemLeft" align="right" valign="top">ModifierKeys&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a280103e9a2dc66705897554a16333bf3">ModifierKeys</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a280103e9a2dc66705897554a16333bf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作をトリガーする修飾キーを取得または設定します。  <br /></td></tr>
+<tr class="memitem:a80f9fa94ed337e3e9da025e056aefb35" id="r_a80f9fa94ed337e3e9da025e056aefb35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aed2a083dea6976bb5744d2b2535b1098">DragBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80f9fa94ed337e3e9da025e056aefb35">DragBaseControl</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a80f9fa94ed337e3e9da025e056aefb35"><td class="mdescLeft">&#160;</td><td class="mdescRight">ドラッグ操作の基準となるコントロールを取得または設定します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>UI要素に対するドラッグ操作を検出・処理するためのビヘイビアです。 </p>
+<p>このビヘイビアは、マウスのドラッグ開始、ドラッグ中の移動、ドラッグ完了、 およびクリック/ダブルクリックイベントを検出して、それぞれに対応するコマンドを実行します。 ドラッグの基準となる要素（自身、親、特定の親コントロールなど）を指定できます。 </p>
+<p>XAMLでの使用例: </p><div class="fragment"></div><!-- fragment --> </div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">列挙型メンバ詳解</h2>
+<a id="aed2a083dea6976bb5744d2b2535b1098" name="aed2a083dea6976bb5744d2b2535b1098"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed2a083dea6976bb5744d2b2535b1098">&#9670;&#160;</a></span>DragBase</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aed2a083dea6976bb5744d2b2535b1098">YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragBase</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ドラッグ操作の基準となるコントロールの種類を定義します。 </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a id="aed2a083dea6976bb5744d2b2535b1098aad6e7652b1bdfb38783486c2c3d5e806" name="aed2a083dea6976bb5744d2b2535b1098aad6e7652b1bdfb38783486c2c3d5e806"></a>Self&#160;</td><td class="fielddoc"><p>ビヘイビアがアタッチされている要素自身を基準とします。 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aed2a083dea6976bb5744d2b2535b1098a30269022e9d8f51beaabb52e5d0de2b7" name="aed2a083dea6976bb5744d2b2535b1098a30269022e9d8f51beaabb52e5d0de2b7"></a>Parent&#160;</td><td class="fielddoc"><p>アタッチされている要素の直接の親要素を基準とします。 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aed2a083dea6976bb5744d2b2535b1098afc2ef09cd73455b09d54ad47f33bf56f" name="aed2a083dea6976bb5744d2b2535b1098afc2ef09cd73455b09d54ad47f33bf56f"></a>ParentCanvas&#160;</td><td class="fielddoc"><p>アタッチされている要素の親のCanvasを基準とします。 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aed2a083dea6976bb5744d2b2535b1098a95b3656db098a502222ac85c2f1c6a48" name="aed2a083dea6976bb5744d2b2535b1098a95b3656db098a502222ac85c2f1c6a48"></a>ParentFastCanvasItemsControl&#160;</td><td class="fielddoc"><p>アタッチされている要素の親の<a class="el" href="class_yukkuri_movie_maker_1_1_controls_1_1_fast_canvas_items_control.html" title="高速な描画を可能にするCanvasベースのItemsControlです。 多数のUI要素を効率的に表示するために使用されます。">FastCanvasItemsControl</a>を基準とします。 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aed2a083dea6976bb5744d2b2535b1098ac89686a387d2b12b3c729ce35a0bcb5b" name="aed2a083dea6976bb5744d2b2535b1098ac89686a387d2b12b3c729ce35a0bcb5b"></a>Window&#160;</td><td class="fielddoc"><p>アタッチされている要素が属するウィンドウを基準とします。 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a5bf55b606b808b5c10888a50ae3bf77a" name="a5bf55b606b808b5c10888a50ae3bf77a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bf55b606b808b5c10888a50ae3bf77a">&#9670;&#160;</a></span>OnAttached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void YukkuriMovieMaker.Views.Behaviors.DragBehavior.OnAttached </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ビヘイビアがアタッチされたときに呼び出されます。 </p>
+
+</div>
+</div>
+<a id="ac0bea5e4c9c214e4d270217befda5cd8" name="ac0bea5e4c9c214e4d270217befda5cd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0bea5e4c9c214e4d270217befda5cd8">&#9670;&#160;</a></span>OnDetaching()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void YukkuriMovieMaker.Views.Behaviors.DragBehavior.OnDetaching </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ビヘイビアがデタッチされたときに呼び出されます。 </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">メンバ詳解</h2>
+<a id="a5af761fa6665137218ee7aff1f48ccb3" name="a5af761fa6665137218ee7aff1f48ccb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5af761fa6665137218ee7aff1f48ccb3">&#9670;&#160;</a></span>ClickCommandProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.ClickCommandProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>クリック時に実行されるコマンドの依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a id="a1797711fbcabbf16ae66b2a1576f9475" name="a1797711fbcabbf16ae66b2a1576f9475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1797711fbcabbf16ae66b2a1576f9475">&#9670;&#160;</a></span>DoubleClickCommandProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.DoubleClickCommandProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ダブルクリック時に実行されるコマンドの依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a id="a6a1098facf469ebdb96d55d48ef6d0f2" name="a6a1098facf469ebdb96d55d48ef6d0f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a1098facf469ebdb96d55d48ef6d0f2">&#9670;&#160;</a></span>DragBaseControlProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragBaseControlProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ドラッグ操作の基準となるコントロールを指定する依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a id="a6c0acd452048e7e60437c24b53d991db" name="a6c0acd452048e7e60437c24b53d991db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c0acd452048e7e60437c24b53d991db">&#9670;&#160;</a></span>DragCompleteCommandProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragCompleteCommandProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ドラッグ完了時に実行されるコマンドの依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a id="a7db593828379911cd204bb43c4ed020a" name="a7db593828379911cd204bb43c4ed020a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7db593828379911cd204bb43c4ed020a">&#9670;&#160;</a></span>DragDeltaCommandProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragDeltaCommandProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ドラッグ中に移動するたびに実行されるコマンドの依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a id="aa1168664d9841aa1a0503117c15624f1" name="aa1168664d9841aa1a0503117c15624f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1168664d9841aa1a0503117c15624f1">&#9670;&#160;</a></span>DragDistanceThresholdProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragDistanceThresholdProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ドラッグと見なされる最小の移動距離の依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a id="a443a22268aeeffe89ab95e4a2b7eed8c" name="a443a22268aeeffe89ab95e4a2b7eed8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a443a22268aeeffe89ab95e4a2b7eed8c">&#9670;&#160;</a></span>DragStartCommandProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragStartCommandProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ドラッグ開始時に実行されるコマンドの依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a id="a641cadc0dc59e340617f66c566e7de7a" name="a641cadc0dc59e340617f66c566e7de7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a641cadc0dc59e340617f66c566e7de7a">&#9670;&#160;</a></span>IsDraggingProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.IsDraggingProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ドラッグ操作が現在行われているかどうかを示す依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a id="add48d35cf70b9f32265a990195f05770" name="add48d35cf70b9f32265a990195f05770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add48d35cf70b9f32265a990195f05770">&#9670;&#160;</a></span>ModifierKeysProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.ModifierKeysProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ドラッグ操作をトリガーする修飾キーの依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a id="a65d188670913b52b007f64202e207fc0" name="a65d188670913b52b007f64202e207fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65d188670913b52b007f64202e207fc0">&#9670;&#160;</a></span>MouseButtonProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DependencyProperty YukkuriMovieMaker.Views.Behaviors.DragBehavior.MouseButtonProperty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ドラッグ操作をトリガーするマウスボタンの依存関係プロパティです。 </p>
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="aaa018b15c65c0b9e4445533b346f0df9" name="aaa018b15c65c0b9e4445533b346f0df9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa018b15c65c0b9e4445533b346f0df9">&#9670;&#160;</a></span>ClickCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ICommand YukkuriMovieMaker.Views.Behaviors.DragBehavior.ClickCommand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クリック時に実行されるコマンドを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a0395513933e6bf71be71bd3015ab072f" name="a0395513933e6bf71be71bd3015ab072f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0395513933e6bf71be71bd3015ab072f">&#9670;&#160;</a></span>DoubleClickCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ICommand YukkuriMovieMaker.Views.Behaviors.DragBehavior.DoubleClickCommand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ダブルクリック時に実行されるコマンドを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a80f9fa94ed337e3e9da025e056aefb35" name="a80f9fa94ed337e3e9da025e056aefb35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80f9fa94ed337e3e9da025e056aefb35">&#9670;&#160;</a></span>DragBaseControl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aed2a083dea6976bb5744d2b2535b1098">DragBase</a> YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragBaseControl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドラッグ操作の基準となるコントロールを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="afed7e1bed9d074592fc51aeeaa093dfb" name="afed7e1bed9d074592fc51aeeaa093dfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afed7e1bed9d074592fc51aeeaa093dfb">&#9670;&#160;</a></span>DragCompleteCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ICommand YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragCompleteCommand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドラッグ完了時に実行されるコマンドを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="ad4382a3f0433e6932d21df2ac1194679" name="ad4382a3f0433e6932d21df2ac1194679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4382a3f0433e6932d21df2ac1194679">&#9670;&#160;</a></span>DragDeltaCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ICommand YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragDeltaCommand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドラッグ中に移動するたびに実行されるコマンドを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a570faa4ace4ae00fd90bda340329bc6d" name="a570faa4ace4ae00fd90bda340329bc6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a570faa4ace4ae00fd90bda340329bc6d">&#9670;&#160;</a></span>DragDistanceThreshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragDistanceThreshold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドラッグと見なされる最小の移動距離を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="aef51589f69b711143bca1fd067bf1269" name="aef51589f69b711143bca1fd067bf1269"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef51589f69b711143bca1fd067bf1269">&#9670;&#160;</a></span>DragStartCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ICommand YukkuriMovieMaker.Views.Behaviors.DragBehavior.DragStartCommand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドラッグ開始時に実行されるコマンドを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a8a3e4439918cdd04346a845a68f2d313" name="a8a3e4439918cdd04346a845a68f2d313"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a3e4439918cdd04346a845a68f2d313">&#9670;&#160;</a></span>IsDragging</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Views.Behaviors.DragBehavior.IsDragging</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドラッグ操作が現在行われているかどうかを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a280103e9a2dc66705897554a16333bf3" name="a280103e9a2dc66705897554a16333bf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a280103e9a2dc66705897554a16333bf3">&#9670;&#160;</a></span>ModifierKeys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ModifierKeys YukkuriMovieMaker.Views.Behaviors.DragBehavior.ModifierKeys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドラッグ操作をトリガーする修飾キーを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a5ead19917ce0ac753c23af38bf7c1d46" name="a5ead19917ce0ac753c23af38bf7c1d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ead19917ce0ac753c23af38bf7c1d46">&#9670;&#160;</a></span>MouseButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MouseButton YukkuriMovieMaker.Views.Behaviors.DragBehavior.MouseButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ドラッグ操作をトリガーするマウスボタンを取得または設定します。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Views/Behaviors/<a class="el" href="_drag_behavior_8cs.html">DragBehavior.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_views.html">Views</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_views_1_1_behaviors.html">Behaviors</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_views_1_1_behaviors_1_1_drag_behavior.html">DragBehavior</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

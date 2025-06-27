@@ -1,0 +1,5 @@
+var namespace_yukkuri_movie_maker_1_1_plugin_1_1_text_completion =
+[
+    [ "ITextCompletionPlugin", "interface_yukkuri_movie_maker_1_1_plugin_1_1_text_completion_1_1_i_text_completion_plugin.html", "interface_yukkuri_movie_maker_1_1_plugin_1_1_text_completion_1_1_i_text_completion_plugin" ],
+    [ "ITextCompletionPlugin2", "interface_yukkuri_movie_maker_1_1_plugin_1_1_text_completion_1_1_i_text_completion_plugin2.html", "interface_yukkuri_movie_maker_1_1_plugin_1_1_text_completion_1_1_i_text_completion_plugin2" ]
+];

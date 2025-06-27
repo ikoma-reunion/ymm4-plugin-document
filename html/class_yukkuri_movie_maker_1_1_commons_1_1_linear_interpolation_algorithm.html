@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.LinearInterpolationAlgorithm クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_linear_interpolation_algorithm.html','','class_yukkuri_movie_maker_1_1_commons_1_1_linear_interpolation_algorithm-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.LinearInterpolationAlgorithm クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>線形補間アルゴリズムの実装例です。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.Commons.LinearInterpolationAlgorithm の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_commons_1_1_linear_interpolation_algorithm.png" usemap="#YukkuriMovieMaker_2ECommons_2ELinearInterpolationAlgorithm_map" alt=""/>
+  <map id="YukkuriMovieMaker_2ECommons_2ELinearInterpolationAlgorithm_map" name="YukkuriMovieMaker_2ECommons_2ELinearInterpolationAlgorithm_map">
+<area href="interface_yukkuri_movie_maker_1_1_commons_1_1_i_interpolation_algorithm.html" title="補間アルゴリズムのインターフェース" alt="YukkuriMovieMaker.Commons.IInterpolationAlgorithm" shape="rect" coords="0,0,346,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a8a96e3e00001b7566e6d4b9de677336b" id="r_a8a96e3e00001b7566e6d4b9de677336b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a96e3e00001b7566e6d4b9de677336b">GetWeight</a> (double distance)</td></tr>
+<tr class="memdesc:a8a96e3e00001b7566e6d4b9de677336b"><td class="mdescLeft">&#160;</td><td class="mdescRight">重みを取得する<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">distance</td><td>距離</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>重み</dd></dl>
+  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a02baf8ebf35e235cf8a838f997392ee5" id="r_a02baf8ebf35e235cf8a838f997392ee5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02baf8ebf35e235cf8a838f997392ee5">Taps</a><code> [get]</code></td></tr>
+<tr class="memdesc:a02baf8ebf35e235cf8a838f997392ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">補間に使用するサンプル数補間に使用するタップ数（考慮するデータ点の数）を取得します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>線形補間アルゴリズムの実装例です。 </p>
+<p>このアルゴリズムは、最も単純な補間方法の一つで、隣接する2つのデータ点の間を直線で結びます。 <a class="el" href="#a02baf8ebf35e235cf8a838f997392ee5" title="補間に使用するサンプル数補間に使用するタップ数（考慮するデータ点の数）を取得します。">Taps</a>は1であり、<a class="el" href="#a8a96e3e00001b7566e6d4b9de677336b" title="重みを取得する重み">GetWeight(double)</a>は距離に基づいて線形に重みを計算します。 </p>
+<div class="fragment"><div class="line"><span class="comment">// 線形補間アルゴリズムのインスタンスを作成</span></div>
+<div class="line"><a class="code hl_interface" href="interface_yukkuri_movie_maker_1_1_commons_1_1_i_interpolation_algorithm.html">IInterpolationAlgorithm</a> linear = <span class="keyword">new</span> <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_linear_interpolation_algorithm.html">LinearInterpolationAlgorithm</a>();</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// データ点</span></div>
+<div class="line">Span&lt;double&gt; data = stackalloc <span class="keywordtype">double</span>[] { 10.0, 20.0, 30.0, 40.0 };</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// 位置1.5での値を補間</span></div>
+<div class="line"><span class="keywordtype">double</span> interpolatedValue = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_interpolation.html">Interpolation</a>.<a class="code hl_function" href="class_yukkuri_movie_maker_1_1_commons_1_1_interpolation.html#aa8282b3ead77a7d428065c50c46f9002">GetValue</a>(linear, 1.5, data);</div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;Interpolated value at 1.5: {interpolatedValue}&quot;</span>); <span class="comment">// 期待値: 25.0</span></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_interpolation_html"><div class="ttname"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_interpolation.html">YukkuriMovieMaker.Commons.Interpolation</a></div><div class="ttdoc">補間処理を行う静的クラスです。</div><div class="ttdef"><b>Definition</b> Interpolation.cs:70</div></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_interpolation_html_aa8282b3ead77a7d428065c50c46f9002"><div class="ttname"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_interpolation.html#aa8282b3ead77a7d428065c50c46f9002">YukkuriMovieMaker.Commons.Interpolation.GetValue</a></div><div class="ttdeci">static double GetValue(IInterpolationAlgorithm algorithm, double position, Span&lt; double &gt; buffer)</div><div class="ttdoc">指定された補間アルゴリズムとデータバッファを使用して、特定の位置の値を補間して取得します。</div><div class="ttdef"><b>Definition</b> Interpolation.cs:116</div></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_linear_interpolation_algorithm_html"><div class="ttname"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_linear_interpolation_algorithm.html">YukkuriMovieMaker.Commons.LinearInterpolationAlgorithm</a></div><div class="ttdoc">線形補間アルゴリズムの実装例です。</div><div class="ttdef"><b>Definition</b> Interpolation.cs:49</div></div>
+<div class="ttc" id="ainterface_yukkuri_movie_maker_1_1_commons_1_1_i_interpolation_algorithm_html"><div class="ttname"><a href="interface_yukkuri_movie_maker_1_1_commons_1_1_i_interpolation_algorithm.html">YukkuriMovieMaker.Commons.IInterpolationAlgorithm</a></div><div class="ttdoc">補間アルゴリズムのインターフェース</div><div class="ttdef"><b>Definition</b> IInterpolationAlgorithm.cs:9</div></div>
+</div><!-- fragment --> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a8a96e3e00001b7566e6d4b9de677336b" name="a8a96e3e00001b7566e6d4b9de677336b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a96e3e00001b7566e6d4b9de677336b">&#9670;&#160;</a></span>GetWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Commons.LinearInterpolationAlgorithm.GetWeight </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>distance</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>重みを取得する<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">distance</td><td>距離</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>重み</dd></dl>
+ </p>
+
+<p><a class="el" href="interface_yukkuri_movie_maker_1_1_commons_1_1_i_interpolation_algorithm.html#ae2c5d92e6af715fd68d6ecb3295d6baf">YukkuriMovieMaker.Commons.IInterpolationAlgorithm</a>を実装しています。</p>
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="a02baf8ebf35e235cf8a838f997392ee5" name="a02baf8ebf35e235cf8a838f997392ee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02baf8ebf35e235cf8a838f997392ee5">&#9670;&#160;</a></span>Taps</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int YukkuriMovieMaker.Commons.LinearInterpolationAlgorithm.Taps</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>補間に使用するサンプル数補間に使用するタップ数（考慮するデータ点の数）を取得します。 </p>
+
+<p><a class="el" href="interface_yukkuri_movie_maker_1_1_commons_1_1_i_interpolation_algorithm.html#ae13dd29bcdff833683252a76205a97b7">YukkuriMovieMaker.Commons.IInterpolationAlgorithm</a>を実装しています。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_interpolation_8cs.html">Interpolation.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_linear_interpolation_algorithm.html">LinearInterpolationAlgorithm</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

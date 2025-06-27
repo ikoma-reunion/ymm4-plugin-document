@@ -1,0 +1,4 @@
+var interface_yukkuri_movie_maker_1_1_commons_1_1_i_property_editor_for_voice_parameter_attribute =
+[
+    [ "VoiceDescription", "interface_yukkuri_movie_maker_1_1_commons_1_1_i_property_editor_for_voice_parameter_attribute.html#a71480ced434d3118cd91d20235748332", null ]
+];

@@ -1,0 +1,1243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Player.Video.DrawDescription クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html','','class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Player.Video.DrawDescription クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>描画に関する情報を提供するクラスです。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.Player.Video.DrawDescription の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ab81d0e52cf1ad3f9ad90a469d3381fa1" id="r_ab81d0e52cf1ad3f9ad90a469d3381fa1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab81d0e52cf1ad3f9ad90a469d3381fa1">DrawDescription</a> (global::System.Numerics.Vector3 <a class="el" href="#a2eda3dc589044380471d12b36d7f7bd9">Draw</a>, global::System.Numerics.Vector2 <a class="el" href="#a2fe0830867aefa212db26a802217467e">CenterPoint</a>, global::System.Numerics.Vector2 <a class="el" href="#a7626bb4702722946e8388c102becca4f">Zoom</a>, global::System.Numerics.Vector3 <a class="el" href="#a4848558b74d364352c8d461d3eebacd5">Rotation</a>, global::System.Numerics.Matrix4x4 <a class="el" href="#aae71d96a5a317984c67ea91ecaabb5a9">Camera</a>, global::Vortice.Direct2D1.InterpolationMode <a class="el" href="#a6fa5050047a916728e279ce69c10fe6e">ZoomInterpolationMode</a>, double <a class="el" href="#a0f2866507d5507da65ae4f8cc4655765">Opacity</a>, bool <a class="el" href="#a6c6062a4f17208e476320ad60610cefd">Invert</a>, global::System.Collections.Immutable.ImmutableList&lt; global::YukkuriMovieMaker.Player.Video.VideoEffectController &gt; <a class="el" href="#ad6f66e8a894fe3f76fbff749d94d1970">Controllers</a>)</td></tr>
+<tr class="memdesc:ab81d0e52cf1ad3f9ad90a469d3381fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html" title="描画に関する情報を提供するクラスです。">DrawDescription</a> クラスの新しいインスタンスを初期化します。  <br /></td></tr>
+<tr class="memitem:a88b34015ca8305f590f5d75c4bf5fe91" id="r_a88b34015ca8305f590f5d75c4bf5fe91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b34015ca8305f590f5d75c4bf5fe91">DrawDescription</a> (global::YukkuriMovieMaker.Player.Video.DrawDescription defaultValues, global::System.Numerics.Vector3? draw=null, global::System.Numerics.Vector2? center=null, global::System.Numerics.Vector2? zoom=null, global::System.Numerics.Vector3? rotation=null, global::System.Numerics.Matrix4x4? camera=null, global::Vortice.Direct2D1.InterpolationMode? zoomInterpolationMode=null, double? opacity=null, bool? invert=null)</td></tr>
+<tr class="memdesc:a88b34015ca8305f590f5d75c4bf5fe91"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html" title="描画に関する情報を提供するクラスです。">DrawDescription</a> クラスの新しいインスタンスを初期化します。 このコンストラクタは非推奨です。代わりに with 式を使用してください。  <br /></td></tr>
+<tr class="memitem:acce6b508436e6379c117246340d2c418" id="r_acce6b508436e6379c117246340d2c418"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acce6b508436e6379c117246340d2c418">DrawDescription</a> (global::System.Numerics.Vector2 draw, global::System.Numerics.Vector2 center, double zoomX, double zoomY, global::Vortice.Direct2D1.InterpolationMode zoomInterpolationMode, double opacity, double rotationX, double rotationY, double rotationZ, bool invert)</td></tr>
+<tr class="memdesc:acce6b508436e6379c117246340d2c418"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html" title="描画に関する情報を提供するクラスです。">DrawDescription</a> クラスの新しいインスタンスを初期化します。 このコンストラクタは非推奨です。代わりに with 式を使用してください。  <br /></td></tr>
+<tr class="memitem:a2a8977b775108fb03604d6453f6432a7" id="r_a2a8977b775108fb03604d6453f6432a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a8977b775108fb03604d6453f6432a7">DrawDescription</a> (global::YukkuriMovieMaker.Player.Video.DrawDescription defaultValues, global::System.Numerics.Vector2? draw=null, global::System.Numerics.Vector2? center=null, double? zoomX=null, double? zoomY=null, global::Vortice.Direct2D1.InterpolationMode? zoomInterpolationMode=null, double? opacity=null, double? rotationX=null, double? rotationY=null, double? rotationZ=null, bool? invert=null)</td></tr>
+<tr class="memdesc:a2a8977b775108fb03604d6453f6432a7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html" title="描画に関する情報を提供するクラスです。">DrawDescription</a> クラスの新しいインスタンスを初期化します。 このコンストラクタは非推奨です。代わりに with 式を使用してください。  <br /></td></tr>
+<tr class="memitem:ac01d9e24121abe0c51f2704d08a06432" id="r_ac01d9e24121abe0c51f2704d08a06432"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac01d9e24121abe0c51f2704d08a06432">ToString</a> ()</td></tr>
+<tr class="memitem:a46cf418dbc1f8f2a1ae81af96eb36bb8" id="r_a46cf418dbc1f8f2a1ae81af96eb36bb8"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46cf418dbc1f8f2a1ae81af96eb36bb8">GetHashCode</a> ()</td></tr>
+<tr class="memitem:a9e1593f0769e3960e7bfcb431b13c5b1" id="r_a9e1593f0769e3960e7bfcb431b13c5b1"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e1593f0769e3960e7bfcb431b13c5b1">Equals</a> (object obj)</td></tr>
+<tr class="memitem:a71c76b77f5ac902ecf021392dab2b1f2" id="r_a71c76b77f5ac902ecf021392dab2b1f2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c76b77f5ac902ecf021392dab2b1f2">Equals</a> (global::YukkuriMovieMaker.Player.Video.DrawDescription other)</td></tr>
+<tr class="memitem:a3f30bd952d553e4aa31b5862e73d0b3d" id="r_a3f30bd952d553e4aa31b5862e73d0b3d"><td class="memItemLeft" align="right" valign="top">virtual global::YukkuriMovieMaker.Player.Video.DrawDescription&lt; Clone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f30bd952d553e4aa31b5862e73d0b3d">$</a> ()</td></tr>
+<tr class="memitem:ab278974998a4d80bb374e3a29ef17d02" id="r_ab278974998a4d80bb374e3a29ef17d02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab278974998a4d80bb374e3a29ef17d02">Deconstruct</a> (out global::System.Numerics.Vector3 <a class="el" href="#a2eda3dc589044380471d12b36d7f7bd9">Draw</a>, out global::System.Numerics.Vector2 <a class="el" href="#a2fe0830867aefa212db26a802217467e">CenterPoint</a>, out global::System.Numerics.Vector2 <a class="el" href="#a7626bb4702722946e8388c102becca4f">Zoom</a>, out global::System.Numerics.Vector3 <a class="el" href="#a4848558b74d364352c8d461d3eebacd5">Rotation</a>, out global::System.Numerics.Matrix4x4 <a class="el" href="#aae71d96a5a317984c67ea91ecaabb5a9">Camera</a>, out global::Vortice.Direct2D1.InterpolationMode <a class="el" href="#a6fa5050047a916728e279ce69c10fe6e">ZoomInterpolationMode</a>, out double <a class="el" href="#a0f2866507d5507da65ae4f8cc4655765">Opacity</a>, out bool <a class="el" href="#a6c6062a4f17208e476320ad60610cefd">Invert</a>, out global::System.Collections.Immutable.ImmutableList&lt; global::YukkuriMovieMaker.Player.Video.VideoEffectController &gt; <a class="el" href="#ad6f66e8a894fe3f76fbff749d94d1970">Controllers</a>)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:ab95a51b5644f78ea9d5afc75b6640797" id="r_ab95a51b5644f78ea9d5afc75b6640797"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab95a51b5644f78ea9d5afc75b6640797">operator!=</a> (global::YukkuriMovieMaker.Player.Video.DrawDescription left, global::YukkuriMovieMaker.Player.Video.DrawDescription right)</td></tr>
+<tr class="memitem:a4b265038eaf5c63cce9b327a859ddb3c" id="r_a4b265038eaf5c63cce9b327a859ddb3c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b265038eaf5c63cce9b327a859ddb3c">operator==</a> (global::YukkuriMovieMaker.Player.Video.DrawDescription left, global::YukkuriMovieMaker.Player.Video.DrawDescription right)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a71da92856f8199f97300a893bcdb5507" id="r_a71da92856f8199f97300a893bcdb5507"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71da92856f8199f97300a893bcdb5507">PrintMembers</a> (global::System.Text.StringBuilder builder)</td></tr>
+<tr class="memitem:a4fa329369bf15da4f23246498ac51561" id="r_a4fa329369bf15da4f23246498ac51561"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fa329369bf15da4f23246498ac51561">DrawDescription</a> (global::YukkuriMovieMaker.Player.Video.DrawDescription original)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a4399386f5998229acfe3b605e4cef040" id="r_a4399386f5998229acfe3b605e4cef040"><td class="memItemLeft" align="right" valign="top">virtual global::System.Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4399386f5998229acfe3b605e4cef040">EqualityContract</a><code> [get]</code></td></tr>
+<tr class="memitem:a2eda3dc589044380471d12b36d7f7bd9" id="r_a2eda3dc589044380471d12b36d7f7bd9"><td class="memItemLeft" align="right" valign="top">global::System.Numerics.Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eda3dc589044380471d12b36d7f7bd9">Draw</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2eda3dc589044380471d12b36d7f7bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画位置を取得または設定します。  <br /></td></tr>
+<tr class="memitem:a2fe0830867aefa212db26a802217467e" id="r_a2fe0830867aefa212db26a802217467e"><td class="memItemLeft" align="right" valign="top">global::System.Numerics.Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fe0830867aefa212db26a802217467e">CenterPoint</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a2fe0830867aefa212db26a802217467e"><td class="mdescLeft">&#160;</td><td class="mdescRight">中心点を取得または設定します。  <br /></td></tr>
+<tr class="memitem:a7626bb4702722946e8388c102becca4f" id="r_a7626bb4702722946e8388c102becca4f"><td class="memItemLeft" align="right" valign="top">global::System.Numerics.Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7626bb4702722946e8388c102becca4f">Zoom</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7626bb4702722946e8388c102becca4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ズーム倍率を取得または設定します。  <br /></td></tr>
+<tr class="memitem:a4848558b74d364352c8d461d3eebacd5" id="r_a4848558b74d364352c8d461d3eebacd5"><td class="memItemLeft" align="right" valign="top">global::System.Numerics.Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4848558b74d364352c8d461d3eebacd5">Rotation</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4848558b74d364352c8d461d3eebacd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">回転角度を取得または設定します。  <br /></td></tr>
+<tr class="memitem:aae71d96a5a317984c67ea91ecaabb5a9" id="r_aae71d96a5a317984c67ea91ecaabb5a9"><td class="memItemLeft" align="right" valign="top">global::System.Numerics.Matrix4x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae71d96a5a317984c67ea91ecaabb5a9">Camera</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aae71d96a5a317984c67ea91ecaabb5a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ行列を取得または設定します。  <br /></td></tr>
+<tr class="memitem:a6fa5050047a916728e279ce69c10fe6e" id="r_a6fa5050047a916728e279ce69c10fe6e"><td class="memItemLeft" align="right" valign="top">global::Vortice.Direct2D1.InterpolationMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa5050047a916728e279ce69c10fe6e">ZoomInterpolationMode</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6fa5050047a916728e279ce69c10fe6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ズーム補間モードを取得または設定します。  <br /></td></tr>
+<tr class="memitem:a0f2866507d5507da65ae4f8cc4655765" id="r_a0f2866507d5507da65ae4f8cc4655765"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f2866507d5507da65ae4f8cc4655765">Opacity</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a0f2866507d5507da65ae4f8cc4655765"><td class="mdescLeft">&#160;</td><td class="mdescRight">不透明度を取得または設定します。  <br /></td></tr>
+<tr class="memitem:a6c6062a4f17208e476320ad60610cefd" id="r_a6c6062a4f17208e476320ad60610cefd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c6062a4f17208e476320ad60610cefd">Invert</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6c6062a4f17208e476320ad60610cefd"><td class="mdescLeft">&#160;</td><td class="mdescRight">反転フラグを取得または設定します。  <br /></td></tr>
+<tr class="memitem:ad6f66e8a894fe3f76fbff749d94d1970" id="r_ad6f66e8a894fe3f76fbff749d94d1970"><td class="memItemLeft" align="right" valign="top">global::System.Collections.Immutable.ImmutableList&lt; global::YukkuriMovieMaker.Player.Video.VideoEffectController &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6f66e8a894fe3f76fbff749d94d1970">Controllers</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad6f66e8a894fe3f76fbff749d94d1970"><td class="mdescLeft">&#160;</td><td class="mdescRight">ビデオエフェクトコントローラーのリストを取得または設定します。  <br /></td></tr>
+<tr class="memitem:ab4f3dc387cde3f6749ea71dd18716478" id="r_ab4f3dc387cde3f6749ea71dd18716478"><td class="memItemLeft" align="right" valign="top">global::System.Numerics.Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f3dc387cde3f6749ea71dd18716478">DrawPoint</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab4f3dc387cde3f6749ea71dd18716478"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画位置のX, Y座標をVector2で取得します。  <br /></td></tr>
+<tr class="memitem:a72109003f5be8746c1acd9c48ca753fa" id="r_a72109003f5be8746c1acd9c48ca753fa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72109003f5be8746c1acd9c48ca753fa">DrawPointX</a><code> [get]</code></td></tr>
+<tr class="memdesc:a72109003f5be8746c1acd9c48ca753fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画位置のX座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2eda3dc589044380471d12b36d7f7bd9" title="描画位置を取得または設定します。">Draw</a>.X を使用してください。  <br /></td></tr>
+<tr class="memitem:ab08b30dfad8578654cd31810bc8f9122" id="r_ab08b30dfad8578654cd31810bc8f9122"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab08b30dfad8578654cd31810bc8f9122">DrawPointY</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab08b30dfad8578654cd31810bc8f9122"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画位置のY座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2eda3dc589044380471d12b36d7f7bd9" title="描画位置を取得または設定します。">Draw</a>.Y を使用してください。  <br /></td></tr>
+<tr class="memitem:aba368cd03816e87fbd640f7c6b0a3dc2" id="r_aba368cd03816e87fbd640f7c6b0a3dc2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba368cd03816e87fbd640f7c6b0a3dc2">DrawPointZ</a><code> [get]</code></td></tr>
+<tr class="memdesc:aba368cd03816e87fbd640f7c6b0a3dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画位置のZ座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2eda3dc589044380471d12b36d7f7bd9" title="描画位置を取得または設定します。">Draw</a>.Z を使用してください。  <br /></td></tr>
+<tr class="memitem:a29bc11e312fac56ce25595693443468d" id="r_a29bc11e312fac56ce25595693443468d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29bc11e312fac56ce25595693443468d">CenterPointX</a><code> [get]</code></td></tr>
+<tr class="memdesc:a29bc11e312fac56ce25595693443468d"><td class="mdescLeft">&#160;</td><td class="mdescRight">中心点のX座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2fe0830867aefa212db26a802217467e" title="中心点を取得または設定します。">CenterPoint</a>.X を使用してください。  <br /></td></tr>
+<tr class="memitem:ade83534a89b03b3a54167ce8f70858a2" id="r_ade83534a89b03b3a54167ce8f70858a2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade83534a89b03b3a54167ce8f70858a2">CenterPointY</a><code> [get]</code></td></tr>
+<tr class="memdesc:ade83534a89b03b3a54167ce8f70858a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">中心点のY座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2fe0830867aefa212db26a802217467e" title="中心点を取得または設定します。">CenterPoint</a>.Y を使用してください。  <br /></td></tr>
+<tr class="memitem:ad901ed9cb140c54b5050f2aea3781179" id="r_ad901ed9cb140c54b5050f2aea3781179"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad901ed9cb140c54b5050f2aea3781179">ZoomX</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad901ed9cb140c54b5050f2aea3781179"><td class="mdescLeft">&#160;</td><td class="mdescRight">ズーム倍率のX成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a7626bb4702722946e8388c102becca4f" title="ズーム倍率を取得または設定します。">Zoom</a>.X を使用してください。  <br /></td></tr>
+<tr class="memitem:adc8d9611c5c70c594abe30356a429b90" id="r_adc8d9611c5c70c594abe30356a429b90"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc8d9611c5c70c594abe30356a429b90">ZoomY</a><code> [get]</code></td></tr>
+<tr class="memdesc:adc8d9611c5c70c594abe30356a429b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">ズーム倍率のY成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a7626bb4702722946e8388c102becca4f" title="ズーム倍率を取得または設定します。">Zoom</a>.Y を使用してください。  <br /></td></tr>
+<tr class="memitem:a886c5ed2b19fddab90318d002d8630d2" id="r_a886c5ed2b19fddab90318d002d8630d2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a886c5ed2b19fddab90318d002d8630d2">RotationX</a><code> [get]</code></td></tr>
+<tr class="memdesc:a886c5ed2b19fddab90318d002d8630d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">回転角度のX成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a4848558b74d364352c8d461d3eebacd5" title="回転角度を取得または設定します。">Rotation</a>.X を使用してください。  <br /></td></tr>
+<tr class="memitem:acdc92d53391d8f4744a1c73689ddf26c" id="r_acdc92d53391d8f4744a1c73689ddf26c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdc92d53391d8f4744a1c73689ddf26c">RotationY</a><code> [get]</code></td></tr>
+<tr class="memdesc:acdc92d53391d8f4744a1c73689ddf26c"><td class="mdescLeft">&#160;</td><td class="mdescRight">回転角度のY成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a4848558b74d364352c8d461d3eebacd5" title="回転角度を取得または設定します。">Rotation</a>.Y を使用してください。  <br /></td></tr>
+<tr class="memitem:a9963387a1a51116b548efa001975291e" id="r_a9963387a1a51116b548efa001975291e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9963387a1a51116b548efa001975291e">RotationZ</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9963387a1a51116b548efa001975291e"><td class="mdescLeft">&#160;</td><td class="mdescRight">回転角度のZ成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a4848558b74d364352c8d461d3eebacd5" title="回転角度を取得または設定します。">Rotation</a>.Z を使用してください。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>描画に関する情報を提供するクラスです。 </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="ab81d0e52cf1ad3f9ad90a469d3381fa1" name="ab81d0e52cf1ad3f9ad90a469d3381fa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81d0e52cf1ad3f9ad90a469d3381fa1">&#9670;&#160;</a></span>DrawDescription() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Player.Video.DrawDescription.DrawDescription </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Numerics.Vector3</td>          <td class="paramname"><span class="paramname"><em>Draw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector2</td>          <td class="paramname"><span class="paramname"><em>CenterPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector2</td>          <td class="paramname"><span class="paramname"><em>Zoom</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector3</td>          <td class="paramname"><span class="paramname"><em>Rotation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Matrix4x4</td>          <td class="paramname"><span class="paramname"><em>Camera</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.Vortice.Direct2D1.InterpolationMode</td>          <td class="paramname"><span class="paramname"><em>ZoomInterpolationMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>Opacity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>Invert</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Collections.Immutable.ImmutableList&lt; global.YukkuriMovieMaker.Player.Video.VideoEffectController &gt;</td>          <td class="paramname"><span class="paramname"><em>Controllers</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html" title="描画に関する情報を提供するクラスです。">DrawDescription</a> クラスの新しいインスタンスを初期化します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Draw</td><td>描画位置。</td></tr>
+    <tr><td class="paramname">CenterPoint</td><td>中心点。</td></tr>
+    <tr><td class="paramname">Zoom</td><td>ズーム倍率。</td></tr>
+    <tr><td class="paramname">Rotation</td><td>回転角度。</td></tr>
+    <tr><td class="paramname">Camera</td><td>カメラ行列。</td></tr>
+    <tr><td class="paramname">ZoomInterpolationMode</td><td>ズーム補間モード。</td></tr>
+    <tr><td class="paramname">Opacity</td><td>不透明度。</td></tr>
+    <tr><td class="paramname">Invert</td><td>反転フラグ。</td></tr>
+    <tr><td class="paramname">Controllers</td><td>ビデオエフェクトコントローラーのリスト。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a88b34015ca8305f590f5d75c4bf5fe91" name="a88b34015ca8305f590f5d75c4bf5fe91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b34015ca8305f590f5d75c4bf5fe91">&#9670;&#160;</a></span>DrawDescription() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Player.Video.DrawDescription.DrawDescription </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.DrawDescription</td>          <td class="paramname"><span class="paramname"><em>defaultValues</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector3?</td>          <td class="paramname"><span class="paramname"><em>draw</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector2?</td>          <td class="paramname"><span class="paramname"><em>center</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector2?</td>          <td class="paramname"><span class="paramname"><em>zoom</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector3?</td>          <td class="paramname"><span class="paramname"><em>rotation</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Matrix4x4?</td>          <td class="paramname"><span class="paramname"><em>camera</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.Vortice.Direct2D1.InterpolationMode?</td>          <td class="paramname"><span class="paramname"><em>zoomInterpolationMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>opacity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>invert</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html" title="描画に関する情報を提供するクラスです。">DrawDescription</a> クラスの新しいインスタンスを初期化します。 このコンストラクタは非推奨です。代わりに with 式を使用してください。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">defaultValues</td><td>デフォルト値。</td></tr>
+    <tr><td class="paramname">draw</td><td>描画位置。</td></tr>
+    <tr><td class="paramname">center</td><td>中心点。</td></tr>
+    <tr><td class="paramname">zoom</td><td>ズーム倍率。</td></tr>
+    <tr><td class="paramname">rotation</td><td>回転角度。</td></tr>
+    <tr><td class="paramname">camera</td><td>カメラ行列。</td></tr>
+    <tr><td class="paramname">zoomInterpolationMode</td><td>ズーム補間モード。</td></tr>
+    <tr><td class="paramname">opacity</td><td>不透明度。</td></tr>
+    <tr><td class="paramname">invert</td><td>反転フラグ。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acce6b508436e6379c117246340d2c418" name="acce6b508436e6379c117246340d2c418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce6b508436e6379c117246340d2c418">&#9670;&#160;</a></span>DrawDescription() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Player.Video.DrawDescription.DrawDescription </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Numerics.Vector2</td>          <td class="paramname"><span class="paramname"><em>draw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector2</td>          <td class="paramname"><span class="paramname"><em>center</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>zoomX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>zoomY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.Vortice.Direct2D1.InterpolationMode</td>          <td class="paramname"><span class="paramname"><em>zoomInterpolationMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>opacity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rotationX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rotationY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rotationZ</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>invert</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html" title="描画に関する情報を提供するクラスです。">DrawDescription</a> クラスの新しいインスタンスを初期化します。 このコンストラクタは非推奨です。代わりに with 式を使用してください。 </p>
+
+</div>
+</div>
+<a id="a2a8977b775108fb03604d6453f6432a7" name="a2a8977b775108fb03604d6453f6432a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8977b775108fb03604d6453f6432a7">&#9670;&#160;</a></span>DrawDescription() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Player.Video.DrawDescription.DrawDescription </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.DrawDescription</td>          <td class="paramname"><span class="paramname"><em>defaultValues</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector2?</td>          <td class="paramname"><span class="paramname"><em>draw</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Numerics.Vector2?</td>          <td class="paramname"><span class="paramname"><em>center</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>zoomX</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>zoomY</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.Vortice.Direct2D1.InterpolationMode?</td>          <td class="paramname"><span class="paramname"><em>zoomInterpolationMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>opacity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>rotationX</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>rotationY</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>rotationZ</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>invert</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html" title="描画に関する情報を提供するクラスです。">DrawDescription</a> クラスの新しいインスタンスを初期化します。 このコンストラクタは非推奨です。代わりに with 式を使用してください。 </p>
+
+</div>
+</div>
+<a id="a4fa329369bf15da4f23246498ac51561" name="a4fa329369bf15da4f23246498ac51561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa329369bf15da4f23246498ac51561">&#9670;&#160;</a></span>DrawDescription() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Player.Video.DrawDescription.DrawDescription </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.DrawDescription</td>          <td class="paramname"><span class="paramname"><em>original</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a3f30bd952d553e4aa31b5862e73d0b3d" name="a3f30bd952d553e4aa31b5862e73d0b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f30bd952d553e4aa31b5862e73d0b3d">&#9670;&#160;</a></span>$()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual global.YukkuriMovieMaker.Player.Video.DrawDescription&lt; Clone &gt; YukkuriMovieMaker.Player.Video.DrawDescription.$ </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab278974998a4d80bb374e3a29ef17d02" name="ab278974998a4d80bb374e3a29ef17d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab278974998a4d80bb374e3a29ef17d02">&#9670;&#160;</a></span>Deconstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Player.Video.DrawDescription.Deconstruct </td>
+          <td>(</td>
+          <td class="paramtype">out global.System.Numerics.Vector3</td>          <td class="paramname"><span class="paramname"><em>Draw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.System.Numerics.Vector2</td>          <td class="paramname"><span class="paramname"><em>CenterPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.System.Numerics.Vector2</td>          <td class="paramname"><span class="paramname"><em>Zoom</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.System.Numerics.Vector3</td>          <td class="paramname"><span class="paramname"><em>Rotation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.System.Numerics.Matrix4x4</td>          <td class="paramname"><span class="paramname"><em>Camera</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.Vortice.Direct2D1.InterpolationMode</td>          <td class="paramname"><span class="paramname"><em>ZoomInterpolationMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out double</td>          <td class="paramname"><span class="paramname"><em>Opacity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out bool</td>          <td class="paramname"><span class="paramname"><em>Invert</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.System.Collections.Immutable.ImmutableList&lt; global.YukkuriMovieMaker.Player.Video.VideoEffectController &gt;</td>          <td class="paramname"><span class="paramname"><em>Controllers</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71c76b77f5ac902ecf021392dab2b1f2" name="a71c76b77f5ac902ecf021392dab2b1f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71c76b77f5ac902ecf021392dab2b1f2">&#9670;&#160;</a></span>Equals() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool YukkuriMovieMaker.Player.Video.DrawDescription.Equals </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.DrawDescription</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e1593f0769e3960e7bfcb431b13c5b1" name="a9e1593f0769e3960e7bfcb431b13c5b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e1593f0769e3960e7bfcb431b13c5b1">&#9670;&#160;</a></span>Equals() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool YukkuriMovieMaker.Player.Video.DrawDescription.Equals </td>
+          <td>(</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46cf418dbc1f8f2a1ae81af96eb36bb8" name="a46cf418dbc1f8f2a1ae81af96eb36bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46cf418dbc1f8f2a1ae81af96eb36bb8">&#9670;&#160;</a></span>GetHashCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override int YukkuriMovieMaker.Player.Video.DrawDescription.GetHashCode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab95a51b5644f78ea9d5afc75b6640797" name="ab95a51b5644f78ea9d5afc75b6640797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab95a51b5644f78ea9d5afc75b6640797">&#9670;&#160;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Player.Video.DrawDescription.operator!= </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.DrawDescription</td>          <td class="paramname"><span class="paramname"><em>left</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.DrawDescription</td>          <td class="paramname"><span class="paramname"><em>right</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b265038eaf5c63cce9b327a859ddb3c" name="a4b265038eaf5c63cce9b327a859ddb3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b265038eaf5c63cce9b327a859ddb3c">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Player.Video.DrawDescription.operator== </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.DrawDescription</td>          <td class="paramname"><span class="paramname"><em>left</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.DrawDescription</td>          <td class="paramname"><span class="paramname"><em>right</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71da92856f8199f97300a893bcdb5507" name="a71da92856f8199f97300a893bcdb5507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71da92856f8199f97300a893bcdb5507">&#9670;&#160;</a></span>PrintMembers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool YukkuriMovieMaker.Player.Video.DrawDescription.PrintMembers </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Text.StringBuilder</td>          <td class="paramname"><span class="paramname"><em>builder</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac01d9e24121abe0c51f2704d08a06432" name="ac01d9e24121abe0c51f2704d08a06432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac01d9e24121abe0c51f2704d08a06432">&#9670;&#160;</a></span>ToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string YukkuriMovieMaker.Player.Video.DrawDescription.ToString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="aae71d96a5a317984c67ea91ecaabb5a9" name="aae71d96a5a317984c67ea91ecaabb5a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae71d96a5a317984c67ea91ecaabb5a9">&#9670;&#160;</a></span>Camera</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Numerics.Matrix4x4 YukkuriMovieMaker.Player.Video.DrawDescription.Camera</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>カメラ行列を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a2fe0830867aefa212db26a802217467e" name="a2fe0830867aefa212db26a802217467e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe0830867aefa212db26a802217467e">&#9670;&#160;</a></span>CenterPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Numerics.Vector2 YukkuriMovieMaker.Player.Video.DrawDescription.CenterPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>中心点を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a29bc11e312fac56ce25595693443468d" name="a29bc11e312fac56ce25595693443468d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29bc11e312fac56ce25595693443468d">&#9670;&#160;</a></span>CenterPointX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.CenterPointX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>中心点のX座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2fe0830867aefa212db26a802217467e" title="中心点を取得または設定します。">CenterPoint</a>.X を使用してください。 </p>
+
+</div>
+</div>
+<a id="ade83534a89b03b3a54167ce8f70858a2" name="ade83534a89b03b3a54167ce8f70858a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade83534a89b03b3a54167ce8f70858a2">&#9670;&#160;</a></span>CenterPointY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.CenterPointY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>中心点のY座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2fe0830867aefa212db26a802217467e" title="中心点を取得または設定します。">CenterPoint</a>.Y を使用してください。 </p>
+
+</div>
+</div>
+<a id="ad6f66e8a894fe3f76fbff749d94d1970" name="ad6f66e8a894fe3f76fbff749d94d1970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6f66e8a894fe3f76fbff749d94d1970">&#9670;&#160;</a></span>Controllers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Immutable.ImmutableList&lt;global.YukkuriMovieMaker.Player.Video.VideoEffectController&gt; YukkuriMovieMaker.Player.Video.DrawDescription.Controllers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ビデオエフェクトコントローラーのリストを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a2eda3dc589044380471d12b36d7f7bd9" name="a2eda3dc589044380471d12b36d7f7bd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eda3dc589044380471d12b36d7f7bd9">&#9670;&#160;</a></span>Draw</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Numerics.Vector3 YukkuriMovieMaker.Player.Video.DrawDescription.Draw</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>描画位置を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="ab4f3dc387cde3f6749ea71dd18716478" name="ab4f3dc387cde3f6749ea71dd18716478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4f3dc387cde3f6749ea71dd18716478">&#9670;&#160;</a></span>DrawPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Numerics.Vector2 YukkuriMovieMaker.Player.Video.DrawDescription.DrawPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>描画位置のX, Y座標をVector2で取得します。 </p>
+
+</div>
+</div>
+<a id="a72109003f5be8746c1acd9c48ca753fa" name="a72109003f5be8746c1acd9c48ca753fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72109003f5be8746c1acd9c48ca753fa">&#9670;&#160;</a></span>DrawPointX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.DrawPointX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>描画位置のX座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2eda3dc589044380471d12b36d7f7bd9" title="描画位置を取得または設定します。">Draw</a>.X を使用してください。 </p>
+
+</div>
+</div>
+<a id="ab08b30dfad8578654cd31810bc8f9122" name="ab08b30dfad8578654cd31810bc8f9122"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab08b30dfad8578654cd31810bc8f9122">&#9670;&#160;</a></span>DrawPointY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.DrawPointY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>描画位置のY座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2eda3dc589044380471d12b36d7f7bd9" title="描画位置を取得または設定します。">Draw</a>.Y を使用してください。 </p>
+
+</div>
+</div>
+<a id="aba368cd03816e87fbd640f7c6b0a3dc2" name="aba368cd03816e87fbd640f7c6b0a3dc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba368cd03816e87fbd640f7c6b0a3dc2">&#9670;&#160;</a></span>DrawPointZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.DrawPointZ</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>描画位置のZ座標を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a2eda3dc589044380471d12b36d7f7bd9" title="描画位置を取得または設定します。">Draw</a>.Z を使用してください。 </p>
+
+</div>
+</div>
+<a id="a4399386f5998229acfe3b605e4cef040" name="a4399386f5998229acfe3b605e4cef040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4399386f5998229acfe3b605e4cef040">&#9670;&#160;</a></span>EqualityContract</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual global.System.Type YukkuriMovieMaker.Player.Video.DrawDescription.EqualityContract</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c6062a4f17208e476320ad60610cefd" name="a6c6062a4f17208e476320ad60610cefd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c6062a4f17208e476320ad60610cefd">&#9670;&#160;</a></span>Invert</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Player.Video.DrawDescription.Invert</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>反転フラグを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a0f2866507d5507da65ae4f8cc4655765" name="a0f2866507d5507da65ae4f8cc4655765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2866507d5507da65ae4f8cc4655765">&#9670;&#160;</a></span>Opacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.Opacity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>不透明度を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a4848558b74d364352c8d461d3eebacd5" name="a4848558b74d364352c8d461d3eebacd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4848558b74d364352c8d461d3eebacd5">&#9670;&#160;</a></span>Rotation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Numerics.Vector3 YukkuriMovieMaker.Player.Video.DrawDescription.Rotation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>回転角度を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a886c5ed2b19fddab90318d002d8630d2" name="a886c5ed2b19fddab90318d002d8630d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a886c5ed2b19fddab90318d002d8630d2">&#9670;&#160;</a></span>RotationX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.RotationX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>回転角度のX成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a4848558b74d364352c8d461d3eebacd5" title="回転角度を取得または設定します。">Rotation</a>.X を使用してください。 </p>
+
+</div>
+</div>
+<a id="acdc92d53391d8f4744a1c73689ddf26c" name="acdc92d53391d8f4744a1c73689ddf26c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdc92d53391d8f4744a1c73689ddf26c">&#9670;&#160;</a></span>RotationY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.RotationY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>回転角度のY成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a4848558b74d364352c8d461d3eebacd5" title="回転角度を取得または設定します。">Rotation</a>.Y を使用してください。 </p>
+
+</div>
+</div>
+<a id="a9963387a1a51116b548efa001975291e" name="a9963387a1a51116b548efa001975291e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9963387a1a51116b548efa001975291e">&#9670;&#160;</a></span>RotationZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.RotationZ</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>回転角度のZ成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a4848558b74d364352c8d461d3eebacd5" title="回転角度を取得または設定します。">Rotation</a>.Z を使用してください。 </p>
+
+</div>
+</div>
+<a id="a7626bb4702722946e8388c102becca4f" name="a7626bb4702722946e8388c102becca4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7626bb4702722946e8388c102becca4f">&#9670;&#160;</a></span>Zoom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Numerics.Vector2 YukkuriMovieMaker.Player.Video.DrawDescription.Zoom</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ズーム倍率を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a6fa5050047a916728e279ce69c10fe6e" name="a6fa5050047a916728e279ce69c10fe6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa5050047a916728e279ce69c10fe6e">&#9670;&#160;</a></span>ZoomInterpolationMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Vortice.Direct2D1.InterpolationMode YukkuriMovieMaker.Player.Video.DrawDescription.ZoomInterpolationMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ズーム補間モードを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="ad901ed9cb140c54b5050f2aea3781179" name="ad901ed9cb140c54b5050f2aea3781179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad901ed9cb140c54b5050f2aea3781179">&#9670;&#160;</a></span>ZoomX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.ZoomX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ズーム倍率のX成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a7626bb4702722946e8388c102becca4f" title="ズーム倍率を取得または設定します。">Zoom</a>.X を使用してください。 </p>
+
+</div>
+</div>
+<a id="adc8d9611c5c70c594abe30356a429b90" name="adc8d9611c5c70c594abe30356a429b90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc8d9611c5c70c594abe30356a429b90">&#9670;&#160;</a></span>ZoomY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Player.Video.DrawDescription.ZoomY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ズーム倍率のY成分を取得します。このプロパティは非推奨です。代わりに <a class="el" href="#a7626bb4702722946e8388c102becca4f" title="ズーム倍率を取得または設定します。">Zoom</a>.Y を使用してください。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Player/Video/<a class="el" href="_draw_description_8cs.html">DrawDescription.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_player.html">Player</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_player_1_1_video.html">Video</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_draw_description.html">DrawDescription</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

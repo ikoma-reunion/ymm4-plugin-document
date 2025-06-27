@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.UndoRedo.UndoRedoManager クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_undo_redo_1_1_undo_redo_manager.html','','class_yukkuri_movie_maker_1_1_undo_redo_1_1_undo_redo_manager-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.UndoRedo.UndoRedoManager クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Undo/Redo操作を管理するクラスです。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.UndoRedo.UndoRedoManager の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_undo_redo_1_1_undo_redo_manager.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ae48b8c677c7e3e77076fe9378824d60a" id="r_ae48b8c677c7e3e77076fe9378824d60a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae48b8c677c7e3e77076fe9378824d60a">Subscribe</a> (global::YukkuriMovieMaker.UndoRedo.IUndoRedoable undoRedoable)</td></tr>
+<tr class="memitem:a4616d48168c4f86a2dc452c5bdb1d0cb" id="r_a4616d48168c4f86a2dc452c5bdb1d0cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4616d48168c4f86a2dc452c5bdb1d0cb">UnSubscribe</a> (global::YukkuriMovieMaker.UndoRedo.IUndoRedoable undoRedoable)</td></tr>
+<tr class="memitem:ac65f1bb16246e8638b2b3e409c0e76bd" id="r_ac65f1bb16246e8638b2b3e409c0e76bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac65f1bb16246e8638b2b3e409c0e76bd">Clear</a> ()</td></tr>
+<tr class="memitem:a4937732c052ebc2117730b2114829918" id="r_a4937732c052ebc2117730b2114829918"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4937732c052ebc2117730b2114829918">AddCommand</a> (global::YukkuriMovieMaker.UndoRedo.IUndoRedoCommandBase command)</td></tr>
+<tr class="memitem:a4fdd58251f0dce259548681919f54ced" id="r_a4fdd58251f0dce259548681919f54ced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fdd58251f0dce259548681919f54ced">Record</a> ()</td></tr>
+<tr class="memitem:af4e67db0ee22aedc32fa8e559a7dfbb6" id="r_af4e67db0ee22aedc32fa8e559a7dfbb6"><td class="memItemLeft" align="right" valign="top">async global::System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4e67db0ee22aedc32fa8e559a7dfbb6">UndoAsync</a> ()</td></tr>
+<tr class="memitem:a013dc5852e3d007b1ab540438a1ee681" id="r_a013dc5852e3d007b1ab540438a1ee681"><td class="memItemLeft" align="right" valign="top">async global::System.Threading.Tasks.Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a013dc5852e3d007b1ab540438a1ee681">RedoAsync</a> ()</td></tr>
+<tr class="memitem:a8dcf9c592affb4ee75d5fcd4dbd5924f" id="r_a8dcf9c592affb4ee75d5fcd4dbd5924f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dcf9c592affb4ee75d5fcd4dbd5924f">UndoRedoManager</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a8df4e3ad5c2a1ea044f1b96535735a23" id="r_a8df4e3ad5c2a1ea044f1b96535735a23"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8df4e3ad5c2a1ea044f1b96535735a23">IsUndoable</a><code> [get]</code></td></tr>
+<tr class="memitem:afb74933c78871d36bfc42b4e172a27ba" id="r_afb74933c78871d36bfc42b4e172a27ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb74933c78871d36bfc42b4e172a27ba">IsRedoable</a><code> [get]</code></td></tr>
+<tr class="memitem:a31d7696822e52c6d93d11419039f7ee7" id="r_a31d7696822e52c6d93d11419039f7ee7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31d7696822e52c6d93d11419039f7ee7">Capacity</a><code> [get, set]</code></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-events" class="groupheader"><a id="events" name="events"></a>
+イベント</h2></td></tr>
+<tr class="memitem:a42e07f309ef51c97af69324df0d840c7" id="r_a42e07f309ef51c97af69324df0d840c7"><td class="memItemLeft" align="right" valign="top">global::System.ComponentModel.PropertyChangedEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42e07f309ef51c97af69324df0d840c7">PropertyChanged</a><code> [add, remove]</code></td></tr>
+<tr class="memdesc:a42e07f309ef51c97af69324df0d840c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロパティが変更されたときに発生します。  <br /></td></tr>
+<tr class="memitem:a43713059d6f1f2c31e06b5892f78bb78" id="r_a43713059d6f1f2c31e06b5892f78bb78"><td class="memItemLeft" align="right" valign="top">global::System.EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43713059d6f1f2c31e06b5892f78bb78">UndoRedoCommandCreated</a><code> [add, remove]</code></td></tr>
+<tr class="memitem:a00755adfb5d377c50270b279c648c3f1" id="r_a00755adfb5d377c50270b279c648c3f1"><td class="memItemLeft" align="right" valign="top">global::System.EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00755adfb5d377c50270b279c648c3f1">Undoed</a><code> [add, remove]</code></td></tr>
+<tr class="memitem:a269aace8845287f9c5d83c3fd0b6ddb6" id="r_a269aace8845287f9c5d83c3fd0b6ddb6"><td class="memItemLeft" align="right" valign="top">global::System.EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a269aace8845287f9c5d83c3fd0b6ddb6">Redoed</a><code> [add, remove]</code></td></tr>
+<tr class="memitem:ae1b053971e1a2c7adb9e2098079c3720" id="r_ae1b053971e1a2c7adb9e2098079c3720"><td class="memItemLeft" align="right" valign="top">global::System.EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1b053971e1a2c7adb9e2098079c3720">Recorded</a><code> [add, remove]</code></td></tr>
+<tr class="memitem:a105b4e1ca1588b7bdb9ca2792cdc33ea" id="r_a105b4e1ca1588b7bdb9ca2792cdc33ea"><td class="memItemLeft" align="right" valign="top">global::System.EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a105b4e1ca1588b7bdb9ca2792cdc33ea">HistoryChanged</a><code> [add, remove]</code></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>Undo/Redo操作を管理するクラスです。 </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="a8dcf9c592affb4ee75d5fcd4dbd5924f" name="a8dcf9c592affb4ee75d5fcd4dbd5924f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dcf9c592affb4ee75d5fcd4dbd5924f">&#9670;&#160;</a></span>UndoRedoManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.UndoRedo.UndoRedoManager.UndoRedoManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a4937732c052ebc2117730b2114829918" name="a4937732c052ebc2117730b2114829918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4937732c052ebc2117730b2114829918">&#9670;&#160;</a></span>AddCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.UndoRedo.UndoRedoManager.AddCommand </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.UndoRedo.IUndoRedoCommandBase</td>          <td class="paramname"><span class="paramname"><em>command</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac65f1bb16246e8638b2b3e409c0e76bd" name="ac65f1bb16246e8638b2b3e409c0e76bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac65f1bb16246e8638b2b3e409c0e76bd">&#9670;&#160;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.UndoRedo.UndoRedoManager.Clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fdd58251f0dce259548681919f54ced" name="a4fdd58251f0dce259548681919f54ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fdd58251f0dce259548681919f54ced">&#9670;&#160;</a></span>Record()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.UndoRedo.UndoRedoManager.Record </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a013dc5852e3d007b1ab540438a1ee681" name="a013dc5852e3d007b1ab540438a1ee681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a013dc5852e3d007b1ab540438a1ee681">&#9670;&#160;</a></span>RedoAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async global.System.Threading.Tasks.Task YukkuriMovieMaker.UndoRedo.UndoRedoManager.RedoAsync </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae48b8c677c7e3e77076fe9378824d60a" name="ae48b8c677c7e3e77076fe9378824d60a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae48b8c677c7e3e77076fe9378824d60a">&#9670;&#160;</a></span>Subscribe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.UndoRedo.UndoRedoManager.Subscribe </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.UndoRedo.IUndoRedoable</td>          <td class="paramname"><span class="paramname"><em>undoRedoable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4e67db0ee22aedc32fa8e559a7dfbb6" name="af4e67db0ee22aedc32fa8e559a7dfbb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4e67db0ee22aedc32fa8e559a7dfbb6">&#9670;&#160;</a></span>UndoAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async global.System.Threading.Tasks.Task YukkuriMovieMaker.UndoRedo.UndoRedoManager.UndoAsync </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4616d48168c4f86a2dc452c5bdb1d0cb" name="a4616d48168c4f86a2dc452c5bdb1d0cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4616d48168c4f86a2dc452c5bdb1d0cb">&#9670;&#160;</a></span>UnSubscribe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.UndoRedo.UndoRedoManager.UnSubscribe </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.UndoRedo.IUndoRedoable</td>          <td class="paramname"><span class="paramname"><em>undoRedoable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="a31d7696822e52c6d93d11419039f7ee7" name="a31d7696822e52c6d93d11419039f7ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31d7696822e52c6d93d11419039f7ee7">&#9670;&#160;</a></span>Capacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int YukkuriMovieMaker.UndoRedo.UndoRedoManager.Capacity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Undo/Redo履歴の最大容量を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="afb74933c78871d36bfc42b4e172a27ba" name="afb74933c78871d36bfc42b4e172a27ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb74933c78871d36bfc42b4e172a27ba">&#9670;&#160;</a></span>IsRedoable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.UndoRedo.UndoRedoManager.IsRedoable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Redo操作が可能かどうかを取得します。 </p>
+
+</div>
+</div>
+<a id="a8df4e3ad5c2a1ea044f1b96535735a23" name="a8df4e3ad5c2a1ea044f1b96535735a23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8df4e3ad5c2a1ea044f1b96535735a23">&#9670;&#160;</a></span>IsUndoable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.UndoRedo.UndoRedoManager.IsUndoable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Undo操作が可能かどうかを取得します。 </p>
+
+</div>
+</div>
+<a name="doc-event-members" id="doc-event-members"></a><h2 id="header-doc-event-members" class="groupheader">イベント詳解</h2>
+<a id="a105b4e1ca1588b7bdb9ca2792cdc33ea" name="a105b4e1ca1588b7bdb9ca2792cdc33ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a105b4e1ca1588b7bdb9ca2792cdc33ea">&#9670;&#160;</a></span>HistoryChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_tachie_source_description_8cs.html#a81a223a02c34d82b47199f08308847f2">System</a> global.EventHandler YukkuriMovieMaker.UndoRedo.UndoRedoManager.HistoryChanged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel add">add</span><span class="mlabel remove">remove</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>履歴が変更されたときに発生します。 </p>
+
+</div>
+</div>
+<a id="a42e07f309ef51c97af69324df0d840c7" name="a42e07f309ef51c97af69324df0d840c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42e07f309ef51c97af69324df0d840c7">&#9670;&#160;</a></span>PropertyChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_tachie_source_description_8cs.html#a81a223a02c34d82b47199f08308847f2">System</a> ComponentModel global.PropertyChangedEventHandler YukkuriMovieMaker.UndoRedo.UndoRedoManager.PropertyChanged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel add">add</span><span class="mlabel remove">remove</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>プロパティが変更されたときに発生します。 </p>
+<p>プロパティが変更されたときに発生します。 </p>
+
+</div>
+</div>
+<a id="ae1b053971e1a2c7adb9e2098079c3720" name="ae1b053971e1a2c7adb9e2098079c3720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1b053971e1a2c7adb9e2098079c3720">&#9670;&#160;</a></span>Recorded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_tachie_source_description_8cs.html#a81a223a02c34d82b47199f08308847f2">System</a> global.EventHandler YukkuriMovieMaker.UndoRedo.UndoRedoManager.Recorded</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel add">add</span><span class="mlabel remove">remove</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>コマンドが記録されたときに発生します。 </p>
+
+</div>
+</div>
+<a id="a269aace8845287f9c5d83c3fd0b6ddb6" name="a269aace8845287f9c5d83c3fd0b6ddb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a269aace8845287f9c5d83c3fd0b6ddb6">&#9670;&#160;</a></span>Redoed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_tachie_source_description_8cs.html#a81a223a02c34d82b47199f08308847f2">System</a> global.EventHandler YukkuriMovieMaker.UndoRedo.UndoRedoManager.Redoed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel add">add</span><span class="mlabel remove">remove</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Redo操作が実行されたときに発生します。 </p>
+
+</div>
+</div>
+<a id="a00755adfb5d377c50270b279c648c3f1" name="a00755adfb5d377c50270b279c648c3f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00755adfb5d377c50270b279c648c3f1">&#9670;&#160;</a></span>Undoed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_tachie_source_description_8cs.html#a81a223a02c34d82b47199f08308847f2">System</a> global.EventHandler YukkuriMovieMaker.UndoRedo.UndoRedoManager.Undoed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel add">add</span><span class="mlabel remove">remove</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Undo操作が実行されたときに発生します。 </p>
+
+</div>
+</div>
+<a id="a43713059d6f1f2c31e06b5892f78bb78" name="a43713059d6f1f2c31e06b5892f78bb78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43713059d6f1f2c31e06b5892f78bb78">&#9670;&#160;</a></span>UndoRedoCommandCreated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_tachie_source_description_8cs.html#a81a223a02c34d82b47199f08308847f2">System</a> global.EventHandler YukkuriMovieMaker.UndoRedo.UndoRedoManager.UndoRedoCommandCreated</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel add">add</span><span class="mlabel remove">remove</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Undo/Redoコマンドが作成されたときに発生します。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/UndoRedo/<a class="el" href="_undo_redo_manager_8cs.html">UndoRedoManager.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_undo_redo.html">UndoRedo</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_undo_redo_1_1_undo_redo_manager.html">UndoRedoManager</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

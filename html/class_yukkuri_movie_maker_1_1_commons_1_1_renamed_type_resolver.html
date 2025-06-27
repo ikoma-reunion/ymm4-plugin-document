@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.RenamedTypeResolver クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_renamed_type_resolver.html','','class_yukkuri_movie_maker_1_1_commons_1_1_renamed_type_resolver-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.RenamedTypeResolver クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>型の名前変更を解決するためのユーティリティクラスです。 以前のバージョンで名前が変更された型（特にエフェクト関連）を、現在の新しい名前にマッピングする機能を提供します。  
+ <a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1044ed433563e3fea161b4995d823b34" id="r_a1044ed433563e3fea161b4995d823b34"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1044ed433563e3fea161b4995d823b34">ResolveTypeName</a> (string assemblyQualifiedName)</td></tr>
+<tr class="memdesc:a1044ed433563e3fea161b4995d823b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">アセンブリ修飾名から型名を解決します。 以前のバージョンで名前が変更された型を新しい名前にマッピングします。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>型の名前変更を解決するためのユーティリティクラスです。 以前のバージョンで名前が変更された型（特にエフェクト関連）を、現在の新しい名前にマッピングする機能を提供します。 </p>
+<p>アプリケーションのバージョンアップに伴い、クラスのnamespaceやアセンブリ名が変更されることがあります。 このクラスは、古い設定ファイルやプロジェクトファイルから読み込まれた型名が、現在のアプリケーションで認識できるように変換する役割を担います。 主に、YukkuriMovieMakerの組み込みエフェクトがコミュニティプラグインとして再編成された際の互換性維持のために使用されます。 </p>
+<div class="fragment"><div class="line"><span class="comment">// 旧バージョンでのエフェクトの完全修飾名</span></div>
+<div class="line"><span class="keywordtype">string</span> oldEffectTypeName = <span class="stringliteral">&quot;YukkuriMovieMaker.Project.Effects.BinarizationEffect, YukkuriMovieMaker&quot;</span>;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// 新しい名前に解決</span></div>
+<div class="line"><span class="keywordtype">string</span> newEffectTypeName = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_renamed_type_resolver.html">RenamedTypeResolver</a>.<a class="code hl_function" href="#a1044ed433563e3fea161b4995d823b34">ResolveTypeName</a>(oldEffectTypeName);</div>
+<div class="line"> </div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;Old Type Name: {oldEffectTypeName}&quot;</span>);</div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;Resolved Type Name: {newEffectTypeName}&quot;</span>);</div>
+<div class="line"><span class="comment">// 期待される出力:</span></div>
+<div class="line"><span class="comment">// Old Type Name: YukkuriMovieMaker.Project.Effects.BinarizationEffect, YukkuriMovieMaker</span></div>
+<div class="line"><span class="comment">// Resolved Type Name: YukkuriMovieMaker.Plugin.Community.Effect.Video.Binarization.BinarizationEffect, YukkuriMovieMaker.Plugin.Community</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// 変更されていない型名の場合</span></div>
+<div class="line"><span class="keywordtype">string</span> unchangedTypeName = <span class="stringliteral">&quot;System.String, mscorlib&quot;</span>;</div>
+<div class="line"><span class="keywordtype">string</span> resolvedUnchangedTypeName = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_renamed_type_resolver.html">RenamedTypeResolver</a>.<a class="code hl_function" href="#a1044ed433563e3fea161b4995d823b34">ResolveTypeName</a>(unchangedTypeName);</div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;\nUnchanged Type Name: {unchangedTypeName}&quot;</span>);</div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;Resolved Unchanged Type Name: {resolvedUnchangedTypeName}&quot;</span>);</div>
+<div class="line"><span class="comment">// 期待される出力:</span></div>
+<div class="line"><span class="comment">// Unchanged Type Name: System.String, mscorlib</span></div>
+<div class="line"><span class="comment">// Resolved Unchanged Type Name: System.String, mscorlib</span></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_renamed_type_resolver_html"><div class="ttname"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_renamed_type_resolver.html">YukkuriMovieMaker.Commons.RenamedTypeResolver</a></div><div class="ttdoc">型の名前変更を解決するためのユーティリティクラスです。 以前のバージョンで名前が変更された型（特にエフェクト関連）を、現在の新しい名前にマッピングする機能を提供します。</div><div class="ttdef"><b>Definition</b> RenamedTypeResolver.cs:40</div></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_renamed_type_resolver_html_a1044ed433563e3fea161b4995d823b34"><div class="ttname"><a href="#a1044ed433563e3fea161b4995d823b34">YukkuriMovieMaker.Commons.RenamedTypeResolver.ResolveTypeName</a></div><div class="ttdeci">static string ResolveTypeName(string assemblyQualifiedName)</div><div class="ttdoc">アセンブリ修飾名から型名を解決します。 以前のバージョンで名前が変更された型を新しい名前にマッピングします。</div><div class="ttdef"><b>Definition</b> RenamedTypeResolver.cs:58</div></div>
+</div><!-- fragment --> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a1044ed433563e3fea161b4995d823b34" name="a1044ed433563e3fea161b4995d823b34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1044ed433563e3fea161b4995d823b34">&#9670;&#160;</a></span>ResolveTypeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Commons.RenamedTypeResolver.ResolveTypeName </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assemblyQualifiedName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>アセンブリ修飾名から型名を解決します。 以前のバージョンで名前が変更された型を新しい名前にマッピングします。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">assemblyQualifiedName</td><td>解決するアセンブリ修飾名。例: "Namespace.TypeName, AssemblyName"</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>解決された型名。変更がない場合は元の<em>assemblyQualifiedName</em> を返します。</dd></dl>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_renamed_type_resolver_8cs.html">RenamedTypeResolver.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_renamed_type_resolver.html">RenamedTypeResolver</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

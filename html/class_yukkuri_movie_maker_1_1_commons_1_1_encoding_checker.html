@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.EncodingChecker クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_encoding_checker.html','','class_yukkuri_movie_maker_1_1_commons_1_1_encoding_checker-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.EncodingChecker クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>ファイルのエンコーディングを判別するためのユーティリティクラスです。  
+ <a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:ac868c167d276285a898d45605f959b5b" id="r_ac868c167d276285a898d45605f959b5b"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; Encoding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac868c167d276285a898d45605f959b5b">GetAvailableEncodings</a> (Stream stream)</td></tr>
+<tr class="memdesc:ac868c167d276285a898d45605f959b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたストリームから読み取り可能なエンコーディングのリストを取得します。  <br /></td></tr>
+<tr class="memitem:ad5fe75f60886a135b004b9455fd7256f" id="r_ad5fe75f60886a135b004b9455fd7256f"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; Encoding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5fe75f60886a135b004b9455fd7256f">GetAvailableEncodings</a> (byte[] bytes)</td></tr>
+<tr class="memdesc:ad5fe75f60886a135b004b9455fd7256f"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたバイト配列から読み取り可能なエンコーディングのリストを取得します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>ファイルのエンコーディングを判別するためのユーティリティクラスです。 </p>
+<p>このクラスは、バイト配列やストリームから、その内容がどのエンコーディングで記述されているかを推測する機能を提供します。 BOM (Byte Order Mark) の有無や、指定されたエンコーディングでデコード・再エンコードした際に元のバイト配列と一致するかどうかを検証することで、 信頼性の高いエンコーディング判別を試みます。 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="ad5fe75f60886a135b004b9455fd7256f" name="ad5fe75f60886a135b004b9455fd7256f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5fe75f60886a135b004b9455fd7256f">&#9670;&#160;</a></span>GetAvailableEncodings() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; Encoding &gt; YukkuriMovieMaker.Commons.EncodingChecker.GetAvailableEncodings </td>
+          <td>(</td>
+          <td class="paramtype">byte[]</td>          <td class="paramname"><span class="paramname"><em>bytes</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたバイト配列から読み取り可能なエンコーディングのリストを取得します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bytes</td><td>エンコーディングを判別するバイト配列。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>利用可能なエンコーディングのリスト。判別できなかった場合は空のリストを返します。</dd></dl>
+<p>内部的には、事前に定義された複数のエンコーディングに対して、バイトオーダーマーク (BOM) の有無と、 デコード・再エンコードの可逆性をチェックすることで、最適なエンコーディングを推測します。 結果は、デコード後のテキスト長が長いもの（より多くの文字を正しく表現できるもの）から順にソートされます。 </p>
+<div class="fragment"><div class="line"><span class="comment">// バイト配列からエンコーディングを判別する例</span></div>
+<div class="line"><span class="keywordtype">byte</span>[] utf8Bytes = Encoding.UTF8.GetBytes(<span class="stringliteral">&quot;こんにちは、世界！&quot;</span>);</div>
+<div class="line">IEnumerable&lt;Encoding&gt; utf8Encodings = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_encoding_checker.html">EncodingChecker</a>.<a class="code hl_function" href="#ac868c167d276285a898d45605f959b5b">GetAvailableEncodings</a>(utf8Bytes);</div>
+<div class="line">Console.WriteLine(<span class="stringliteral">&quot;UTF-8 Bytes:&quot;</span>);</div>
+<div class="line"><span class="keywordflow">foreach</span> (var encoding <span class="keywordflow">in</span> utf8Encodings)</div>
+<div class="line">{</div>
+<div class="line">    Console.WriteLine($<span class="stringliteral">&quot;- {encoding.WebName}&quot;</span>);</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">byte</span>[] sjisBytes = Encoding.GetEncoding(<span class="stringliteral">&quot;Shift_JIS&quot;</span>).GetBytes(<span class="stringliteral">&quot;こんにちは、世界！&quot;</span>);</div>
+<div class="line">IEnumerable&lt;Encoding&gt; sjisEncodings = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_encoding_checker.html">EncodingChecker</a>.<a class="code hl_function" href="#ac868c167d276285a898d45605f959b5b">GetAvailableEncodings</a>(sjisBytes);</div>
+<div class="line">Console.WriteLine(<span class="stringliteral">&quot;Shift_JIS Bytes:&quot;</span>);</div>
+<div class="line"><span class="keywordflow">foreach</span> (var encoding <span class="keywordflow">in</span> sjisEncodings)</div>
+<div class="line">{</div>
+<div class="line">    Console.WriteLine($<span class="stringliteral">&quot;- {encoding.WebName}&quot;</span>);</div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_encoding_checker_html"><div class="ttname"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_encoding_checker.html">YukkuriMovieMaker.Commons.EncodingChecker</a></div><div class="ttdoc">ファイルのエンコーディングを判別するためのユーティリティクラスです。</div><div class="ttdef"><b>Definition</b> EncodingChecker.cs:18</div></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_encoding_checker_html_ac868c167d276285a898d45605f959b5b"><div class="ttname"><a href="#ac868c167d276285a898d45605f959b5b">YukkuriMovieMaker.Commons.EncodingChecker.GetAvailableEncodings</a></div><div class="ttdeci">static IEnumerable&lt; Encoding &gt; GetAvailableEncodings(Stream stream)</div><div class="ttdoc">指定されたストリームから読み取り可能なエンコーディングのリストを取得します。</div><div class="ttdef"><b>Definition</b> EncodingChecker.cs:45</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="ac868c167d276285a898d45605f959b5b" name="ac868c167d276285a898d45605f959b5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac868c167d276285a898d45605f959b5b">&#9670;&#160;</a></span>GetAvailableEncodings() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; Encoding &gt; YukkuriMovieMaker.Commons.EncodingChecker.GetAvailableEncodings </td>
+          <td>(</td>
+          <td class="paramtype">Stream</td>          <td class="paramname"><span class="paramname"><em>stream</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたストリームから読み取り可能なエンコーディングのリストを取得します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stream</td><td>エンコーディングを判別するストリーム。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>利用可能なエンコーディングのリスト。判別できなかった場合は空のリストを返します。</dd></dl>
+<p>ストリームの現在位置は、エンコーディング判別処理の前後で保存・復元されます。 これにより、ストリームの読み取り位置が変更されることなく、後続の処理に影響を与えません。 </p>
+<div class="fragment"><div class="line"><span class="comment">// ファイルからエンコーディングを判別する例</span></div>
+<div class="line"><span class="keywordtype">string</span> filePath = <span class="stringliteral">&quot;test.txt&quot;</span>;</div>
+<div class="line">File.WriteAllText(filePath, <span class="stringliteral">&quot;これはテストです。&quot;</span>, Encoding.UTF8);</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">using</span> (FileStream fs = <span class="keyword">new</span> FileStream(filePath, FileMode.Open, FileAccess.Read))</div>
+<div class="line">{</div>
+<div class="line">    IEnumerable&lt;Encoding&gt; encodings = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_encoding_checker.html">EncodingChecker</a>.<a class="code hl_function" href="#ac868c167d276285a898d45605f959b5b">GetAvailableEncodings</a>(fs);</div>
+<div class="line">    <span class="keywordflow">foreach</span> (var encoding <span class="keywordflow">in</span> encodings)</div>
+<div class="line">    {</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Detected Encoding: {encoding.WebName}&quot;</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line">File.Delete(filePath);</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_encoding_checker_8cs.html">EncodingChecker.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_encoding_checker.html">EncodingChecker</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

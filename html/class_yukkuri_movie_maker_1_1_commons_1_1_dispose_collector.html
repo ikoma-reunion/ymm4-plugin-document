@@ -1,0 +1,527 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.DisposeCollector クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_dispose_collector.html','','class_yukkuri_movie_maker_1_1_commons_1_1_dispose_collector-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.DisposeCollector クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>IDisposable オブジェクト、アンマネージドメモリ、COMオブジェクトなど、 様々な種類のリソースを収集し、一括で解放するためのヘルパークラスです。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.Commons.DisposeCollector の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_commons_1_1_dispose_collector.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a772d32461eed8b6f1da9b355d834a769" id="r_a772d32461eed8b6f1da9b355d834a769"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a772d32461eed8b6f1da9b355d834a769">DisposeAndClear</a> ()</td></tr>
+<tr class="memdesc:a772d32461eed8b6f1da9b355d834a769"><td class="mdescLeft">&#160;</td><td class="mdescRight">収集したすべてのリソースを解放し、内部リストをクリアします。  <br /></td></tr>
+<tr class="memitem:aa72da4870d84963b8d8638ab46763176" id="r_aa72da4870d84963b8d8638ab46763176"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa72da4870d84963b8d8638ab46763176">Collect</a> (global::System.IDisposable disposable)</td></tr>
+<tr class="memdesc:aa72da4870d84963b8d8638ab46763176"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDisposable オブジェクトを収集リストに追加します。  <br /></td></tr>
+<tr class="memitem:a6ad3f7fe0925d7b78c1460df35ead0e8" id="r_a6ad3f7fe0925d7b78c1460df35ead0e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad3f7fe0925d7b78c1460df35ead0e8">CollectHGlobal</a> (global::System.IntPtr ptr)</td></tr>
+<tr class="memdesc:a6ad3f7fe0925d7b78c1460df35ead0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">アンマネージドメモリのポインタを収集リストに追加します。  <br /></td></tr>
+<tr class="memitem:ac7a4c993243500e6e7ac3b6c4ac6646e" id="r_ac7a4c993243500e6e7ac3b6c4ac6646e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7a4c993243500e6e7ac3b6c4ac6646e">CollectComObject</a> (object comObject)</td></tr>
+<tr class="memdesc:ac7a4c993243500e6e7ac3b6c4ac6646e"><td class="mdescLeft">&#160;</td><td class="mdescRight">COMオブジェクトを収集リストに追加します。  <br /></td></tr>
+<tr class="memitem:aa65f706d3a9382f4dfb9d3988760d2f2" id="r_aa65f706d3a9382f4dfb9d3988760d2f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa65f706d3a9382f4dfb9d3988760d2f2">Remove</a> (global::System.IDisposable disposable)</td></tr>
+<tr class="memdesc:aa65f706d3a9382f4dfb9d3988760d2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した IDisposable オブジェクトを収集リストから削除します。  <br /></td></tr>
+<tr class="memitem:a2721a48b8ee2d1828bc5ecb07ac029dc" id="r_a2721a48b8ee2d1828bc5ecb07ac029dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2721a48b8ee2d1828bc5ecb07ac029dc">RemoveHGlobal</a> (global::System.IntPtr ptr)</td></tr>
+<tr class="memdesc:a2721a48b8ee2d1828bc5ecb07ac029dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したアンマネージドメモリのポインタを収集リストから削除します。  <br /></td></tr>
+<tr class="memitem:a3172b65f960094790d927d9da3b768ca" id="r_a3172b65f960094790d927d9da3b768ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3172b65f960094790d927d9da3b768ca">RemoveComObject</a> (object comObject)</td></tr>
+<tr class="memdesc:a3172b65f960094790d927d9da3b768ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したCOMオブジェクトを収集リストから削除します。  <br /></td></tr>
+<tr class="memitem:a1daa6d8443c3961e9742fcff7eebb208" id="r_a1daa6d8443c3961e9742fcff7eebb208"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1daa6d8443c3961e9742fcff7eebb208">RemoveAndDispose&lt; T &gt;</a> ([global::System.Runtime.CompilerServices.Nullable(2)] ref T disposable)</td></tr>
+<tr class="memdesc:a1daa6d8443c3961e9742fcff7eebb208"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した IDisposable オブジェクトを解放し、収集リストから削除します。  <br /></td></tr>
+<tr class="memitem:a3e21868b24a25e4e5d5cd19473b6ef8b" id="r_a3e21868b24a25e4e5d5cd19473b6ef8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e21868b24a25e4e5d5cd19473b6ef8b">RemoveAndDisposeHGlobal</a> (ref global::System.IntPtr ptr)</td></tr>
+<tr class="memdesc:a3e21868b24a25e4e5d5cd19473b6ef8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したアンマネージドメモリを解放し、収集リストから削除します。  <br /></td></tr>
+<tr class="memitem:a3270434b6cc968fee7b9a06acd7b2dba" id="r_a3270434b6cc968fee7b9a06acd7b2dba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3270434b6cc968fee7b9a06acd7b2dba">RemoveAndDisposeComObject</a> (ref object comObject)</td></tr>
+<tr class="memdesc:a3270434b6cc968fee7b9a06acd7b2dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したCOMオブジェクトを解放し、収集リストから削除します。  <br /></td></tr>
+<tr class="memitem:ae0884614193b91c858f45bc791c0ecec" id="r_ae0884614193b91c858f45bc791c0ecec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0884614193b91c858f45bc791c0ecec">Dispose</a> ()</td></tr>
+<tr class="memdesc:ae0884614193b91c858f45bc791c0ecec"><td class="mdescLeft">&#160;</td><td class="mdescRight">このオブジェクトによって使用されているすべてのリソースを解放します。  <br /></td></tr>
+<tr class="memitem:a00cb50b20823220d7a996472a0a7b87b" id="r_a00cb50b20823220d7a996472a0a7b87b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00cb50b20823220d7a996472a0a7b87b">DisposeCollector</a> ()</td></tr>
+<tr class="memdesc:a00cb50b20823220d7a996472a0a7b87b"><td class="mdescLeft">&#160;</td><td class="mdescRight">DisposeCollectorの新しいインスタンスを初期化します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:adb8e678c142e27c97a953cc1f4a41d3c" id="r_adb8e678c142e27c97a953cc1f4a41d3c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb8e678c142e27c97a953cc1f4a41d3c">Dispose</a> (bool disposing)</td></tr>
+<tr class="memdesc:adb8e678c142e27c97a953cc1f4a41d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">このオブジェクトによって使用されているアンマネージドリソースを解放し、オプションでマネージドリソースも解放します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>IDisposable オブジェクト、アンマネージドメモリ、COMオブジェクトなど、 様々な種類のリソースを収集し、一括で解放するためのヘルパークラスです。 </p>
+<p>このクラスは IDisposable を実装しており、自身が破棄される際に収集したすべてのリソースを解放します。 これにより、リソースの解放漏れを防ぎ、コードの信頼性を向上させることができます。 </p>
+<div class="fragment"><div class="line"><span class="keyword">using</span> (var collector = <span class="keyword">new</span> <a class="code hl_function" href="#a00cb50b20823220d7a996472a0a7b87b">DisposeCollector</a>())</div>
+<div class="line">{</div>
+<div class="line">    var stream = <span class="keyword">new</span> FileStream(<span class="stringliteral">&quot;test.txt&quot;</span>, FileMode.Create);</div>
+<div class="line">    collector.Collect(stream);</div>
+<div class="line"> </div>
+<div class="line">    IntPtr memory = Marshal.AllocHGlobal(1024);</div>
+<div class="line">    collector.CollectHGlobal(memory);</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// collectorがDisposeされるタイミングで、streamとmemoryが解放される</span></div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_dispose_collector_html_a00cb50b20823220d7a996472a0a7b87b"><div class="ttname"><a href="#a00cb50b20823220d7a996472a0a7b87b">YukkuriMovieMaker.Commons.DisposeCollector.DisposeCollector</a></div><div class="ttdeci">DisposeCollector()</div><div class="ttdoc">DisposeCollectorの新しいインスタンスを初期化します。</div><div class="ttdef"><b>Definition</b> DisposeCollector.cs:270</div></div>
+</div><!-- fragment --> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="a00cb50b20823220d7a996472a0a7b87b" name="a00cb50b20823220d7a996472a0a7b87b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00cb50b20823220d7a996472a0a7b87b">&#9670;&#160;</a></span>DisposeCollector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Commons.DisposeCollector.DisposeCollector </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DisposeCollectorの新しいインスタンスを初期化します。 </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="aa72da4870d84963b8d8638ab46763176" name="aa72da4870d84963b8d8638ab46763176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa72da4870d84963b8d8638ab46763176">&#9670;&#160;</a></span>Collect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.Collect </td>
+          <td>(</td>
+          <td class="paramtype">global.System.IDisposable</td>          <td class="paramname"><span class="paramname"><em>disposable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDisposable オブジェクトを収集リストに追加します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disposable</td><td>収集する IDisposable オブジェクト。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac7a4c993243500e6e7ac3b6c4ac6646e" name="ac7a4c993243500e6e7ac3b6c4ac6646e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a4c993243500e6e7ac3b6c4ac6646e">&#9670;&#160;</a></span>CollectComObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.CollectComObject </td>
+          <td>(</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>comObject</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>COMオブジェクトを収集リストに追加します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comObject</td><td>収集するCOMオブジェクト。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ArgumentException</td><td>comObjectがCOMオブジェクトでない場合にスローされます。</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>収集されたCOMオブジェクトは、Dispose時に Marshal.ReleaseComObject で解放されます。</p>
+
+</div>
+</div>
+<a id="a6ad3f7fe0925d7b78c1460df35ead0e8" name="a6ad3f7fe0925d7b78c1460df35ead0e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ad3f7fe0925d7b78c1460df35ead0e8">&#9670;&#160;</a></span>CollectHGlobal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.CollectHGlobal </td>
+          <td>(</td>
+          <td class="paramtype">global.System.IntPtr</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>アンマネージドメモリのポインタを収集リストに追加します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>収集するアンマネージドメモリのポインタ。</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>収集されたポインタは、Dispose時に Marshal.FreeHGlobal で解放されます。</p>
+
+</div>
+</div>
+<a id="ae0884614193b91c858f45bc791c0ecec" name="ae0884614193b91c858f45bc791c0ecec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0884614193b91c858f45bc791c0ecec">&#9670;&#160;</a></span>Dispose() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.Dispose </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>このオブジェクトによって使用されているすべてのリソースを解放します。 </p>
+
+</div>
+</div>
+<a id="adb8e678c142e27c97a953cc1f4a41d3c" name="adb8e678c142e27c97a953cc1f4a41d3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb8e678c142e27c97a953cc1f4a41d3c">&#9670;&#160;</a></span>Dispose() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void YukkuriMovieMaker.Commons.DisposeCollector.Dispose </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>disposing</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>このオブジェクトによって使用されているアンマネージドリソースを解放し、オプションでマネージドリソースも解放します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disposing</td><td>マネージドリソースとアンマネージドリソースの両方を解放する場合は true。アンマネージドリソースだけを解放する場合は false。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a772d32461eed8b6f1da9b355d834a769" name="a772d32461eed8b6f1da9b355d834a769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a772d32461eed8b6f1da9b355d834a769">&#9670;&#160;</a></span>DisposeAndClear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.DisposeAndClear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>収集したすべてのリソースを解放し、内部リストをクリアします。 </p>
+
+</div>
+</div>
+<a id="aa65f706d3a9382f4dfb9d3988760d2f2" name="aa65f706d3a9382f4dfb9d3988760d2f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa65f706d3a9382f4dfb9d3988760d2f2">&#9670;&#160;</a></span>Remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.Remove </td>
+          <td>(</td>
+          <td class="paramtype">global.System.IDisposable</td>          <td class="paramname"><span class="paramname"><em>disposable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した IDisposable オブジェクトを収集リストから削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disposable</td><td>削除する IDisposable オブジェクト。</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>このメソッドはオブジェクトを解放しません。単にリストから削除するだけです。</p>
+
+</div>
+</div>
+<a id="a1daa6d8443c3961e9742fcff7eebb208" name="a1daa6d8443c3961e9742fcff7eebb208"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1daa6d8443c3961e9742fcff7eebb208">&#9670;&#160;</a></span>RemoveAndDispose&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.RemoveAndDispose&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">[global::System::Runtime::CompilerServices::Nullable(2)] ref T</td>          <td class="paramname"><span class="paramname"><em>disposable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した IDisposable オブジェクトを解放し、収集リストから削除します。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>IDisposable を実装するクラス。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disposable</td><td>解放および削除するオブジェクト。処理後、この参照は null になります。</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="typeconstraint">
+<dl><dt><b>型制約</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>class</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>global</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>System.IDisposable</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a3270434b6cc968fee7b9a06acd7b2dba" name="a3270434b6cc968fee7b9a06acd7b2dba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3270434b6cc968fee7b9a06acd7b2dba">&#9670;&#160;</a></span>RemoveAndDisposeComObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.RemoveAndDisposeComObject </td>
+          <td>(</td>
+          <td class="paramtype">ref object</td>          <td class="paramname"><span class="paramname"><em>comObject</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したCOMオブジェクトを解放し、収集リストから削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comObject</td><td>解放および削除するCOMオブジェクト。処理後、この参照は null になります。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ArgumentException</td><td>comObjectがCOMオブジェクトでない場合にスローされます。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3e21868b24a25e4e5d5cd19473b6ef8b" name="a3e21868b24a25e4e5d5cd19473b6ef8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e21868b24a25e4e5d5cd19473b6ef8b">&#9670;&#160;</a></span>RemoveAndDisposeHGlobal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.RemoveAndDisposeHGlobal </td>
+          <td>(</td>
+          <td class="paramtype">ref global.System.IntPtr</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したアンマネージドメモリを解放し、収集リストから削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>解放および削除するアンマネージドメモリのポインタ。処理後、このポインタは IntPtr.Zero になります。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3172b65f960094790d927d9da3b768ca" name="a3172b65f960094790d927d9da3b768ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3172b65f960094790d927d9da3b768ca">&#9670;&#160;</a></span>RemoveComObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.RemoveComObject </td>
+          <td>(</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>comObject</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したCOMオブジェクトを収集リストから削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comObject</td><td>削除するCOMオブジェクト。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ArgumentException</td><td>comObjectがCOMオブジェクトでない場合にスローされます。</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>このメソッドはCOMオブジェクトを解放しません。単にリストから削除するだけです。</p>
+
+</div>
+</div>
+<a id="a2721a48b8ee2d1828bc5ecb07ac029dc" name="a2721a48b8ee2d1828bc5ecb07ac029dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2721a48b8ee2d1828bc5ecb07ac029dc">&#9670;&#160;</a></span>RemoveHGlobal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DisposeCollector.RemoveHGlobal </td>
+          <td>(</td>
+          <td class="paramtype">global.System.IntPtr</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したアンマネージドメモリのポインタを収集リストから削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>削除するアンマネージドメモリのポインタ。</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>このメソッドはメモリを解放しません。単にリストから削除するだけです。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_dispose_collector_8cs.html">DisposeCollector.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_dispose_collector.html">DisposeCollector</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

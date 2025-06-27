@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Settings.FileGroup クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_settings_1_1_file_group.html','','class_yukkuri_movie_maker_1_1_settings_1_1_file_group-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Settings.FileGroup クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>ファイルグループを管理するクラスです。最近使用したファイルや、お気に入りファイル、ファイルダイアログのフィルタリングなどを扱います。  
+ <a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1f3e5c64e615d9a6944c982e0eb4e114" id="r_a1f3e5c64e615d9a6944c982e0eb4e114"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f3e5c64e615d9a6944c982e0eb4e114">FileGroup</a> (global::YukkuriMovieMaker.Settings.FileGroupType groupType, global::YukkuriMovieMaker.Settings.FileType fileType, global::YukkuriMovieMaker.Settings.FileExtensions extensions, [global::System.Runtime.CompilerServices.Nullable(2)] string customFilter=null, [global::System.Runtime.CompilerServices.Nullable(new byte[] { 2, 1 })] global::System.Collections.Generic.IEnumerable&lt; string &gt; presetFiles=null)</td></tr>
+<tr class="memdesc:a1f3e5c64e615d9a6944c982e0eb4e114"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_yukkuri_movie_maker_1_1_settings_1_1_file_group.html" title="ファイルグループを管理するクラスです。最近使用したファイルや、お気に入りファイル、ファイルダイアログのフィルタリングなどを扱います。">FileGroup</a> クラスの新しいインスタンスを初期化します。  <br /></td></tr>
+<tr class="memitem:a296898ed82c5039d9895401ac81a7142" id="r_a296898ed82c5039d9895401ac81a7142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a296898ed82c5039d9895401ac81a7142">AddRecentFile</a> (string file)</td></tr>
+<tr class="memdesc:a296898ed82c5039d9895401ac81a7142"><td class="mdescLeft">&#160;</td><td class="mdescRight">最近使用したファイルリストにファイルを追加します。  <br /></td></tr>
+<tr class="memitem:a6beddaee68578dcc6f8844be2cd0d1ee" id="r_a6beddaee68578dcc6f8844be2cd0d1ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6beddaee68578dcc6f8844be2cd0d1ee">RemoveDeletedFiles</a> ()</td></tr>
+<tr class="memdesc:a6beddaee68578dcc6f8844be2cd0d1ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">存在しないファイルを最近使用したファイルリストから削除します。  <br /></td></tr>
+<tr class="memitem:aa608a073adfbca0130e5cb6c741bc063" id="r_aa608a073adfbca0130e5cb6c741bc063"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa608a073adfbca0130e5cb6c741bc063">CreateDialogFilter</a> ()</td></tr>
+<tr class="memdesc:aa608a073adfbca0130e5cb6c741bc063"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルダイアログ用のフィルタ文字列を作成します。  <br /></td></tr>
+<tr class="memitem:ab205668a378ce6856e7781de3aa5922d" id="r_ab205668a378ce6856e7781de3aa5922d"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab205668a378ce6856e7781de3aa5922d">CreateFileDialog&lt;[global::System.Runtime.CompilerServices.Nullable(0)] T &gt;</a> (string defaultFileName, [global::System.Runtime.CompilerServices.Nullable(2)] string customFilter=null)</td></tr>
+<tr class="memdesc:ab205668a378ce6856e7781de3aa5922d"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された型のファイルダイアログを作成します。  <br /></td></tr>
+<tr class="memitem:a608c2aaa5f2837ae7e96673119dfa33a" id="r_a608c2aaa5f2837ae7e96673119dfa33a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a608c2aaa5f2837ae7e96673119dfa33a">RemoveRecentFile</a> (global::YukkuriMovieMaker.Settings.RecentFile recentFile)</td></tr>
+<tr class="memdesc:a608c2aaa5f2837ae7e96673119dfa33a"><td class="mdescLeft">&#160;</td><td class="mdescRight">最近使用したファイルリストから指定されたファイルを削除します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:adafa8c3d3f79a223c57cc6aa1c284c37" id="r_adafa8c3d3f79a223c57cc6aa1c284c37"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Settings.FileGroupType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adafa8c3d3f79a223c57cc6aa1c284c37">FileGroupType</a> = groupType<code> [get]</code></td></tr>
+<tr class="memdesc:adafa8c3d3f79a223c57cc6aa1c284c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルグループのタイプを取得します。  <br /></td></tr>
+<tr class="memitem:afaf230e5e7e014069e3c9b1470fdde68" id="r_afaf230e5e7e014069e3c9b1470fdde68"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Settings.FileType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaf230e5e7e014069e3c9b1470fdde68">FileType</a> = fileType<code> [get]</code></td></tr>
+<tr class="memdesc:afaf230e5e7e014069e3c9b1470fdde68"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルタイプを取得します。  <br /></td></tr>
+<tr class="memitem:a4a1a0f600760ecb8f48e760b03c431df" id="r_a4a1a0f600760ecb8f48e760b03c431df"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a1a0f600760ecb8f48e760b03c431df">DialogDirectory</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4a1a0f600760ecb8f48e760b03c431df"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルダイアログの初期ディレクトリを取得または設定します。  <br /></td></tr>
+<tr class="memitem:a97801daf344ac7fc066ffa4c912848d4" id="r_a97801daf344ac7fc066ffa4c912848d4"><td class="memItemLeft" align="right" valign="top">global::System.Collections.ObjectModel.ObservableCollection&lt; global::YukkuriMovieMaker.Settings.RecentFile &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97801daf344ac7fc066ffa4c912848d4">RecentFiles</a> = new global::System.Collections.ObjectModel.ObservableCollection&lt;global::YukkuriMovieMaker.Settings.RecentFile&gt;()<code> [get]</code></td></tr>
+<tr class="memdesc:a97801daf344ac7fc066ffa4c912848d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">最近使用したファイルのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a38a695cad025beb1d3893d5d7294977a" id="r_a38a695cad025beb1d3893d5d7294977a"><td class="memItemLeft" align="right" valign="top">global::System.Collections.ObjectModel.ObservableCollection&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38a695cad025beb1d3893d5d7294977a">FavoriteFiles</a> = new global::System.Collections.ObjectModel.ObservableCollection&lt;string&gt;()<code> [get]</code></td></tr>
+<tr class="memdesc:a38a695cad025beb1d3893d5d7294977a"><td class="mdescLeft">&#160;</td><td class="mdescRight">お気に入りファイルのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:aaaa0ad84f64f81df1f53704c36a857f7" id="r_aaaa0ad84f64f81df1f53704c36a857f7"><td class="memItemLeft" align="right" valign="top">global::System.Collections.Generic.IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaa0ad84f64f81df1f53704c36a857f7">PresetFiles</a> = presetFiles ?? global::System.Array.Empty&lt;string&gt;()<code> [get]</code></td></tr>
+<tr class="memdesc:aaaa0ad84f64f81df1f53704c36a857f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">プリセットファイルのコレクションを取得します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>ファイルグループを管理するクラスです。最近使用したファイルや、お気に入りファイル、ファイルダイアログのフィルタリングなどを扱います。 </p>
+<div class="fragment"></div><!-- fragment --> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="a1f3e5c64e615d9a6944c982e0eb4e114" name="a1f3e5c64e615d9a6944c982e0eb4e114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f3e5c64e615d9a6944c982e0eb4e114">&#9670;&#160;</a></span>FileGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Settings.FileGroup.FileGroup </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Settings.FileGroupType</td>          <td class="paramname"><span class="paramname"><em>groupType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Settings.FileType</td>          <td class="paramname"><span class="paramname"><em>fileType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Settings.FileExtensions</td>          <td class="paramname"><span class="paramname"><em>extensions</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System::Runtime::CompilerServices::Nullable(2)] string</td>          <td class="paramname"><span class="paramname"><em>customFilter</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System::Runtime::CompilerServices::Nullable(new byte[] { 2, 1 }</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_yukkuri_movie_maker_1_1_settings_1_1_file_group.html" title="ファイルグループを管理するクラスです。最近使用したファイルや、お気に入りファイル、ファイルダイアログのフィルタリングなどを扱います。">FileGroup</a> クラスの新しいインスタンスを初期化します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">groupType</td><td>ファイルグループのタイプ。</td></tr>
+    <tr><td class="paramname">fileType</td><td>ファイルタイプ。</td></tr>
+    <tr><td class="paramname">extensions</td><td>ファイル拡張子のコレクション。</td></tr>
+    <tr><td class="paramname">customFilter</td><td>カスタムフィルタ文字列。指定しない場合はnull。</td></tr>
+    <tr><td class="paramname">presetFiles</td><td>プリセットファイルのコレクション。指定しない場合はnull。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a296898ed82c5039d9895401ac81a7142" name="a296898ed82c5039d9895401ac81a7142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a296898ed82c5039d9895401ac81a7142">&#9670;&#160;</a></span>AddRecentFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Settings.FileGroup.AddRecentFile </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>最近使用したファイルリストにファイルを追加します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>追加するファイルのパス。</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"></div><!-- fragment --> 
+</div>
+</div>
+<a id="aa608a073adfbca0130e5cb6c741bc063" name="aa608a073adfbca0130e5cb6c741bc063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa608a073adfbca0130e5cb6c741bc063">&#9670;&#160;</a></span>CreateDialogFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Settings.FileGroup.CreateDialogFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ファイルダイアログ用のフィルタ文字列を作成します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>ファイルダイアログで使用するフィルタ文字列。</dd></dl>
+<div class="fragment"></div><!-- fragment --> 
+</div>
+</div>
+<a id="ab205668a378ce6856e7781de3aa5922d" name="ab205668a378ce6856e7781de3aa5922d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab205668a378ce6856e7781de3aa5922d">&#9670;&#160;</a></span>CreateFileDialog&lt;[global::System.Runtime.CompilerServices.Nullable(0)] T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">T YukkuriMovieMaker.Settings.FileGroup.CreateFileDialog&lt;[global.System.Runtime.CompilerServices.Nullable(0)] T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>defaultFileName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System::Runtime::CompilerServices::Nullable(2)] string</td>          <td class="paramname"><span class="paramname"><em>customFilter</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された型のファイルダイアログを作成します。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>ファイルダイアログの型。 Microsoft.Win32.FileDialog を継承し、引数のないコンストラクタを持つ必要があります。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">defaultFileName</td><td>ダイアログの初期ファイル名。</td></tr>
+    <tr><td class="paramname">customFilter</td><td>カスタムフィルタ文字列。指定しない場合はnull。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>設定済みのファイルダイアログのインスタンス。</dd></dl>
+<div class="fragment"></div><!-- fragment --> <div class="typeconstraint">
+<dl><dt><b>型制約</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>global</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>Microsoft.Win32.FileDialog</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>new()</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a6beddaee68578dcc6f8844be2cd0d1ee" name="a6beddaee68578dcc6f8844be2cd0d1ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6beddaee68578dcc6f8844be2cd0d1ee">&#9670;&#160;</a></span>RemoveDeletedFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Settings.FileGroup.RemoveDeletedFiles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>存在しないファイルを最近使用したファイルリストから削除します。 </p>
+<div class="fragment"></div><!-- fragment --> 
+</div>
+</div>
+<a id="a608c2aaa5f2837ae7e96673119dfa33a" name="a608c2aaa5f2837ae7e96673119dfa33a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a608c2aaa5f2837ae7e96673119dfa33a">&#9670;&#160;</a></span>RemoveRecentFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Settings.FileGroup.RemoveRecentFile </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Settings.RecentFile</td>          <td class="paramname"><span class="paramname"><em>recentFile</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>最近使用したファイルリストから指定されたファイルを削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">recentFile</td><td>削除する <a class="el" href="class_yukkuri_movie_maker_1_1_settings_1_1_recent_file.html" title="最近使用したファイルの情報を表すクラスです。">RecentFile</a> オブジェクト。</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"></div><!-- fragment --> 
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="a4a1a0f600760ecb8f48e760b03c431df" name="a4a1a0f600760ecb8f48e760b03c431df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a1a0f600760ecb8f48e760b03c431df">&#9670;&#160;</a></span>DialogDirectory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Settings.FileGroup.DialogDirectory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルダイアログの初期ディレクトリを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a38a695cad025beb1d3893d5d7294977a" name="a38a695cad025beb1d3893d5d7294977a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38a695cad025beb1d3893d5d7294977a">&#9670;&#160;</a></span>FavoriteFiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.ObjectModel.ObservableCollection&lt;string&gt; YukkuriMovieMaker.Settings.FileGroup.FavoriteFiles = new global::System.Collections.ObjectModel.ObservableCollection&lt;string&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>お気に入りファイルのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="adafa8c3d3f79a223c57cc6aa1c284c37" name="adafa8c3d3f79a223c57cc6aa1c284c37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adafa8c3d3f79a223c57cc6aa1c284c37">&#9670;&#160;</a></span>FileGroupType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Settings.FileGroupType YukkuriMovieMaker.Settings.FileGroup.FileGroupType = groupType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルグループのタイプを取得します。 </p>
+
+</div>
+</div>
+<a id="afaf230e5e7e014069e3c9b1470fdde68" name="afaf230e5e7e014069e3c9b1470fdde68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaf230e5e7e014069e3c9b1470fdde68">&#9670;&#160;</a></span>FileType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Settings.FileType YukkuriMovieMaker.Settings.FileGroup.FileType = fileType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルタイプを取得します。 </p>
+
+</div>
+</div>
+<a id="aaaa0ad84f64f81df1f53704c36a857f7" name="aaaa0ad84f64f81df1f53704c36a857f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa0ad84f64f81df1f53704c36a857f7">&#9670;&#160;</a></span>PresetFiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;string&gt; YukkuriMovieMaker.Settings.FileGroup.PresetFiles = presetFiles ?? global::System.Array.Empty&lt;string&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>プリセットファイルのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="a97801daf344ac7fc066ffa4c912848d4" name="a97801daf344ac7fc066ffa4c912848d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97801daf344ac7fc066ffa4c912848d4">&#9670;&#160;</a></span>RecentFiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.ObjectModel.ObservableCollection&lt;global.YukkuriMovieMaker.Settings.RecentFile&gt; YukkuriMovieMaker.Settings.FileGroup.RecentFiles = new global::System.Collections.ObjectModel.ObservableCollection&lt;global::YukkuriMovieMaker.Settings.RecentFile&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>最近使用したファイルのコレクションを取得します。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Settings/<a class="el" href="_file_group_8cs.html">FileGroup.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_settings.html">Settings</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_settings_1_1_file_group.html">FileGroup</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

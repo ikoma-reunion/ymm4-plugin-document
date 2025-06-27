@@ -1,0 +1,675 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Player.Video.TimelineSourceDescription クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_timeline_source_description.html','','class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_timeline_source_description-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Player.Video.TimelineSourceDescription クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>タイムラインソースの記述を表すクラスです。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.Player.Video.TimelineSourceDescription の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_timeline_source_description.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ae09546e7bd7e04a115c464d5f3904851" id="r_ae09546e7bd7e04a115c464d5f3904851"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae09546e7bd7e04a115c464d5f3904851">TimelineSourceDescription</a> (global::System.Drawing.Size <a class="el" href="#a6a9995d9b8f3a9c3542182265dfe0567">ScreenSize</a>, global::YukkuriMovieMaker.Player.Video.FrameTime <a class="el" href="#ab63abbeeff2f01723b97bb4c7b714247">TimelinePosition</a>, global::YukkuriMovieMaker.Player.Video.FrameTime <a class="el" href="#a24fc506f7b01260714c463c32fc6d2ba">TimelineDuration</a>, int <a class="el" href="#a6bfda051798fd4b0cf7040813d245234">FPS</a>, global::YukkuriMovieMaker.Player.Video.TimelineSourceUsage <a class="el" href="#ad5e8227367d5aef41ecbafe9e0664990">Usage</a>, global::System.Guid <a class="el" href="#ad332e0a7a0a8f75629a9f27d3d80cf9d">SceneId</a>, global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Commons.ISceneInfo &gt; <a class="el" href="#a559a44b9d55a8e834f5fa1363aa92c07">Scenes</a>)</td></tr>
+<tr class="memdesc:ae09546e7bd7e04a115c464d5f3904851"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_timeline_source_description.html" title="タイムラインソースの記述を表すクラスです。">TimelineSourceDescription</a> クラスの新しいインスタンスを初期化します。  <br /></td></tr>
+<tr class="memitem:a623145ed15ef636dd1698d9d94b39355" id="r_a623145ed15ef636dd1698d9d94b39355"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a623145ed15ef636dd1698d9d94b39355">TimelineSourceDescription</a> (global::YukkuriMovieMaker.Player.Video.TimelineSourceDescription timelineSourceDescription)</td></tr>
+<tr class="memdesc:a623145ed15ef636dd1698d9d94b39355"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の <a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_timeline_source_description.html" title="タイムラインソースの記述を表すクラスです。">TimelineSourceDescription</a> オブジェクトから新しいインスタンスを初期化します。  <br /></td></tr>
+<tr class="memitem:a45341878a6ea86812b6a5bdf0ac4fbbc" id="r_a45341878a6ea86812b6a5bdf0ac4fbbc"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45341878a6ea86812b6a5bdf0ac4fbbc">ToString</a> ()</td></tr>
+<tr class="memitem:ae55aa04fdab62d235ad43616c50998c6" id="r_ae55aa04fdab62d235ad43616c50998c6"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae55aa04fdab62d235ad43616c50998c6">GetHashCode</a> ()</td></tr>
+<tr class="memitem:aae58bf8c5dae317faf0e298ec31f2c2e" id="r_aae58bf8c5dae317faf0e298ec31f2c2e"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae58bf8c5dae317faf0e298ec31f2c2e">Equals</a> (object obj)</td></tr>
+<tr class="memitem:a09425ae396dbb55b6fd0b57dc64efdb1" id="r_a09425ae396dbb55b6fd0b57dc64efdb1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09425ae396dbb55b6fd0b57dc64efdb1">Equals</a> (global::YukkuriMovieMaker.Player.Video.TimelineSourceDescription other)</td></tr>
+<tr class="memitem:aaac49df7ca2f75c4a45d10f360e679b0" id="r_aaac49df7ca2f75c4a45d10f360e679b0"><td class="memItemLeft" align="right" valign="top">virtual global::YukkuriMovieMaker.Player.Video.TimelineSourceDescription&lt; Clone &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaac49df7ca2f75c4a45d10f360e679b0">$</a> ()</td></tr>
+<tr class="memitem:a2abf2677def3e773994dca1f80e1c301" id="r_a2abf2677def3e773994dca1f80e1c301"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2abf2677def3e773994dca1f80e1c301">Deconstruct</a> (out global::System.Drawing.Size <a class="el" href="#a6a9995d9b8f3a9c3542182265dfe0567">ScreenSize</a>, out global::YukkuriMovieMaker.Player.Video.FrameTime <a class="el" href="#ab63abbeeff2f01723b97bb4c7b714247">TimelinePosition</a>, out global::YukkuriMovieMaker.Player.Video.FrameTime <a class="el" href="#a24fc506f7b01260714c463c32fc6d2ba">TimelineDuration</a>, out int <a class="el" href="#a6bfda051798fd4b0cf7040813d245234">FPS</a>, out global::YukkuriMovieMaker.Player.Video.TimelineSourceUsage <a class="el" href="#ad5e8227367d5aef41ecbafe9e0664990">Usage</a>, out global::System.Guid <a class="el" href="#ad332e0a7a0a8f75629a9f27d3d80cf9d">SceneId</a>, out global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Commons.ISceneInfo &gt; <a class="el" href="#a559a44b9d55a8e834f5fa1363aa92c07">Scenes</a>)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a8889d627ce3d28e0c3a4da7711c47a39" id="r_a8889d627ce3d28e0c3a4da7711c47a39"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8889d627ce3d28e0c3a4da7711c47a39">operator!=</a> (global::YukkuriMovieMaker.Player.Video.TimelineSourceDescription left, global::YukkuriMovieMaker.Player.Video.TimelineSourceDescription right)</td></tr>
+<tr class="memitem:a622dd89899581ec6cb5a4d587c12ba3a" id="r_a622dd89899581ec6cb5a4d587c12ba3a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a622dd89899581ec6cb5a4d587c12ba3a">operator==</a> (global::YukkuriMovieMaker.Player.Video.TimelineSourceDescription left, global::YukkuriMovieMaker.Player.Video.TimelineSourceDescription right)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a0e90db6625467a1f9433aab5edd9407c" id="r_a0e90db6625467a1f9433aab5edd9407c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e90db6625467a1f9433aab5edd9407c">PrintMembers</a> (global::System.Text.StringBuilder builder)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a2fbd87f6635d736ab5d2320a1e5214a7" id="r_a2fbd87f6635d736ab5d2320a1e5214a7"><td class="memItemLeft" align="right" valign="top">virtual global::System.Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fbd87f6635d736ab5d2320a1e5214a7">EqualityContract</a><code> [get]</code></td></tr>
+<tr class="memitem:a6a9995d9b8f3a9c3542182265dfe0567" id="r_a6a9995d9b8f3a9c3542182265dfe0567"><td class="memItemLeft" align="right" valign="top">global::System.Drawing.Size&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a9995d9b8f3a9c3542182265dfe0567">ScreenSize</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6a9995d9b8f3a9c3542182265dfe0567"><td class="mdescLeft">&#160;</td><td class="mdescRight">画面サイズを取得または設定します。  <br /></td></tr>
+<tr class="memitem:ab63abbeeff2f01723b97bb4c7b714247" id="r_ab63abbeeff2f01723b97bb4c7b714247"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Player.Video.FrameTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab63abbeeff2f01723b97bb4c7b714247">TimelinePosition</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab63abbeeff2f01723b97bb4c7b714247"><td class="mdescLeft">&#160;</td><td class="mdescRight">タイムライン上の現在位置を取得または設定します。  <br /></td></tr>
+<tr class="memitem:a24fc506f7b01260714c463c32fc6d2ba" id="r_a24fc506f7b01260714c463c32fc6d2ba"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Player.Video.FrameTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24fc506f7b01260714c463c32fc6d2ba">TimelineDuration</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a24fc506f7b01260714c463c32fc6d2ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">タイムラインの長さを取得または設定します。  <br /></td></tr>
+<tr class="memitem:a6bfda051798fd4b0cf7040813d245234" id="r_a6bfda051798fd4b0cf7040813d245234"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bfda051798fd4b0cf7040813d245234">FPS</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6bfda051798fd4b0cf7040813d245234"><td class="mdescLeft">&#160;</td><td class="mdescRight">フレームレート (FPS) を取得または設定します。  <br /></td></tr>
+<tr class="memitem:ad5e8227367d5aef41ecbafe9e0664990" id="r_ad5e8227367d5aef41ecbafe9e0664990"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Player.Video.TimelineSourceUsage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5e8227367d5aef41ecbafe9e0664990">Usage</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad5e8227367d5aef41ecbafe9e0664990"><td class="mdescLeft">&#160;</td><td class="mdescRight">タイムラインソースの使用方法を取得または設定します。  <br /></td></tr>
+<tr class="memitem:ad332e0a7a0a8f75629a9f27d3d80cf9d" id="r_ad332e0a7a0a8f75629a9f27d3d80cf9d"><td class="memItemLeft" align="right" valign="top">global::System.Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad332e0a7a0a8f75629a9f27d3d80cf9d">SceneId</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad332e0a7a0a8f75629a9f27d3d80cf9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンのIDを取得または設定します。  <br /></td></tr>
+<tr class="memitem:a559a44b9d55a8e834f5fa1363aa92c07" id="r_a559a44b9d55a8e834f5fa1363aa92c07"><td class="memItemLeft" align="right" valign="top">global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Commons.ISceneInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a559a44b9d55a8e834f5fa1363aa92c07">Scenes</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a559a44b9d55a8e834f5fa1363aa92c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンのリストを取得または設定します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>タイムラインソースの記述を表すクラスです。 </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="ae09546e7bd7e04a115c464d5f3904851" name="ae09546e7bd7e04a115c464d5f3904851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae09546e7bd7e04a115c464d5f3904851">&#9670;&#160;</a></span>TimelineSourceDescription() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Player.Video.TimelineSourceDescription.TimelineSourceDescription </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Drawing.Size</td>          <td class="paramname"><span class="paramname"><em>ScreenSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.FrameTime</td>          <td class="paramname"><span class="paramname"><em>TimelinePosition</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.FrameTime</td>          <td class="paramname"><span class="paramname"><em>TimelineDuration</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>FPS</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.TimelineSourceUsage</td>          <td class="paramname"><span class="paramname"><em>Usage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Guid</td>          <td class="paramname"><span class="paramname"><em>SceneId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Collections.Generic.IEnumerable&lt; global.YukkuriMovieMaker.Commons.ISceneInfo &gt;</td>          <td class="paramname"><span class="paramname"><em>Scenes</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_timeline_source_description.html" title="タイムラインソースの記述を表すクラスです。">TimelineSourceDescription</a> クラスの新しいインスタンスを初期化します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ScreenSize</td><td>画面サイズ。</td></tr>
+    <tr><td class="paramname">TimelinePosition</td><td>タイムライン上の現在位置。</td></tr>
+    <tr><td class="paramname">TimelineDuration</td><td>タイムラインの長さ。</td></tr>
+    <tr><td class="paramname">FPS</td><td>フレームレート (FPS)。</td></tr>
+    <tr><td class="paramname">Usage</td><td>タイムラインソースの使用方法。</td></tr>
+    <tr><td class="paramname">SceneId</td><td>シーンのID。</td></tr>
+    <tr><td class="paramname">Scenes</td><td>シーンのリスト。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a623145ed15ef636dd1698d9d94b39355" name="a623145ed15ef636dd1698d9d94b39355"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a623145ed15ef636dd1698d9d94b39355">&#9670;&#160;</a></span>TimelineSourceDescription() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Player.Video.TimelineSourceDescription.TimelineSourceDescription </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.TimelineSourceDescription</td>          <td class="paramname"><span class="paramname"><em>timelineSourceDescription</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>既存の <a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_timeline_source_description.html" title="タイムラインソースの記述を表すクラスです。">TimelineSourceDescription</a> オブジェクトから新しいインスタンスを初期化します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timelineSourceDescription</td><td>コピー元の <a class="el" href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_timeline_source_description.html" title="タイムラインソースの記述を表すクラスです。">TimelineSourceDescription</a> オブジェクト。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="aaac49df7ca2f75c4a45d10f360e679b0" name="aaac49df7ca2f75c4a45d10f360e679b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac49df7ca2f75c4a45d10f360e679b0">&#9670;&#160;</a></span>$()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual global.YukkuriMovieMaker.Player.Video.TimelineSourceDescription&lt; Clone &gt; YukkuriMovieMaker.Player.Video.TimelineSourceDescription.$ </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2abf2677def3e773994dca1f80e1c301" name="a2abf2677def3e773994dca1f80e1c301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2abf2677def3e773994dca1f80e1c301">&#9670;&#160;</a></span>Deconstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Player.Video.TimelineSourceDescription.Deconstruct </td>
+          <td>(</td>
+          <td class="paramtype">out global.System.Drawing.Size</td>          <td class="paramname"><span class="paramname"><em>ScreenSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.YukkuriMovieMaker.Player.Video.FrameTime</td>          <td class="paramname"><span class="paramname"><em>TimelinePosition</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.YukkuriMovieMaker.Player.Video.FrameTime</td>          <td class="paramname"><span class="paramname"><em>TimelineDuration</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out int</td>          <td class="paramname"><span class="paramname"><em>FPS</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.YukkuriMovieMaker.Player.Video.TimelineSourceUsage</td>          <td class="paramname"><span class="paramname"><em>Usage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.System.Guid</td>          <td class="paramname"><span class="paramname"><em>SceneId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.System.Collections.Generic.IEnumerable&lt; global.YukkuriMovieMaker.Commons.ISceneInfo &gt;</td>          <td class="paramname"><span class="paramname"><em>Scenes</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09425ae396dbb55b6fd0b57dc64efdb1" name="a09425ae396dbb55b6fd0b57dc64efdb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09425ae396dbb55b6fd0b57dc64efdb1">&#9670;&#160;</a></span>Equals() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool YukkuriMovieMaker.Player.Video.TimelineSourceDescription.Equals </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.TimelineSourceDescription</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae58bf8c5dae317faf0e298ec31f2c2e" name="aae58bf8c5dae317faf0e298ec31f2c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae58bf8c5dae317faf0e298ec31f2c2e">&#9670;&#160;</a></span>Equals() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool YukkuriMovieMaker.Player.Video.TimelineSourceDescription.Equals </td>
+          <td>(</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae55aa04fdab62d235ad43616c50998c6" name="ae55aa04fdab62d235ad43616c50998c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae55aa04fdab62d235ad43616c50998c6">&#9670;&#160;</a></span>GetHashCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override int YukkuriMovieMaker.Player.Video.TimelineSourceDescription.GetHashCode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8889d627ce3d28e0c3a4da7711c47a39" name="a8889d627ce3d28e0c3a4da7711c47a39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8889d627ce3d28e0c3a4da7711c47a39">&#9670;&#160;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Player.Video.TimelineSourceDescription.operator!= </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.TimelineSourceDescription</td>          <td class="paramname"><span class="paramname"><em>left</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.TimelineSourceDescription</td>          <td class="paramname"><span class="paramname"><em>right</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a622dd89899581ec6cb5a4d587c12ba3a" name="a622dd89899581ec6cb5a4d587c12ba3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a622dd89899581ec6cb5a4d587c12ba3a">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Player.Video.TimelineSourceDescription.operator== </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.TimelineSourceDescription</td>          <td class="paramname"><span class="paramname"><em>left</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Player.Video.TimelineSourceDescription</td>          <td class="paramname"><span class="paramname"><em>right</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e90db6625467a1f9433aab5edd9407c" name="a0e90db6625467a1f9433aab5edd9407c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e90db6625467a1f9433aab5edd9407c">&#9670;&#160;</a></span>PrintMembers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool YukkuriMovieMaker.Player.Video.TimelineSourceDescription.PrintMembers </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Text.StringBuilder</td>          <td class="paramname"><span class="paramname"><em>builder</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45341878a6ea86812b6a5bdf0ac4fbbc" name="a45341878a6ea86812b6a5bdf0ac4fbbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45341878a6ea86812b6a5bdf0ac4fbbc">&#9670;&#160;</a></span>ToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string YukkuriMovieMaker.Player.Video.TimelineSourceDescription.ToString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="a2fbd87f6635d736ab5d2320a1e5214a7" name="a2fbd87f6635d736ab5d2320a1e5214a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fbd87f6635d736ab5d2320a1e5214a7">&#9670;&#160;</a></span>EqualityContract</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual global.System.Type YukkuriMovieMaker.Player.Video.TimelineSourceDescription.EqualityContract</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bfda051798fd4b0cf7040813d245234" name="a6bfda051798fd4b0cf7040813d245234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bfda051798fd4b0cf7040813d245234">&#9670;&#160;</a></span>FPS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int YukkuriMovieMaker.Player.Video.TimelineSourceDescription.FPS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>フレームレート (FPS) を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="ad332e0a7a0a8f75629a9f27d3d80cf9d" name="ad332e0a7a0a8f75629a9f27d3d80cf9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad332e0a7a0a8f75629a9f27d3d80cf9d">&#9670;&#160;</a></span>SceneId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Guid YukkuriMovieMaker.Player.Video.TimelineSourceDescription.SceneId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シーンのIDを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a559a44b9d55a8e834f5fa1363aa92c07" name="a559a44b9d55a8e834f5fa1363aa92c07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559a44b9d55a8e834f5fa1363aa92c07">&#9670;&#160;</a></span>Scenes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Commons.ISceneInfo&gt; YukkuriMovieMaker.Player.Video.TimelineSourceDescription.Scenes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シーンのリストを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a6a9995d9b8f3a9c3542182265dfe0567" name="a6a9995d9b8f3a9c3542182265dfe0567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a9995d9b8f3a9c3542182265dfe0567">&#9670;&#160;</a></span>ScreenSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Drawing.Size YukkuriMovieMaker.Player.Video.TimelineSourceDescription.ScreenSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>画面サイズを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="a24fc506f7b01260714c463c32fc6d2ba" name="a24fc506f7b01260714c463c32fc6d2ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24fc506f7b01260714c463c32fc6d2ba">&#9670;&#160;</a></span>TimelineDuration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Player.Video.FrameTime YukkuriMovieMaker.Player.Video.TimelineSourceDescription.TimelineDuration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>タイムラインの長さを取得または設定します。 </p>
+
+</div>
+</div>
+<a id="ab63abbeeff2f01723b97bb4c7b714247" name="ab63abbeeff2f01723b97bb4c7b714247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab63abbeeff2f01723b97bb4c7b714247">&#9670;&#160;</a></span>TimelinePosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Player.Video.FrameTime YukkuriMovieMaker.Player.Video.TimelineSourceDescription.TimelinePosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>タイムライン上の現在位置を取得または設定します。 </p>
+
+</div>
+</div>
+<a id="ad5e8227367d5aef41ecbafe9e0664990" name="ad5e8227367d5aef41ecbafe9e0664990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5e8227367d5aef41ecbafe9e0664990">&#9670;&#160;</a></span>Usage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Player.Video.TimelineSourceUsage YukkuriMovieMaker.Player.Video.TimelineSourceDescription.Usage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>タイムラインソースの使用方法を取得または設定します。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Player/Video/<a class="el" href="_timeline_source_description_8cs.html">TimelineSourceDescription.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_player.html">Player</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_player_1_1_video.html">Video</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_player_1_1_video_1_1_timeline_source_description.html">TimelineSourceDescription</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

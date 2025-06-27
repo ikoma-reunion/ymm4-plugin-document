@@ -1,0 +1,824 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.DataObjectFormatHandler クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_data_object_format_handler.html','','class_yukkuri_movie_maker_1_1_commons_1_1_data_object_format_handler-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.DataObjectFormatHandler クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>クリップボードやドラッグアンドドロップで渡される IDataObject を操作し、 ファイル、テキスト、YMM4独自のJSON形式などのデータを統一的に扱うためのヘルパークラスです。  
+ <a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+公開型</h2></td></tr>
+<tr class="memitem:a43bb573906437f4665cb9fb1077ff55f" id="r_a43bb573906437f4665cb9fb1077ff55f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43bb573906437f4665cb9fb1077ff55f">AdditionalFormats</a> { <a class="el" href="#a43bb573906437f4665cb9fb1077ff55fa55505ba281b015ec31f03ccb151b2a34">PNG</a>
+, <a class="el" href="#a43bb573906437f4665cb9fb1077ff55fa7a0587f7388be36579d7786b28b36f0c">FileContents</a>
+, <a class="el" href="#a43bb573906437f4665cb9fb1077ff55fa1f03e3e1722b258546c55593390b12ab">FileGroupDescriptorW</a>
+, <a class="el" href="#a43bb573906437f4665cb9fb1077ff55fa9536c4ccf568951f274f3144d20ec1e6">YMM4Json</a>
+ }</td></tr>
+<tr class="memdesc:a43bb573906437f4665cb9fb1077ff55f"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectで利用される追加のデータフォーマットを定義します。  <a href="#a43bb573906437f4665cb9fb1077ff55f">[詳解]</a><br /></td></tr>
+<tr class="memitem:ab5dbe2ee40ddc7f15506d3988fb973f8" id="r_ab5dbe2ee40ddc7f15506d3988fb973f8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5dbe2ee40ddc7f15506d3988fb973f8">YMM4JsonKeys</a> { <a class="el" href="#ab5dbe2ee40ddc7f15506d3988fb973f8a9dea4016dbcc290b773ab2fae678aaa8">Items</a>
+, <a class="el" href="#ab5dbe2ee40ddc7f15506d3988fb973f8a292bf9aee88f1433a7f880368a306c8c">VideoEffects</a>
+, <a class="el" href="#ab5dbe2ee40ddc7f15506d3988fb973f8a3629951178ffe272d205aab56b7a4c94">AudioEffects</a>
+ }</td></tr>
+<tr class="memdesc:ab5dbe2ee40ddc7f15506d3988fb973f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">YMM4が標準で定義しているJSONデータのキーを定義します。  <a href="#ab5dbe2ee40ddc7f15506d3988fb973f8">[詳解]</a><br /></td></tr>
+<tr class="memitem:a04b0ac7e0b2672c3b5a909a999e10049" id="r_a04b0ac7e0b2672c3b5a909a999e10049"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04b0ac7e0b2672c3b5a909a999e10049">DataType</a> { <a class="el" href="#a04b0ac7e0b2672c3b5a909a999e10049a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="#a04b0ac7e0b2672c3b5a909a999e10049a0b27918290ff5323bea1e3b78a9cf04e">File</a>
+, <a class="el" href="#a04b0ac7e0b2672c3b5a909a999e10049a9dffbf69ffba8bc38bc4e01abf4b1675">Text</a>
+, <a class="el" href="#a04b0ac7e0b2672c3b5a909a999e10049a9536c4ccf568951f274f3144d20ec1e6">YMM4Json</a>
+ }</td></tr>
+<tr class="memdesc:a04b0ac7e0b2672c3b5a909a999e10049"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectに含まれるデータの種類を定義します。  <a href="#a04b0ac7e0b2672c3b5a909a999e10049">[詳解]</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a05ae3d5b57a7708e672a2ba5880388f0" id="r_a05ae3d5b57a7708e672a2ba5880388f0"><td class="memItemLeft" align="right" valign="top">global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Commons.DataObjectFormatHandler.DataType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05ae3d5b57a7708e672a2ba5880388f0">GetPriorityOrderedContainsFormats</a> ()</td></tr>
+<tr class="memdesc:a05ae3d5b57a7708e672a2ba5880388f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectに含まれるデータの種類を優先度順に取得します。  <br /></td></tr>
+<tr class="memitem:abe98da10f851480fb83d710d61615c55" id="r_abe98da10f851480fb83d710d61615c55"><td class="memItemLeft" align="right" valign="top">global::System.Collections.Generic.IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe98da10f851480fb83d710d61615c55">GetPriorityOrderedContainsYMM4JsonKeys</a> ()</td></tr>
+<tr class="memdesc:abe98da10f851480fb83d710d61615c55"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectに含まれるYMM4Jsonのキーを優先度順に取得します。  <br /></td></tr>
+<tr class="memitem:adc85533335340310a1592d70062dfa1d" id="r_adc85533335340310a1592d70062dfa1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc85533335340310a1592d70062dfa1d">HasAny</a> ()</td></tr>
+<tr class="memdesc:adc85533335340310a1592d70062dfa1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectに何らかのデータ（ファイル、テキスト、YMM4Jsonのいずれか）が含まれているかどうかを判定します。  <br /></td></tr>
+<tr class="memitem:ae6d4ade83d2c40118c6968fddb82ac3a" id="r_ae6d4ade83d2c40118c6968fddb82ac3a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d4ade83d2c40118c6968fddb82ac3a">HasFiles</a> ()</td></tr>
+<tr class="memdesc:ae6d4ade83d2c40118c6968fddb82ac3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectにファイルデータが含まれているかどうかを判定します。  <br /></td></tr>
+<tr class="memitem:a344139a3b2d6ee763bfa005ffd1030d0" id="r_a344139a3b2d6ee763bfa005ffd1030d0"><td class="memItemLeft" align="right" valign="top">global::System.Collections.Generic.IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a344139a3b2d6ee763bfa005ffd1030d0">GetFiles</a> ()</td></tr>
+<tr class="memdesc:a344139a3b2d6ee763bfa005ffd1030d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectからファイルパスのリストを取得します。  <br /></td></tr>
+<tr class="memitem:a9daa842829128ab46013356e04214b71" id="r_a9daa842829128ab46013356e04214b71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9daa842829128ab46013356e04214b71">HasText</a> ()</td></tr>
+<tr class="memdesc:a9daa842829128ab46013356e04214b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectにテキストデータが含まれているかどうかを判定します。  <br /></td></tr>
+<tr class="memitem:a2fb62f6a18bf98b8dff95c8160841884" id="r_a2fb62f6a18bf98b8dff95c8160841884"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fb62f6a18bf98b8dff95c8160841884">GetText</a> ()</td></tr>
+<tr class="memdesc:a2fb62f6a18bf98b8dff95c8160841884"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectからテキストデータを取得します。  <br /></td></tr>
+<tr class="memitem:afa9dbd802b67f2eeca41ca3947e861c1" id="r_afa9dbd802b67f2eeca41ca3947e861c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa9dbd802b67f2eeca41ca3947e861c1">HasAnyYMM4Json</a> ()</td></tr>
+<tr class="memdesc:afa9dbd802b67f2eeca41ca3947e861c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectに何らかのYMM4Jsonデータが含まれているかどうかを判定します。  <br /></td></tr>
+<tr class="memitem:a1949fb88450cccb1b8d8340ed750fe93" id="r_a1949fb88450cccb1b8d8340ed750fe93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1949fb88450cccb1b8d8340ed750fe93">HasYMM4Json</a> (string key)</td></tr>
+<tr class="memdesc:a1949fb88450cccb1b8d8340ed750fe93"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectに指定したキーのYMM4Jsonデータが含まれているかどうかを判定します。  <br /></td></tr>
+<tr class="memitem:a2ceab4f6ba137e5e0ddb52141a7fa7b4" id="r_a2ceab4f6ba137e5e0ddb52141a7fa7b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ceab4f6ba137e5e0ddb52141a7fa7b4">HasYMM4Json</a> (global::YukkuriMovieMaker.Commons.DataObjectFormatHandler.YMM4JsonKeys key)</td></tr>
+<tr class="memdesc:a2ceab4f6ba137e5e0ddb52141a7fa7b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectに指定したキーのYMM4Jsonデータが含まれているかどうかを判定します。  <br /></td></tr>
+<tr class="memitem:af55ee930a8338b02703d9289d205e32f" id="r_af55ee930a8338b02703d9289d205e32f"><td class="memItemLeft" align="right" valign="top">global::System.ValueTuple&lt; bool, T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af55ee930a8338b02703d9289d205e32f">ReadYMM4Json&lt; T &gt;</a> (global::YukkuriMovieMaker.Commons.DataObjectFormatHandler.YMM4JsonKeys key)</td></tr>
+<tr class="memdesc:af55ee930a8338b02703d9289d205e32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したキーのYMM4Jsonデータを読み込み、指定した型にデシリアライズします。  <br /></td></tr>
+<tr class="memitem:a5f9b12aeb6b6b249cf556da62e526c4c" id="r_a5f9b12aeb6b6b249cf556da62e526c4c"><td class="memItemLeft" align="right" valign="top">global::System.ValueTuple&lt; bool, T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f9b12aeb6b6b249cf556da62e526c4c">ReadYMM4Json&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;</a> (string key)</td></tr>
+<tr class="memdesc:a5f9b12aeb6b6b249cf556da62e526c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したキーのYMM4Jsonデータを読み込み、指定した型にデシリアライズします。  <br /></td></tr>
+<tr class="memitem:aa889960b7aaf6b4e5a09de72ab23f50e" id="r_aa889960b7aaf6b4e5a09de72ab23f50e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa889960b7aaf6b4e5a09de72ab23f50e">ReadYMM4JsonString</a> (string key)</td></tr>
+<tr class="memdesc:aa889960b7aaf6b4e5a09de72ab23f50e"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したキーのYMM4Jsonデータを文字列として読み込みます。  <br /></td></tr>
+<tr class="memitem:aef4f39f8a880a3c95496c6c9219c2ddf" id="r_aef4f39f8a880a3c95496c6c9219c2ddf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef4f39f8a880a3c95496c6c9219c2ddf">DataObjectFormatHandler</a> (global::System.Windows.IDataObject dataObject)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a98eff408fa282d1aa87625d11137de3c" id="r_a98eff408fa282d1aa87625d11137de3c"><td class="memItemLeft" align="right" valign="top">static global::YukkuriMovieMaker.Commons.DataObjectFormatHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98eff408fa282d1aa87625d11137de3c">FromClipboard</a> ()</td></tr>
+<tr class="memdesc:a98eff408fa282d1aa87625d11137de3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">クリップボードからDataObjectFormatHandlerを作成します。  <br /></td></tr>
+<tr class="memitem:ac8643c33ffbed628a0f5dda32d3ce6f9" id="r_ac8643c33ffbed628a0f5dda32d3ce6f9"><td class="memItemLeft" align="right" valign="top">static global::YukkuriMovieMaker.Commons.DataObjectFormatHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8643c33ffbed628a0f5dda32d3ce6f9">FromDataObject</a> (global::System.Windows.IDataObject dataObject)</td></tr>
+<tr class="memdesc:ac8643c33ffbed628a0f5dda32d3ce6f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したIDataObjectからDataObjectFormatHandlerを作成します。  <br /></td></tr>
+<tr class="memitem:a16f3e90439f99497a0ee64f12d2e4e75" id="r_a16f3e90439f99497a0ee64f12d2e4e75"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16f3e90439f99497a0ee64f12d2e4e75">CopyObjectToClipboardAsYMM4Json&lt; T &gt;</a> (global::YukkuriMovieMaker.Commons.DataObjectFormatHandler.YMM4JsonKeys key, [global::System.Runtime.CompilerServices.Nullable(1)] T value, global::Newtonsoft.Json.JsonSerializerSettings settings=null)</td></tr>
+<tr class="memdesc:a16f3e90439f99497a0ee64f12d2e4e75"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクトをYMM4Json形式でクリップボードにコピーします。  <br /></td></tr>
+<tr class="memitem:aa896dd99f77c281bea912f93af296b53" id="r_aa896dd99f77c281bea912f93af296b53"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa896dd99f77c281bea912f93af296b53">CopyObjectToClipboardAsYMM4Json&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;</a> (string key, T value, [global::System.Runtime.CompilerServices.Nullable(2)] global::Newtonsoft.Json.JsonSerializerSettings settings=null)</td></tr>
+<tr class="memdesc:aa896dd99f77c281bea912f93af296b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクトをYMM4Json形式でクリップボードにコピーします。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:ae7d1dbab352c735388e294fd9fa42d0f" id="r_ae7d1dbab352c735388e294fd9fa42d0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7d1dbab352c735388e294fd9fa42d0f">DataObjectFormatHandler</a> (global::System.Windows.IDataObject dataObject, bool isClipboard)</td></tr>
+<tr class="memdesc:ae7d1dbab352c735388e294fd9fa42d0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">DataObjectFormatHandlerの新しいインスタンスを初期化します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-static-methods" class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+静的限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a58b2ff59334f192d60d82c058ac4d8b0" id="r_a58b2ff59334f192d60d82c058ac4d8b0"><td class="memItemLeft" align="right" valign="top">static global::System.Windows.IDataObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58b2ff59334f192d60d82c058ac4d8b0">GetDataObjectFromClipboard</a> ()</td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>クリップボードやドラッグアンドドロップで渡される IDataObject を操作し、 ファイル、テキスト、YMM4独自のJSON形式などのデータを統一的に扱うためのヘルパークラスです。 </p>
+<p>このクラスは、クリップボードやD&amp;D操作から取得したT:System.Windows.IDataObjectをラップし、 含まれるデータの種類を判別したり、データを抽出したりするためのメソッドを提供します。 YMM4独自のJSON形式（タイムラインアイテムやエフェクトなど）のシリアライズ・デシリアライズもサポートしており、 アプリケーション内でのデータ交換を容易にします。 </p>
+</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">列挙型メンバ詳解</h2>
+<a id="a43bb573906437f4665cb9fb1077ff55f" name="a43bb573906437f4665cb9fb1077ff55f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43bb573906437f4665cb9fb1077ff55f">&#9670;&#160;</a></span>AdditionalFormats</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a43bb573906437f4665cb9fb1077ff55f">YukkuriMovieMaker.Commons.DataObjectFormatHandler.AdditionalFormats</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectで利用される追加のデータフォーマットを定義します。 </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a id="a43bb573906437f4665cb9fb1077ff55fa55505ba281b015ec31f03ccb151b2a34" name="a43bb573906437f4665cb9fb1077ff55fa55505ba281b015ec31f03ccb151b2a34"></a>PNG&#160;</td><td class="fielddoc"><p>PNG画像形式 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a43bb573906437f4665cb9fb1077ff55fa7a0587f7388be36579d7786b28b36f0c" name="a43bb573906437f4665cb9fb1077ff55fa7a0587f7388be36579d7786b28b36f0c"></a>FileContents&#160;</td><td class="fielddoc"><p>ファイルの内容 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a43bb573906437f4665cb9fb1077ff55fa1f03e3e1722b258546c55593390b12ab" name="a43bb573906437f4665cb9fb1077ff55fa1f03e3e1722b258546c55593390b12ab"></a>FileGroupDescriptorW&#160;</td><td class="fielddoc"><p>ファイルグループディスクリプタ(Unicode) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a43bb573906437f4665cb9fb1077ff55fa9536c4ccf568951f274f3144d20ec1e6" name="a43bb573906437f4665cb9fb1077ff55fa9536c4ccf568951f274f3144d20ec1e6"></a>YMM4Json&#160;</td><td class="fielddoc"><p>YMM4独自のJSON形式 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a04b0ac7e0b2672c3b5a909a999e10049" name="a04b0ac7e0b2672c3b5a909a999e10049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04b0ac7e0b2672c3b5a909a999e10049">&#9670;&#160;</a></span>DataType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a04b0ac7e0b2672c3b5a909a999e10049">YukkuriMovieMaker.Commons.DataObjectFormatHandler.DataType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectに含まれるデータの種類を定義します。 </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a id="a04b0ac7e0b2672c3b5a909a999e10049a6adf97f83acf6453d4a6a4b1070f3754" name="a04b0ac7e0b2672c3b5a909a999e10049a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>データなし </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a04b0ac7e0b2672c3b5a909a999e10049a0b27918290ff5323bea1e3b78a9cf04e" name="a04b0ac7e0b2672c3b5a909a999e10049a0b27918290ff5323bea1e3b78a9cf04e"></a>File&#160;</td><td class="fielddoc"><p>ファイル </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a04b0ac7e0b2672c3b5a909a999e10049a9dffbf69ffba8bc38bc4e01abf4b1675" name="a04b0ac7e0b2672c3b5a909a999e10049a9dffbf69ffba8bc38bc4e01abf4b1675"></a>Text&#160;</td><td class="fielddoc"><p>テキスト </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a04b0ac7e0b2672c3b5a909a999e10049a9536c4ccf568951f274f3144d20ec1e6" name="a04b0ac7e0b2672c3b5a909a999e10049a9536c4ccf568951f274f3144d20ec1e6"></a>YMM4Json&#160;</td><td class="fielddoc"><p>YMM4独自のJSON形式 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ab5dbe2ee40ddc7f15506d3988fb973f8" name="ab5dbe2ee40ddc7f15506d3988fb973f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5dbe2ee40ddc7f15506d3988fb973f8">&#9670;&#160;</a></span>YMM4JsonKeys</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ab5dbe2ee40ddc7f15506d3988fb973f8">YukkuriMovieMaker.Commons.DataObjectFormatHandler.YMM4JsonKeys</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>YMM4が標準で定義しているJSONデータのキーを定義します。 </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a id="ab5dbe2ee40ddc7f15506d3988fb973f8a9dea4016dbcc290b773ab2fae678aaa8" name="ab5dbe2ee40ddc7f15506d3988fb973f8a9dea4016dbcc290b773ab2fae678aaa8"></a>Items&#160;</td><td class="fielddoc"><p>タイムラインアイテム </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab5dbe2ee40ddc7f15506d3988fb973f8a292bf9aee88f1433a7f880368a306c8c" name="ab5dbe2ee40ddc7f15506d3988fb973f8a292bf9aee88f1433a7f880368a306c8c"></a>VideoEffects&#160;</td><td class="fielddoc"><p>ビデオエフェクト </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab5dbe2ee40ddc7f15506d3988fb973f8a3629951178ffe272d205aab56b7a4c94" name="ab5dbe2ee40ddc7f15506d3988fb973f8a3629951178ffe272d205aab56b7a4c94"></a>AudioEffects&#160;</td><td class="fielddoc"><p>オーディオエフェクト </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="ae7d1dbab352c735388e294fd9fa42d0f" name="ae7d1dbab352c735388e294fd9fa42d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7d1dbab352c735388e294fd9fa42d0f">&#9670;&#160;</a></span>DataObjectFormatHandler() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Commons.DataObjectFormatHandler.DataObjectFormatHandler </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Windows.IDataObject</td>          <td class="paramname"><span class="paramname"><em>dataObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isClipboard</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>DataObjectFormatHandlerの新しいインスタンスを初期化します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataObject</td><td>操作対象のIDataObject</td></tr>
+    <tr><td class="paramname">isClipboard</td><td>データがクリップボード由来であるかを示す値</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aef4f39f8a880a3c95496c6c9219c2ddf" name="aef4f39f8a880a3c95496c6c9219c2ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef4f39f8a880a3c95496c6c9219c2ddf">&#9670;&#160;</a></span>DataObjectFormatHandler() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Commons.DataObjectFormatHandler.DataObjectFormatHandler </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Windows.IDataObject</td>          <td class="paramname"><span class="paramname"><em>dataObject</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a16f3e90439f99497a0ee64f12d2e4e75" name="a16f3e90439f99497a0ee64f12d2e4e75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16f3e90439f99497a0ee64f12d2e4e75">&#9670;&#160;</a></span>CopyObjectToClipboardAsYMM4Json&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DataObjectFormatHandler.CopyObjectToClipboardAsYMM4Json&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Commons.DataObjectFormatHandler.YMM4JsonKeys</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System::Runtime::CompilerServices::Nullable(1)] T</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.Newtonsoft.Json.JsonSerializerSettings</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オブジェクトをYMM4Json形式でクリップボードにコピーします。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>コピーするオブジェクトの型</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>YMM4Jsonのキー</td></tr>
+    <tr><td class="paramname">value</td><td>コピーするオブジェクト</td></tr>
+    <tr><td class="paramname">settings</td><td>JSONシリアライズ設定</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line">var items = <span class="keyword">new</span> List&lt;ItemBase&gt;() { <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_yukkuri_movie_maker_1_1_settings.html#ad47bc1ebded8727997371a7dd9976d4ead89734267d6f665b411f49f013149267">VideoItem</a>() };</div>
+<div class="line"><a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_data_object_format_handler.html">DataObjectFormatHandler</a>.CopyObjectToClipboardAsYMM4Json(<a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_data_object_format_handler.html">DataObjectFormatHandler</a>.<a class="code hl_enumeration" href="#ab5dbe2ee40ddc7f15506d3988fb973f8">YMM4JsonKeys</a>.Items, items);</div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_data_object_format_handler_html"><div class="ttname"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_data_object_format_handler.html">YukkuriMovieMaker.Commons.DataObjectFormatHandler</a></div><div class="ttdoc">クリップボードやドラッグアンドドロップで渡される IDataObject を操作し、 ファイル、テキスト、YMM4独自のJSON形式などのデータを統一的に扱うためのヘルパークラスです。</div><div class="ttdef"><b>Definition</b> DataObjectFormatHandler.cs:34</div></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_data_object_format_handler_html_ab5dbe2ee40ddc7f15506d3988fb973f8"><div class="ttname"><a href="#ab5dbe2ee40ddc7f15506d3988fb973f8">YukkuriMovieMaker.Commons.DataObjectFormatHandler.YMM4JsonKeys</a></div><div class="ttdeci">YMM4JsonKeys</div><div class="ttdoc">YMM4が標準で定義しているJSONデータのキーを定義します。</div><div class="ttdef"><b>Definition</b> DataObjectFormatHandler.cs:633</div></div>
+<div class="ttc" id="anamespace_yukkuri_movie_maker_1_1_settings_html_ad47bc1ebded8727997371a7dd9976d4ead89734267d6f665b411f49f013149267"><div class="ttname"><a href="namespace_yukkuri_movie_maker_1_1_settings.html#ad47bc1ebded8727997371a7dd9976d4ead89734267d6f665b411f49f013149267">YukkuriMovieMaker.Settings.FileGroupType.VideoItem</a></div><div class="ttdeci">@ VideoItem</div><div class="ttdoc">ビデオアイテム。</div><div class="ttdef"><b>Definition</b> FileGroupType.cs:17</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="aa896dd99f77c281bea912f93af296b53" name="aa896dd99f77c281bea912f93af296b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa896dd99f77c281bea912f93af296b53">&#9670;&#160;</a></span>CopyObjectToClipboardAsYMM4Json&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.DataObjectFormatHandler.CopyObjectToClipboardAsYMM4Json&lt;[global.System.Runtime.CompilerServices.Nullable(2)] T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System::Runtime::CompilerServices::Nullable(2)] global.Newtonsoft.Json.JsonSerializerSettings</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オブジェクトをYMM4Json形式でクリップボードにコピーします。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>コピーするオブジェクトの型</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>YMM4Jsonのキー</td></tr>
+    <tr><td class="paramname">value</td><td>コピーするオブジェクト</td></tr>
+    <tr><td class="paramname">settings</td><td>JSONシリアライズ設定</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line">var items = <span class="keyword">new</span> List&lt;ItemBase&gt;() { <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_yukkuri_movie_maker_1_1_settings.html#ad47bc1ebded8727997371a7dd9976d4ead89734267d6f665b411f49f013149267">VideoItem</a>() };</div>
+<div class="line"><a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_data_object_format_handler.html">DataObjectFormatHandler</a>.CopyObjectToClipboardAsYMM4Json(<span class="stringliteral">&quot;MyCustomItems&quot;</span>, items);</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="a98eff408fa282d1aa87625d11137de3c" name="a98eff408fa282d1aa87625d11137de3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98eff408fa282d1aa87625d11137de3c">&#9670;&#160;</a></span>FromClipboard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Commons.DataObjectFormatHandler YukkuriMovieMaker.Commons.DataObjectFormatHandler.FromClipboard </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>クリップボードからDataObjectFormatHandlerを作成します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>クリップボードのデータをラップしたDataObjectFormatHandlerの新しいインスタンス</dd></dl>
+
+</div>
+</div>
+<a id="ac8643c33ffbed628a0f5dda32d3ce6f9" name="ac8643c33ffbed628a0f5dda32d3ce6f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8643c33ffbed628a0f5dda32d3ce6f9">&#9670;&#160;</a></span>FromDataObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Commons.DataObjectFormatHandler YukkuriMovieMaker.Commons.DataObjectFormatHandler.FromDataObject </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Windows.IDataObject</td>          <td class="paramname"><span class="paramname"><em>dataObject</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定したIDataObjectからDataObjectFormatHandlerを作成します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataObject</td><td>ラップするIDataObject</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>指定したIDataObjectをラップしたDataObjectFormatHandlerの新しいインスタンス</dd></dl>
+
+</div>
+</div>
+<a id="a58b2ff59334f192d60d82c058ac4d8b0" name="a58b2ff59334f192d60d82c058ac4d8b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58b2ff59334f192d60d82c058ac4d8b0">&#9670;&#160;</a></span>GetDataObjectFromClipboard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Windows.IDataObject YukkuriMovieMaker.Commons.DataObjectFormatHandler.GetDataObjectFromClipboard </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a344139a3b2d6ee763bfa005ffd1030d0" name="a344139a3b2d6ee763bfa005ffd1030d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a344139a3b2d6ee763bfa005ffd1030d0">&#9670;&#160;</a></span>GetFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt; string &gt; YukkuriMovieMaker.Commons.DataObjectFormatHandler.GetFiles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectからファイルパスのリストを取得します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>ファイルパスのシーケンス</dd></dl>
+<p>FileDrop形式だけでなく、PNGやBitmap形式のデータも一時ファイルとして保存し、そのパスを返します。 Base64エンコードされたファイルデータもデコードして一時ファイルに保存します。 </p>
+
+</div>
+</div>
+<a id="a05ae3d5b57a7708e672a2ba5880388f0" name="a05ae3d5b57a7708e672a2ba5880388f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05ae3d5b57a7708e672a2ba5880388f0">&#9670;&#160;</a></span>GetPriorityOrderedContainsFormats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt; global.YukkuriMovieMaker.Commons.DataObjectFormatHandler.DataType &gt; YukkuriMovieMaker.Commons.DataObjectFormatHandler.GetPriorityOrderedContainsFormats </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectに含まれるデータの種類を優先度順に取得します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>含まれるデータの種類を示すDataTypeのシーケンス</dd></dl>
+<p>YMM4Json、ファイル、テキストの順で優先されます。</p>
+
+</div>
+</div>
+<a id="abe98da10f851480fb83d710d61615c55" name="abe98da10f851480fb83d710d61615c55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe98da10f851480fb83d710d61615c55">&#9670;&#160;</a></span>GetPriorityOrderedContainsYMM4JsonKeys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt; string &gt; YukkuriMovieMaker.Commons.DataObjectFormatHandler.GetPriorityOrderedContainsYMM4JsonKeys </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectに含まれるYMM4Jsonのキーを優先度順に取得します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>含まれるYMM4Jsonのキーのシーケンス</dd></dl>
+
+</div>
+</div>
+<a id="a2fb62f6a18bf98b8dff95c8160841884" name="a2fb62f6a18bf98b8dff95c8160841884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fb62f6a18bf98b8dff95c8160841884">&#9670;&#160;</a></span>GetText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Commons.DataObjectFormatHandler.GetText </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectからテキストデータを取得します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>取得したテキストデータ。取得に失敗した場合はnull。</dd></dl>
+
+</div>
+</div>
+<a id="adc85533335340310a1592d70062dfa1d" name="adc85533335340310a1592d70062dfa1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc85533335340310a1592d70062dfa1d">&#9670;&#160;</a></span>HasAny()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Commons.DataObjectFormatHandler.HasAny </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectに何らかのデータ（ファイル、テキスト、YMM4Jsonのいずれか）が含まれているかどうかを判定します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>データが含まれている場合はtrue、それ以外はfalse。</dd></dl>
+
+</div>
+</div>
+<a id="afa9dbd802b67f2eeca41ca3947e861c1" name="afa9dbd802b67f2eeca41ca3947e861c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa9dbd802b67f2eeca41ca3947e861c1">&#9670;&#160;</a></span>HasAnyYMM4Json()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Commons.DataObjectFormatHandler.HasAnyYMM4Json </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectに何らかのYMM4Jsonデータが含まれているかどうかを判定します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>YMM4Jsonデータが含まれている場合はtrue、それ以外はfalse。</dd></dl>
+
+</div>
+</div>
+<a id="ae6d4ade83d2c40118c6968fddb82ac3a" name="ae6d4ade83d2c40118c6968fddb82ac3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d4ade83d2c40118c6968fddb82ac3a">&#9670;&#160;</a></span>HasFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Commons.DataObjectFormatHandler.HasFiles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectにファイルデータが含まれているかどうかを判定します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>ファイルデータが含まれている場合はtrue、それ以外はfalse。</dd></dl>
+
+</div>
+</div>
+<a id="a9daa842829128ab46013356e04214b71" name="a9daa842829128ab46013356e04214b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9daa842829128ab46013356e04214b71">&#9670;&#160;</a></span>HasText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Commons.DataObjectFormatHandler.HasText </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectにテキストデータが含まれているかどうかを判定します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>テキストデータが含まれている場合はtrue、それ以外はfalse。</dd></dl>
+
+</div>
+</div>
+<a id="a2ceab4f6ba137e5e0ddb52141a7fa7b4" name="a2ceab4f6ba137e5e0ddb52141a7fa7b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ceab4f6ba137e5e0ddb52141a7fa7b4">&#9670;&#160;</a></span>HasYMM4Json() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Commons.DataObjectFormatHandler.HasYMM4Json </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Commons.DataObjectFormatHandler.YMM4JsonKeys</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectに指定したキーのYMM4Jsonデータが含まれているかどうかを判定します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>確認するYMM4Jsonのキー</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>指定したキーのYMM4Jsonデータが含まれている場合はtrue、それ以外はfalse。</dd></dl>
+
+</div>
+</div>
+<a id="a1949fb88450cccb1b8d8340ed750fe93" name="a1949fb88450cccb1b8d8340ed750fe93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1949fb88450cccb1b8d8340ed750fe93">&#9670;&#160;</a></span>HasYMM4Json() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Commons.DataObjectFormatHandler.HasYMM4Json </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IDataObjectに指定したキーのYMM4Jsonデータが含まれているかどうかを判定します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>確認するYMM4Jsonのキー</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>指定したキーのYMM4Jsonデータが含まれている場合はtrue、それ以外はfalse。</dd></dl>
+
+</div>
+</div>
+<a id="af55ee930a8338b02703d9289d205e32f" name="af55ee930a8338b02703d9289d205e32f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af55ee930a8338b02703d9289d205e32f">&#9670;&#160;</a></span>ReadYMM4Json&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.ValueTuple&lt; bool, T &gt; YukkuriMovieMaker.Commons.DataObjectFormatHandler.ReadYMM4Json&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Commons.DataObjectFormatHandler.YMM4JsonKeys</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したキーのYMM4Jsonデータを読み込み、指定した型にデシリアライズします。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>デシリアライズする型</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>読み込むYMM4Jsonのキー</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>デシリアライズしたオブジェクトと、それがキャッシュからのものかを示すタプル。データが存在しない場合は(false, default(T))。</dd></dl>
+
+</div>
+</div>
+<a id="a5f9b12aeb6b6b249cf556da62e526c4c" name="a5f9b12aeb6b6b249cf556da62e526c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f9b12aeb6b6b249cf556da62e526c4c">&#9670;&#160;</a></span>ReadYMM4Json&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.ValueTuple&lt; bool, T &gt; YukkuriMovieMaker.Commons.DataObjectFormatHandler.ReadYMM4Json&lt;[global.System.Runtime.CompilerServices.Nullable(2)] T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したキーのYMM4Jsonデータを読み込み、指定した型にデシリアライズします。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>デシリアライズする型</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>読み込むYMM4Jsonのキー</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>デシリアライズしたオブジェクトと、それがキャッシュからのものかを示すタプル。データが存在しない場合は(false, default(T))。</dd></dl>
+
+</div>
+</div>
+<a id="aa889960b7aaf6b4e5a09de72ab23f50e" name="aa889960b7aaf6b4e5a09de72ab23f50e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa889960b7aaf6b4e5a09de72ab23f50e">&#9670;&#160;</a></span>ReadYMM4JsonString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Commons.DataObjectFormatHandler.ReadYMM4JsonString </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したキーのYMM4Jsonデータを文字列として読み込みます。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>読み込むYMM4Jsonのキー</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>YMM4Jsonの文字列。データが存在しない場合はnull。</dd></dl>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_data_object_format_handler_8cs.html">DataObjectFormatHandler.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_data_object_format_handler.html">DataObjectFormatHandler</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.VideoBitRate クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate.html','','class_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.VideoBitRate クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>ビデオのビットレート計算に関するユーティリティクラスです。  
+ <a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a9536ae6c8f0a1ce0558fd01ae704ff8f" id="r_a9536ae6c8f0a1ce0558fd01ae704ff8f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9536ae6c8f0a1ce0558fd01ae704ff8f">GetBitRate</a> (int width, int height, int fps, int length, int audiokbps, long totalFileKbytes)</td></tr>
+<tr class="memdesc:a9536ae6c8f0a1ce0558fd01ae704ff8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたパラメータに基づいてビデオのビットレートを計算します。  <br /></td></tr>
+<tr class="memitem:ace7f5e84ae5c00ba0a4d55d668858e9a" id="r_ace7f5e84ae5c00ba0a4d55d668858e9a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace7f5e84ae5c00ba0a4d55d668858e9a">GetBitRateH264</a> (int width, int height, int fps, int length, int audiokbps, long totalFileKbytes, <a class="el" href="namespace_yukkuri_movie_maker_1_1_commons.html#abb1d552117ae008c49bc347337edffac">H264Profile</a> profile, H264Level level)</td></tr>
+<tr class="memdesc:ace7f5e84ae5c00ba0a4d55d668858e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">H.264エンコーディングのプロファイルとレベルを考慮して、ビデオのビットレートを計算します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>ビデオのビットレート計算に関するユーティリティクラスです。 </p>
+<p>このクラスは、目標とするファイルサイズやビデオの特性（解像度、フレームレートなど）に基づいて、 適切なビデオビットレートを算出するための静的メソッドを提供します。 H.264エンコーディングに特化したビットレート計算もサポートしています。 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a9536ae6c8f0a1ce0558fd01ae704ff8f" name="a9536ae6c8f0a1ce0558fd01ae704ff8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9536ae6c8f0a1ce0558fd01ae704ff8f">&#9670;&#160;</a></span>GetBitRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int YukkuriMovieMaker.Commons.VideoBitRate.GetBitRate </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fps</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>length</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>audiokbps</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>totalFileKbytes</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたパラメータに基づいてビデオのビットレートを計算します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>ビデオの幅 (ピクセル)。</td></tr>
+    <tr><td class="paramname">height</td><td>ビデオの高さ (ピクセル)。</td></tr>
+    <tr><td class="paramname">fps</td><td>ビデオのフレームレート (fps)。</td></tr>
+    <tr><td class="paramname">length</td><td>ビデオのフレーム数。</td></tr>
+    <tr><td class="paramname">audiokbps</td><td>オーディオのビットレート (kbps)。</td></tr>
+    <tr><td class="paramname">totalFileKbytes</td><td>目標とするファイルサイズ (KB)。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>計算されたビデオのビットレート (kbps)。</dd></dl>
+<p>このメソッドは、目標ファイルサイズからオーディオのサイズを差し引き、残りをビデオに割り当てることでビットレートを算出します。 計算されたビットレートは、ビデオの解像度とフレームレートに基づいた理論上の最大値、および約2Gbps (2097151kbps) に制限されます。 これは、一般的なビデオエンコーディングにおけるビットレートの上限を考慮したものです。 </p>
+<div class="fragment"><div class="line"><span class="comment">// 1920x1080, 30fps, 2分間のビデオを目標ファイルサイズ100MB、オーディオ128kbpsでエンコードする場合のビデオビットレートを計算</span></div>
+<div class="line"><span class="keywordtype">int</span> width = 1920;</div>
+<div class="line"><span class="keywordtype">int</span> height = 1080;</div>
+<div class="line"><span class="keywordtype">int</span> fps = 30;</div>
+<div class="line"><span class="keywordtype">int</span> length = 30 * 60 * 2; <span class="comment">// 2分間 = 3600フレーム</span></div>
+<div class="line"><span class="keywordtype">int</span> audiokbps = 128;</div>
+<div class="line"><span class="keywordtype">long</span> totalFileKbytes = 100 * 1024; <span class="comment">// 100MBをKBに変換</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> videoBitRate = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate.html">VideoBitRate</a>.<a class="code hl_function" href="#a9536ae6c8f0a1ce0558fd01ae704ff8f">GetBitRate</a>(width, height, fps, length, audiokbps, totalFileKbytes);</div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;Calculated video bitrate: {videoBitRate} kbps&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// 目標ファイルサイズが非常に小さい場合の例</span></div>
+<div class="line"><span class="keywordtype">int</span> lowBitRate = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate.html">VideoBitRate</a>.<a class="code hl_function" href="#a9536ae6c8f0a1ce0558fd01ae704ff8f">GetBitRate</a>(1280, 720, 24, 1000, 64, 1000); <span class="comment">// 1MB</span></div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;Calculated low video bitrate: {lowBitRate} kbps&quot;</span>);</div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate_html"><div class="ttname"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate.html">YukkuriMovieMaker.Commons.VideoBitRate</a></div><div class="ttdoc">ビデオのビットレート計算に関するユーティリティクラスです。</div><div class="ttdef"><b>Definition</b> VideoBitRate.cs:14</div></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate_html_a9536ae6c8f0a1ce0558fd01ae704ff8f"><div class="ttname"><a href="#a9536ae6c8f0a1ce0558fd01ae704ff8f">YukkuriMovieMaker.Commons.VideoBitRate.GetBitRate</a></div><div class="ttdeci">static int GetBitRate(int width, int height, int fps, int length, int audiokbps, long totalFileKbytes)</div><div class="ttdoc">指定されたパラメータに基づいてビデオのビットレートを計算します。</div><div class="ttdef"><b>Definition</b> VideoBitRate.cs:48</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="ace7f5e84ae5c00ba0a4d55d668858e9a" name="ace7f5e84ae5c00ba0a4d55d668858e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace7f5e84ae5c00ba0a4d55d668858e9a">&#9670;&#160;</a></span>GetBitRateH264()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int YukkuriMovieMaker.Commons.VideoBitRate.GetBitRateH264 </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fps</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>length</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>audiokbps</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>totalFileKbytes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_yukkuri_movie_maker_1_1_commons.html#abb1d552117ae008c49bc347337edffac">H264Profile</a></td>          <td class="paramname"><span class="paramname"><em>profile</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">H264Level</td>          <td class="paramname"><span class="paramname"><em>level</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>H.264エンコーディングのプロファイルとレベルを考慮して、ビデオのビットレートを計算します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>ビデオの幅 (ピクセル)。</td></tr>
+    <tr><td class="paramname">height</td><td>ビデオの高さ (ピクセル)。</td></tr>
+    <tr><td class="paramname">fps</td><td>ビデオのフレームレート (fps)。</td></tr>
+    <tr><td class="paramname">length</td><td>ビデオのフレーム数。</td></tr>
+    <tr><td class="paramname">audiokbps</td><td>オーディオのビットレート (kbps)。</td></tr>
+    <tr><td class="paramname">totalFileKbytes</td><td>目標とするファイルサイズ (KB)。</td></tr>
+    <tr><td class="paramname">profile</td><td>H.264プロファイル。</td></tr>
+    <tr><td class="paramname">level</td><td>H.264レベル。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>計算されたH.264ビデオのビットレート (kbps)。</dd></dl>
+<p>このメソッドは、まず一般的なビットレートを計算し、その後、指定されたH.264プロファイルとレベルの最大ビットレートにクランプします。 これにより、H.264の仕様に準拠したビットレートが保証され、互換性の問題を防ぎます。 </p>
+<div class="fragment"><div class="line"><span class="comment">// H.264 Highプロファイル、Level 4.1 でのビデオビットレートを計算</span></div>
+<div class="line"><span class="keywordtype">int</span> h264BitRate = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate.html">VideoBitRate</a>.<a class="code hl_function" href="#ace7f5e84ae5c00ba0a4d55d668858e9a">GetBitRateH264</a>(</div>
+<div class="line">    1920, 1080, 30, 3600, 128, 100 * 1024, </div>
+<div class="line">    <a class="code hl_enumeration" href="namespace_yukkuri_movie_maker_1_1_commons.html#abb1d552117ae008c49bc347337edffac">H264Profile</a>.High, H264Level.Level4_1);</div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;Calculated H.264 video bitrate: {h264BitRate} kbps&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// H.264 Baselineプロファイル、Level 3.0 でのビデオビットレートを計算</span></div>
+<div class="line"><span class="keywordtype">int</span> h264LowProfileBitRate = <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate.html">VideoBitRate</a>.<a class="code hl_function" href="#ace7f5e84ae5c00ba0a4d55d668858e9a">GetBitRateH264</a>(</div>
+<div class="line">    640, 480, 25, 1500, 96, 5 * 1024, </div>
+<div class="line">    <a class="code hl_enumeration" href="namespace_yukkuri_movie_maker_1_1_commons.html#abb1d552117ae008c49bc347337edffac">H264Profile</a>.Baseline, H264Level.Level3_0);</div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;Calculated H.264 low profile video bitrate: {h264LowProfileBitRate} kbps&quot;</span>);</div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate_html_ace7f5e84ae5c00ba0a4d55d668858e9a"><div class="ttname"><a href="#ace7f5e84ae5c00ba0a4d55d668858e9a">YukkuriMovieMaker.Commons.VideoBitRate.GetBitRateH264</a></div><div class="ttdeci">static int GetBitRateH264(int width, int height, int fps, int length, int audiokbps, long totalFileKbytes, H264Profile profile, H264Level level)</div><div class="ttdoc">H.264エンコーディングのプロファイルとレベルを考慮して、ビデオのビットレートを計算します。</div><div class="ttdef"><b>Definition</b> VideoBitRate.cs:104</div></div>
+<div class="ttc" id="anamespace_yukkuri_movie_maker_1_1_commons_html_abb1d552117ae008c49bc347337edffac"><div class="ttname"><a href="namespace_yukkuri_movie_maker_1_1_commons.html#abb1d552117ae008c49bc347337edffac">YukkuriMovieMaker.Commons.H264Profile</a></div><div class="ttdeci">H264Profile</div><div class="ttdoc">H.264のプロファイル</div><div class="ttdef"><b>Definition</b> H264Profile.cs:11</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_video_bit_rate_8cs.html">VideoBitRate.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_video_bit_rate.html">VideoBitRate</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.TaskHelper クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_task_helper.html','','class_yukkuri_movie_maker_1_1_commons_1_1_task_helper-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.TaskHelper クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>非同期タスクに関するヘルパーメソッドを提供します。  
+ <a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a9df987c7d503f8dfa891af71572b59a9" id="r_a9df987c7d503f8dfa891af71572b59a9"><td class="memItemLeft" align="right" valign="top">static async global::System.Threading.Tasks.Task&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9df987c7d503f8dfa891af71572b59a9">RetryOnExceptionAsync&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;</a> (global::System.Func&lt; global::System.Threading.Tasks.Task&lt; T &gt; &gt; taskFactory, int retryLimit, global::System.TimeSpan retryDelay, global::System.Func&lt; global::System.Exception, bool &gt; retryPattern, global::System.Action&lt; global::System.Exception, int, global::System.TimeSpan &gt; onPreviewRetryWait, string warningMessage, global::System.Threading.CancellationToken token)</td></tr>
+<tr class="memdesc:a9df987c7d503f8dfa891af71572b59a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたファクトリ関数によって生成されるタスクを、例外発生時に指定された回数だけリトライします。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>非同期タスクに関するヘルパーメソッドを提供します。 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a9df987c7d503f8dfa891af71572b59a9" name="a9df987c7d503f8dfa891af71572b59a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9df987c7d503f8dfa891af71572b59a9">&#9670;&#160;</a></span>RetryOnExceptionAsync&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">async global.System.Threading.Tasks.Task&lt; T &gt; YukkuriMovieMaker.Commons.TaskHelper.RetryOnExceptionAsync&lt;[global.System.Runtime.CompilerServices.Nullable(2)] T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Func&lt; global.System.Threading.Tasks.Task&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>taskFactory</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>retryLimit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.TimeSpan</td>          <td class="paramname"><span class="paramname"><em>retryDelay</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Func&lt; global.System.Exception, bool &gt;</td>          <td class="paramname"><span class="paramname"><em>retryPattern</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Action&lt; global.System.Exception, int, global.System.TimeSpan &gt;</td>          <td class="paramname"><span class="paramname"><em>onPreviewRetryWait</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>warningMessage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.Threading.CancellationToken</td>          <td class="paramname"><span class="paramname"><em>token</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたファクトリ関数によって生成されるタスクを、例外発生時に指定された回数だけリトライします。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>タスクの結果の型。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">taskFactory</td><td>実行するタスクを生成するファクトリ関数。</td></tr>
+    <tr><td class="paramname">retryLimit</td><td>リトライの最大回数。</td></tr>
+    <tr><td class="paramname">retryDelay</td><td>リトライ間の遅延時間。</td></tr>
+    <tr><td class="paramname">retryPattern</td><td>リトライを試みるべき例外を決定する関数。trueを返すとリトライします。</td></tr>
+    <tr><td class="paramname">onPreviewRetryWait</td><td>リトライ遅延前に呼び出されるアクション。発生した例外、現在のリトライ回数、遅延時間が渡されます。</td></tr>
+    <tr><td class="paramname">warningMessage</td><td>リトライ制限を超えた場合にスローされるWarningExceptionのメッセージ。</td></tr>
+    <tr><td class="paramname">token</td><td>操作をキャンセルするためのCancellationToken。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>成功したタスクの結果。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">OperationCanceledException</td><td><em>token</em> がキャンセルされた場合にスローされます。</td></tr>
+    <tr><td class="paramname">WarningException</td><td>リトライ制限に達し、かつ<em>retryPattern</em> がtrueを返した場合にスローされます。</td></tr>
+    <tr><td class="paramname">Exception</td><td>リトライ制限に達する前に<em>retryPattern</em> がfalseを返した場合、またはその他の予期せぬ例外が発生した場合にスローされます。</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>このメソッドは、ネットワークエラーや一時的なリソースのロックなど、一時的な問題によって失敗する可能性のある操作に特に有用です。 <em>retryPattern</em> を使用することで、特定の種類の例外のみをリトライ対象とすることができます。 </p>
+<div class="fragment"><div class="line">async Task&lt;string&gt; GetDataAsync()</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordtype">int</span> attempt = 0;</div>
+<div class="line">    <span class="keywordflow">return</span> await <a class="code hl_class" href="class_yukkuri_movie_maker_1_1_commons_1_1_task_helper.html">TaskHelper</a>.RetryOnExceptionAsync(</div>
+<div class="line">        async () =&gt;</div>
+<div class="line">        {</div>
+<div class="line">            attempt++;</div>
+<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;Attempt {attempt} to get data...&quot;</span>);</div>
+<div class="line">            <span class="comment">// 例として、2回目までの試行では例外をスローします。</span></div>
+<div class="line">            <span class="keywordflow">if</span>(attempt &lt;= 2)</div>
+<div class="line">            {</div>
+<div class="line">                 <span class="keywordflow">throw</span> <span class="keyword">new</span> System.Net.Http.HttpRequestException(<span class="stringliteral">&quot;Network error occurred.&quot;</span>);</div>
+<div class="line">            }</div>
+<div class="line">            <span class="keywordflow">return</span> await Task.FromResult(<span class="stringliteral">&quot;Data successfully retrieved&quot;</span>);</div>
+<div class="line">        },</div>
+<div class="line">        retryLimit: 3,</div>
+<div class="line">        retryDelay: TimeSpan.FromSeconds(1),</div>
+<div class="line">        retryPattern: ex =&gt; ex is System.Net.Http.HttpRequestException, <span class="comment">// HttpRequestExceptionの場合のみリトライ</span></div>
+<div class="line">        onPreviewRetryWait: (ex, count, delay) =&gt; Console.WriteLine($<span class="stringliteral">&quot;Retry {count} after {delay.TotalSeconds}s due to: {ex.Message}&quot;</span>),</div>
+<div class="line">        warningMessage: <span class="stringliteral">&quot;Failed to retrieve data after multiple retries.&quot;</span>,</div>
+<div class="line">        token: CancellationToken.None);</div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_task_helper_html"><div class="ttname"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_task_helper.html">YukkuriMovieMaker.Commons.TaskHelper</a></div><div class="ttdoc">非同期タスクに関するヘルパーメソッドを提供します。</div><div class="ttdef"><b>Definition</b> TaskHelper.cs:14</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_task_helper_8cs.html">TaskHelper.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_task_helper.html">TaskHelper</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+var _i_transcription_process_args_8cs =
+[
+    [ "YukkuriMovieMaker.Plugin.Transcription.ITranscriptionProcessArgs", "interface_yukkuri_movie_maker_1_1_plugin_1_1_transcription_1_1_i_transcription_process_args.html", "interface_yukkuri_movie_maker_1_1_plugin_1_1_transcription_1_1_i_transcription_process_args" ]
+];

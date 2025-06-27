@@ -1,0 +1,28 @@
+var class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader =
+[
+    [ "PluginLoader", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a48f89568c90eb767e24f905aaa2bc3be", null ],
+    [ "GetDerivedTypesOf", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a894eac0dc057d1782932e7745c4df42d", null ],
+    [ "GetDerivedTypesOf<[global::System.Runtime.CompilerServices.Nullable(2)] T >", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a10d4fc38b0cbf86238e6e1706e4fc095", null ],
+    [ "GetPlugin", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#afc1cbed44512a070534cb628efe8c259", null ],
+    [ "GetPlugin", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a9894f9ef5abb089244c4364c4579af43", null ],
+    [ "AudioEffects", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a0b5b26ed006ed873e7117a7f3f4eb8ac", null ],
+    [ "AudioFileSourcePlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#ab7cad0827abdf2a31aad6ebc0193b956", null ],
+    [ "AudioSpectrumPlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#aec6ccf38e3b60b1fc0877127e34f0586", null ],
+    [ "BrushPlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#aba6551f593a2108986a3f8a4a0fe08da", null ],
+    [ "ImageFileSourcePlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#aaf225628c1a6b49a08262db05e1e7234", null ],
+    [ "LocalizePlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a9123d3d45bd23c8adbe9fe34d0db95ba", null ],
+    [ "Settings", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#ab75de9a1dd9c87627d14a057b3822809", null ],
+    [ "ShapePlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a3da1a1fbb88fee540381f7ab5f5ffc2d", null ],
+    [ "TachiePlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#ace4765dd4e7f777776d59e8a29b8143f", null ],
+    [ "TextCompletionPlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#acf9713c1ee28a36d2d1e50f8dbab24f1", null ],
+    [ "ToolPlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#ad296f919ecb3609e51193993e8c325c9", null ],
+    [ "TranscriptionPlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a41865047cc8a8e4979b91e5df608c960", null ],
+    [ "TransitionPlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a198b0b2db4460967efba5e5472e9a740", null ],
+    [ "UserAudioEffects", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#adc774c5941d7e168e522cee5302778fe", null ],
+    [ "UserPlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a3d76be95ff31ed636cabb42594b1bb45", null ],
+    [ "UserVideoEffects", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#abeba656e356bd1e6d27006d4110730dd", null ],
+    [ "VideoEffects", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a73470bc1663e40e88ac7e0090f86f6ad", null ],
+    [ "VideoFileSourcePlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#af868039a4ee54dfcbb2e7a6fdb7aeb14", null ],
+    [ "VideoFileWriterPlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#ae366c8c87ba410dc547c50f68ed2c3a0", null ],
+    [ "VoicePlugins", "class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html#a063b1015615700c556e16b33f68c675f", null ]
+];

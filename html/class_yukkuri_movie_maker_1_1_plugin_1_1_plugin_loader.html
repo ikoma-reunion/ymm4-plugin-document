@@ -1,0 +1,820 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Plugin.PluginLoader クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html','','class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Plugin.PluginLoader クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>プラグインのロードと管理を行う静的クラスです。 アプリケーションの起動時に、利用可能なすべてのプラグインを検出し、それぞれのカテゴリに分類して提供します。  
+ <a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a48f89568c90eb767e24f905aaa2bc3be" id="r_a48f89568c90eb767e24f905aaa2bc3be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48f89568c90eb767e24f905aaa2bc3be">PluginLoader</a> ()</td></tr>
+<tr class="memdesc:a48f89568c90eb767e24f905aaa2bc3be"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html" title="プラグインのロードと管理を行う静的クラスです。 アプリケーションの起動時に、利用可能なすべてのプラグインを検出し、それぞれのカテゴリに分類して提供します。">PluginLoader</a> クラスの新しいインスタンスを初期化します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a9894f9ef5abb089244c4364c4579af43" id="r_a9894f9ef5abb089244c4364c4579af43"><td class="memItemLeft" align="right" valign="top">static global::YukkuriMovieMaker.Plugin.IPlugin&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9894f9ef5abb089244c4364c4579af43">GetPlugin</a> (string fullName)</td></tr>
+<tr class="memdesc:a9894f9ef5abb089244c4364c4579af43"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたフルネームを持つプラグインを取得します。  <br /></td></tr>
+<tr class="memitem:afc1cbed44512a070534cb628efe8c259" id="r_afc1cbed44512a070534cb628efe8c259"><td class="memItemLeft" align="right" valign="top">static global::YukkuriMovieMaker.Plugin.IPlugin&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc1cbed44512a070534cb628efe8c259">GetPlugin</a> (global::System.Type type)</td></tr>
+<tr class="memdesc:afc1cbed44512a070534cb628efe8c259"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された型を持つプラグインを取得します。  <br /></td></tr>
+<tr class="memitem:a10d4fc38b0cbf86238e6e1706e4fc095" id="r_a10d4fc38b0cbf86238e6e1706e4fc095"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::System.Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10d4fc38b0cbf86238e6e1706e4fc095">GetDerivedTypesOf&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;</a> ()</td></tr>
+<tr class="memdesc:a10d4fc38b0cbf86238e6e1706e4fc095"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された型の派生型のコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a894eac0dc057d1782932e7745c4df42d" id="r_a894eac0dc057d1782932e7745c4df42d"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::System.Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a894eac0dc057d1782932e7745c4df42d">GetDerivedTypesOf</a> (global::System.Type type)</td></tr>
+<tr class="memdesc:a894eac0dc057d1782932e7745c4df42d"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された型から派生した型のコレクションを取得します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:ab75de9a1dd9c87627d14a057b3822809" id="r_ab75de9a1dd9c87627d14a057b3822809"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.ISetting &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab75de9a1dd9c87627d14a057b3822809">Settings</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab75de9a1dd9c87627d14a057b3822809"><td class="mdescLeft">&#160;</td><td class="mdescRight">ロードされたすべての設定のコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a3d76be95ff31ed636cabb42594b1bb45" id="r_a3d76be95ff31ed636cabb42594b1bb45"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.IPlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d76be95ff31ed636cabb42594b1bb45">UserPlugins</a> = global::YukkuriMovieMaker.Plugin.PluginLoader.Plugins.Where((global::YukkuriMovieMaker.Plugin.IPlugin p) =&gt; p.IsUserPlugin())<code> [get]</code></td></tr>
+<tr class="memdesc:a3d76be95ff31ed636cabb42594b1bb45"><td class="mdescLeft">&#160;</td><td class="mdescRight">ユーザーが作成したプラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:ab7cad0827abdf2a31aad6ebc0193b956" id="r_ab7cad0827abdf2a31aad6ebc0193b956"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.FileSource.IAudioFileSourcePlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7cad0827abdf2a31aad6ebc0193b956">AudioFileSourcePlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab7cad0827abdf2a31aad6ebc0193b956"><td class="mdescLeft">&#160;</td><td class="mdescRight">オーディオファイルソースプラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:af868039a4ee54dfcbb2e7a6fdb7aeb14" id="r_af868039a4ee54dfcbb2e7a6fdb7aeb14"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.FileSource.IVideoFileSourcePlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af868039a4ee54dfcbb2e7a6fdb7aeb14">VideoFileSourcePlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:af868039a4ee54dfcbb2e7a6fdb7aeb14"><td class="mdescLeft">&#160;</td><td class="mdescRight">ビデオファイルソースプラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:aaf225628c1a6b49a08262db05e1e7234" id="r_aaf225628c1a6b49a08262db05e1e7234"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.FileSource.IImageFileSourcePlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf225628c1a6b49a08262db05e1e7234">ImageFileSourcePlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:aaf225628c1a6b49a08262db05e1e7234"><td class="mdescLeft">&#160;</td><td class="mdescRight">イメージファイルソースプラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:ace4765dd4e7f777776d59e8a29b8143f" id="r_ace4765dd4e7f777776d59e8a29b8143f"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.Tachie.ITachiePlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace4765dd4e7f777776d59e8a29b8143f">TachiePlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:ace4765dd4e7f777776d59e8a29b8143f"><td class="mdescLeft">&#160;</td><td class="mdescRight">立ち絵プラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:ae366c8c87ba410dc547c50f68ed2c3a0" id="r_ae366c8c87ba410dc547c50f68ed2c3a0"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.FileWriter.IVideoFileWriterPlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae366c8c87ba410dc547c50f68ed2c3a0">VideoFileWriterPlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae366c8c87ba410dc547c50f68ed2c3a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ビデオファイルライタープラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a9123d3d45bd23c8adbe9fe34d0db95ba" id="r_a9123d3d45bd23c8adbe9fe34d0db95ba"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.ILocalizePlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9123d3d45bd23c8adbe9fe34d0db95ba">LocalizePlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9123d3d45bd23c8adbe9fe34d0db95ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">ローカライズプラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:acf9713c1ee28a36d2d1e50f8dbab24f1" id="r_acf9713c1ee28a36d2d1e50f8dbab24f1"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.TextCompletion.ITextCompletionPlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf9713c1ee28a36d2d1e50f8dbab24f1">TextCompletionPlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:acf9713c1ee28a36d2d1e50f8dbab24f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">テキスト補完プラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a41865047cc8a8e4979b91e5df608c960" id="r_a41865047cc8a8e4979b91e5df608c960"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.Transcription.ITranscriptionPlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41865047cc8a8e4979b91e5df608c960">TranscriptionPlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:a41865047cc8a8e4979b91e5df608c960"><td class="mdescLeft">&#160;</td><td class="mdescRight">音声認識プラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:ad296f919ecb3609e51193993e8c325c9" id="r_ad296f919ecb3609e51193993e8c325c9"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.IToolPlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad296f919ecb3609e51193993e8c325c9">ToolPlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad296f919ecb3609e51193993e8c325c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">ツールプラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a063b1015615700c556e16b33f68c675f" id="r_a063b1015615700c556e16b33f68c675f"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.Voice.IVoicePlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a063b1015615700c556e16b33f68c675f">VoicePlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:a063b1015615700c556e16b33f68c675f"><td class="mdescLeft">&#160;</td><td class="mdescRight">音声プラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a3da1a1fbb88fee540381f7ab5f5ffc2d" id="r_a3da1a1fbb88fee540381f7ab5f5ffc2d"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.Shape.IShapePlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3da1a1fbb88fee540381f7ab5f5ffc2d">ShapePlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3da1a1fbb88fee540381f7ab5f5ffc2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェイププラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:aec6ccf38e3b60b1fc0877127e34f0586" id="r_aec6ccf38e3b60b1fc0877127e34f0586"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.Shape.IAudioSpectrumPlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec6ccf38e3b60b1fc0877127e34f0586">AudioSpectrumPlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:aec6ccf38e3b60b1fc0877127e34f0586"><td class="mdescLeft">&#160;</td><td class="mdescRight">オーディオスペクトラムプラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a198b0b2db4460967efba5e5472e9a740" id="r_a198b0b2db4460967efba5e5472e9a740"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.Transition.ITransitionPlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a198b0b2db4460967efba5e5472e9a740">TransitionPlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:a198b0b2db4460967efba5e5472e9a740"><td class="mdescLeft">&#160;</td><td class="mdescRight">トランジションプラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:aba6551f593a2108986a3f8a4a0fe08da" id="r_aba6551f593a2108986a3f8a4a0fe08da"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Plugin.Brush.IBrushPlugin &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba6551f593a2108986a3f8a4a0fe08da">BrushPlugins</a><code> [get]</code></td></tr>
+<tr class="memdesc:aba6551f593a2108986a3f8a4a0fe08da"><td class="mdescLeft">&#160;</td><td class="mdescRight">ブラシプラグインのコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a73470bc1663e40e88ac7e0090f86f6ad" id="r_a73470bc1663e40e88ac7e0090f86f6ad"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::System.Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73470bc1663e40e88ac7e0090f86f6ad">VideoEffects</a><code> [get]</code></td></tr>
+<tr class="memdesc:a73470bc1663e40e88ac7e0090f86f6ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">ビデオエフェクトの型コレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a0b5b26ed006ed873e7117a7f3f4eb8ac" id="r_a0b5b26ed006ed873e7117a7f3f4eb8ac"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::System.Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b5b26ed006ed873e7117a7f3f4eb8ac">AudioEffects</a><code> [get]</code></td></tr>
+<tr class="memdesc:a0b5b26ed006ed873e7117a7f3f4eb8ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">オーディオエフェクトの型コレクションを取得します。  <br /></td></tr>
+<tr class="memitem:abeba656e356bd1e6d27006d4110730dd" id="r_abeba656e356bd1e6d27006d4110730dd"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::System.Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeba656e356bd1e6d27006d4110730dd">UserVideoEffects</a><code> [get]</code></td></tr>
+<tr class="memdesc:abeba656e356bd1e6d27006d4110730dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">ユーザーが作成したビデオエフェクトの型コレクションを取得します。  <br /></td></tr>
+<tr class="memitem:adc774c5941d7e168e522cee5302778fe" id="r_adc774c5941d7e168e522cee5302778fe"><td class="memItemLeft" align="right" valign="top">static global::System.Collections.Generic.IEnumerable&lt; global::System.Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc774c5941d7e168e522cee5302778fe">UserAudioEffects</a><code> [get]</code></td></tr>
+<tr class="memdesc:adc774c5941d7e168e522cee5302778fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">ユーザーが作成したオーディオエフェクトの型コレクションを取得します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>プラグインのロードと管理を行う静的クラスです。 アプリケーションの起動時に、利用可能なすべてのプラグインを検出し、それぞれのカテゴリに分類して提供します。 </p>
+<p>このクラスは、アプリケーションの拡張性を高めるために、様々な種類のプラグイン（エフェクト、ファイルソース、ツールなど）を動的にロードします。 プラグインの設定変更に応じて、その順序や有効/無効状態を更新する機能も持ちます。 </p>
+<div class="fragment"></div><!-- fragment --> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="a48f89568c90eb767e24f905aaa2bc3be" name="a48f89568c90eb767e24f905aaa2bc3be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f89568c90eb767e24f905aaa2bc3be">&#9670;&#160;</a></span>PluginLoader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Plugin.PluginLoader.PluginLoader </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html" title="プラグインのロードと管理を行う静的クラスです。 アプリケーションの起動時に、利用可能なすべてのプラグインを検出し、それぞれのカテゴリに分類して提供します。">PluginLoader</a> クラスの新しいインスタンスを初期化します。 </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a894eac0dc057d1782932e7745c4df42d" name="a894eac0dc057d1782932e7745c4df42d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894eac0dc057d1782932e7745c4df42d">&#9670;&#160;</a></span>GetDerivedTypesOf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt; global.System.Type &gt; YukkuriMovieMaker.Plugin.PluginLoader.GetDerivedTypesOf </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Type</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定された型から派生した型のコレクションを取得します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>派生型を取得する基底の型。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>派生型のコレクション。</dd></dl>
+
+</div>
+</div>
+<a id="a10d4fc38b0cbf86238e6e1706e4fc095" name="a10d4fc38b0cbf86238e6e1706e4fc095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10d4fc38b0cbf86238e6e1706e4fc095">&#9670;&#160;</a></span>GetDerivedTypesOf&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt; global.System.Type &gt; <a class="el" href="#a894eac0dc057d1782932e7745c4df42d">YukkuriMovieMaker.Plugin.PluginLoader.GetDerivedTypesOf</a>&lt;[global.System.Runtime.CompilerServices.Nullable(2)] T &gt; </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定された型の派生型のコレクションを取得します。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>派生型を取得する基底の型。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>派生型のコレクション。</dd></dl>
+
+</div>
+</div>
+<a id="afc1cbed44512a070534cb628efe8c259" name="afc1cbed44512a070534cb628efe8c259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1cbed44512a070534cb628efe8c259">&#9670;&#160;</a></span>GetPlugin() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Plugin.IPlugin YukkuriMovieMaker.Plugin.PluginLoader.GetPlugin </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Type</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定された型を持つプラグインを取得します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>プラグインの型。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>プラグインのインスタンス。見つからない場合は null。</dd></dl>
+
+</div>
+</div>
+<a id="a9894f9ef5abb089244c4364c4579af43" name="a9894f9ef5abb089244c4364c4579af43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9894f9ef5abb089244c4364c4579af43">&#9670;&#160;</a></span>GetPlugin() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Plugin.IPlugin YukkuriMovieMaker.Plugin.PluginLoader.GetPlugin </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>fullName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたフルネームを持つプラグインを取得します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fullName</td><td>プラグインのフルネーム。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>プラグインのインスタンス。見つからない場合は null。</dd></dl>
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="a0b5b26ed006ed873e7117a7f3f4eb8ac" name="a0b5b26ed006ed873e7117a7f3f4eb8ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b5b26ed006ed873e7117a7f3f4eb8ac">&#9670;&#160;</a></span>AudioEffects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.System.Type&gt; YukkuriMovieMaker.Plugin.PluginLoader.AudioEffects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オーディオエフェクトの型コレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="ab7cad0827abdf2a31aad6ebc0193b956" name="ab7cad0827abdf2a31aad6ebc0193b956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7cad0827abdf2a31aad6ebc0193b956">&#9670;&#160;</a></span>AudioFileSourcePlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.FileSource.IAudioFileSourcePlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.AudioFileSourcePlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オーディオファイルソースプラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="aec6ccf38e3b60b1fc0877127e34f0586" name="aec6ccf38e3b60b1fc0877127e34f0586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec6ccf38e3b60b1fc0877127e34f0586">&#9670;&#160;</a></span>AudioSpectrumPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.Shape.IAudioSpectrumPlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.AudioSpectrumPlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オーディオスペクトラムプラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="aba6551f593a2108986a3f8a4a0fe08da" name="aba6551f593a2108986a3f8a4a0fe08da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba6551f593a2108986a3f8a4a0fe08da">&#9670;&#160;</a></span>BrushPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.Brush.IBrushPlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.BrushPlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ブラシプラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="aaf225628c1a6b49a08262db05e1e7234" name="aaf225628c1a6b49a08262db05e1e7234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf225628c1a6b49a08262db05e1e7234">&#9670;&#160;</a></span>ImageFileSourcePlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.FileSource.IImageFileSourcePlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.ImageFileSourcePlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>イメージファイルソースプラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="a9123d3d45bd23c8adbe9fe34d0db95ba" name="a9123d3d45bd23c8adbe9fe34d0db95ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9123d3d45bd23c8adbe9fe34d0db95ba">&#9670;&#160;</a></span>LocalizePlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.ILocalizePlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.LocalizePlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ローカライズプラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="ab75de9a1dd9c87627d14a057b3822809" name="ab75de9a1dd9c87627d14a057b3822809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab75de9a1dd9c87627d14a057b3822809">&#9670;&#160;</a></span>Settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.ISetting&gt; YukkuriMovieMaker.Plugin.PluginLoader.Settings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"></div><!-- fragment -->
+<p>ロードされたすべての設定のコレクションを取得します。 </p>
+<p>ロードされたglobal::YukkuriMovieMaker.Plugin.ISettingオブジェクトのコレクション。</p>
+
+</div>
+</div>
+<a id="a3da1a1fbb88fee540381f7ab5f5ffc2d" name="a3da1a1fbb88fee540381f7ab5f5ffc2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3da1a1fbb88fee540381f7ab5f5ffc2d">&#9670;&#160;</a></span>ShapePlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.Shape.IShapePlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.ShapePlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シェイププラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="ace4765dd4e7f777776d59e8a29b8143f" name="ace4765dd4e7f777776d59e8a29b8143f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace4765dd4e7f777776d59e8a29b8143f">&#9670;&#160;</a></span>TachiePlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.Tachie.ITachiePlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.TachiePlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>立ち絵プラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="acf9713c1ee28a36d2d1e50f8dbab24f1" name="acf9713c1ee28a36d2d1e50f8dbab24f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf9713c1ee28a36d2d1e50f8dbab24f1">&#9670;&#160;</a></span>TextCompletionPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.TextCompletion.ITextCompletionPlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.TextCompletionPlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テキスト補完プラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="ad296f919ecb3609e51193993e8c325c9" name="ad296f919ecb3609e51193993e8c325c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad296f919ecb3609e51193993e8c325c9">&#9670;&#160;</a></span>ToolPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.IToolPlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.ToolPlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ツールプラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="a41865047cc8a8e4979b91e5df608c960" name="a41865047cc8a8e4979b91e5df608c960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41865047cc8a8e4979b91e5df608c960">&#9670;&#160;</a></span>TranscriptionPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.Transcription.ITranscriptionPlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.TranscriptionPlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>音声認識プラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="a198b0b2db4460967efba5e5472e9a740" name="a198b0b2db4460967efba5e5472e9a740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a198b0b2db4460967efba5e5472e9a740">&#9670;&#160;</a></span>TransitionPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.Transition.ITransitionPlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.TransitionPlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>トランジションプラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="adc774c5941d7e168e522cee5302778fe" name="adc774c5941d7e168e522cee5302778fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc774c5941d7e168e522cee5302778fe">&#9670;&#160;</a></span>UserAudioEffects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.System.Type&gt; YukkuriMovieMaker.Plugin.PluginLoader.UserAudioEffects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ユーザーが作成したオーディオエフェクトの型コレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="a3d76be95ff31ed636cabb42594b1bb45" name="a3d76be95ff31ed636cabb42594b1bb45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d76be95ff31ed636cabb42594b1bb45">&#9670;&#160;</a></span>UserPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.IPlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.UserPlugins = global::YukkuriMovieMaker.Plugin.PluginLoader.Plugins.Where((global::YukkuriMovieMaker.Plugin.IPlugin p) =&gt; p.IsUserPlugin())</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ユーザーが作成したプラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="abeba656e356bd1e6d27006d4110730dd" name="abeba656e356bd1e6d27006d4110730dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeba656e356bd1e6d27006d4110730dd">&#9670;&#160;</a></span>UserVideoEffects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.System.Type&gt; YukkuriMovieMaker.Plugin.PluginLoader.UserVideoEffects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ユーザーが作成したビデオエフェクトの型コレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="a73470bc1663e40e88ac7e0090f86f6ad" name="a73470bc1663e40e88ac7e0090f86f6ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73470bc1663e40e88ac7e0090f86f6ad">&#9670;&#160;</a></span>VideoEffects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.System.Type&gt; YukkuriMovieMaker.Plugin.PluginLoader.VideoEffects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ビデオエフェクトの型コレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="af868039a4ee54dfcbb2e7a6fdb7aeb14" name="af868039a4ee54dfcbb2e7a6fdb7aeb14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af868039a4ee54dfcbb2e7a6fdb7aeb14">&#9670;&#160;</a></span>VideoFileSourcePlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.FileSource.IVideoFileSourcePlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.VideoFileSourcePlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ビデオファイルソースプラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="ae366c8c87ba410dc547c50f68ed2c3a0" name="ae366c8c87ba410dc547c50f68ed2c3a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae366c8c87ba410dc547c50f68ed2c3a0">&#9670;&#160;</a></span>VideoFileWriterPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.FileWriter.IVideoFileWriterPlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.VideoFileWriterPlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ビデオファイルライタープラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<a id="a063b1015615700c556e16b33f68c675f" name="a063b1015615700c556e16b33f68c675f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a063b1015615700c556e16b33f68c675f">&#9670;&#160;</a></span>VoicePlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt;global.YukkuriMovieMaker.Plugin.Voice.IVoicePlugin&gt; YukkuriMovieMaker.Plugin.PluginLoader.VoicePlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>音声プラグインのコレクションを取得します。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Plugin/<a class="el" href="_plugin_loader_8cs.html">PluginLoader.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_plugin.html">Plugin</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_plugin_1_1_plugin_loader.html">PluginLoader</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

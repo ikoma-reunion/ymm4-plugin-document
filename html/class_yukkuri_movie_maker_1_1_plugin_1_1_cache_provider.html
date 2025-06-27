@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Plugin.CacheProvider クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_plugin_1_1_cache_provider.html','','class_yukkuri_movie_maker_1_1_plugin_1_1_cache_provider-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Plugin.CacheProvider クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>リソースのキャッシュを提供するクラスです。 ファイルパスをキーとして、System.IDisposableを実装するオブジェクトをキャッシュします。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.Plugin.CacheProvider の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_plugin_1_1_cache_provider.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a21481ae426235ecff074e4366fdcf406" id="r_a21481ae426235ecff074e4366fdcf406"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21481ae426235ecff074e4366fdcf406">Collect</a> (string key, global::System.IDisposable source)</td></tr>
+<tr class="memdesc:a21481ae426235ecff074e4366fdcf406"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたキーとソースをキャッシュに収集します。  <br /></td></tr>
+<tr class="memitem:a7541a1d6e4d78580e1620265ced4d3c5" id="r_a7541a1d6e4d78580e1620265ced4d3c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7541a1d6e4d78580e1620265ced4d3c5">TryGetValue&lt; T &gt;</a> (string filePath, [global::System.Runtime.CompilerServices.Nullable(2)][global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out T source)</td></tr>
+<tr class="memdesc:a7541a1d6e4d78580e1620265ced4d3c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたファイルパスに対応するキャッシュされたソースを取得します。  <br /></td></tr>
+<tr class="memitem:a0d8a6b49e6023ae84f23ea9518621805" id="r_a0d8a6b49e6023ae84f23ea9518621805"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d8a6b49e6023ae84f23ea9518621805">Clear</a> ()</td></tr>
+<tr class="memdesc:a0d8a6b49e6023ae84f23ea9518621805"><td class="mdescLeft">&#160;</td><td class="mdescRight">キャッシュをクリアし、すべてのキャッシュされたリソースを解放します。  <br /></td></tr>
+<tr class="memitem:a9c33cbe42eb43488c0a84c149c9ccc71" id="r_a9c33cbe42eb43488c0a84c149c9ccc71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c33cbe42eb43488c0a84c149c9ccc71">Dispose</a> ()</td></tr>
+<tr class="memdesc:a9c33cbe42eb43488c0a84c149c9ccc71"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインスタンスによって使用されているすべてのリソースを解放します。  <br /></td></tr>
+<tr class="memitem:ab28117ce9ca8774486735fb54058c292" id="r_ab28117ce9ca8774486735fb54058c292"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab28117ce9ca8774486735fb54058c292">CacheProvider</a> ()</td></tr>
+<tr class="memdesc:ab28117ce9ca8774486735fb54058c292"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_yukkuri_movie_maker_1_1_plugin_1_1_cache_provider.html" title="リソースのキャッシュを提供するクラスです。 ファイルパスをキーとして、System.IDisposableを実装するオブジェクトをキャッシュします。">CacheProvider</a> クラスの新しいインスタンスを初期化します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a42994924bfc08cfdd97a5d3e5881d783" id="r_a42994924bfc08cfdd97a5d3e5881d783"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42994924bfc08cfdd97a5d3e5881d783">Dispose</a> (bool disposing)</td></tr>
+<tr class="memdesc:a42994924bfc08cfdd97a5d3e5881d783"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインスタンスによって使用されているアンマネージドおよびオプションでマネージドなリソースを解放します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>リソースのキャッシュを提供するクラスです。 ファイルパスをキーとして、System.IDisposableを実装するオブジェクトをキャッシュします。 </p>
+<p>このキャッシュは、画像やビデオなどのリソースを再利用することで、パフォーマンスを向上させます。 キャッシュされたリソースは、不要になったときに自動的に解放されます。 </p>
+<div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_yukkuri_movie_maker_1_1_plugin.html">YukkuriMovieMaker.Plugin</a>;</div>
+<div class="line"><span class="keyword">using </span>System;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MyDisposableResource : IDisposable</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">string</span> Name { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
+<div class="line">    <span class="keyword">public</span> MyDisposableResource(<span class="keywordtype">string</span> name) { Name = name; }</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> Dispose() { Console.WriteLine($<span class="stringliteral">&quot;Resource {Name} disposed.&quot;</span>); }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CacheExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_enumvalue" href="namespace_yukkuri_movie_maker_1_1_commons.html#abb1d552117ae008c49bc347337edffacaa02c83a7dbd96295beaefb72c2bee2de">Main</a>()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keyword">using</span> (var cacheProvider = <span class="keyword">new</span> CacheProvider())</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// リソースをキャッシュに収集</span></div>
+<div class="line">            var resource1 = <span class="keyword">new</span> MyDisposableResource(<span class="stringliteral">&quot;Resource A&quot;</span>);</div>
+<div class="line">            cacheProvider.Collect(<span class="stringliteral">&quot;path/to/resourceA&quot;</span>, resource1);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// キャッシュからリソースを取得</span></div>
+<div class="line">            <span class="keywordflow">if</span> (cacheProvider.TryGetValue(<span class="stringliteral">&quot;path/to/resourceA&quot;</span>, out MyDisposableResource retrievedResource))</div>
+<div class="line">            {</div>
+<div class="line">                Console.WriteLine($<span class="stringliteral">&quot;Retrieved: {retrievedResource.Name}&quot;</span>);</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// 存在しないリソースの取得を試みる</span></div>
+<div class="line">            <span class="keywordflow">if</span> (!cacheProvider.TryGetValue(<span class="stringliteral">&quot;path/to/resourceB&quot;</span>, out MyDisposableResource nonExistentResource)) */</div><!-- fragment --> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="ab28117ce9ca8774486735fb54058c292" name="ab28117ce9ca8774486735fb54058c292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28117ce9ca8774486735fb54058c292">&#9670;&#160;</a></span>CacheProvider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Plugin.CacheProvider.CacheProvider </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_yukkuri_movie_maker_1_1_plugin_1_1_cache_provider.html" title="リソースのキャッシュを提供するクラスです。 ファイルパスをキーとして、System.IDisposableを実装するオブジェクトをキャッシュします。">CacheProvider</a> クラスの新しいインスタンスを初期化します。 </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a0d8a6b49e6023ae84f23ea9518621805" name="a0d8a6b49e6023ae84f23ea9518621805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d8a6b49e6023ae84f23ea9518621805">&#9670;&#160;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Plugin.CacheProvider.Clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>キャッシュをクリアし、すべてのキャッシュされたリソースを解放します。 </p>
+<p>このメソッドは、キャッシュ内のすべてのglobal::System.IDisposableオブジェクトの&lt;c&gt;Disposeメソッドを呼び出し、 キャッシュからそれらを削除します。 </p>
+<div class="fragment"></div><!-- fragment --> 
+</div>
+</div>
+<a id="a21481ae426235ecff074e4366fdcf406" name="a21481ae426235ecff074e4366fdcf406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21481ae426235ecff074e4366fdcf406">&#9670;&#160;</a></span>Collect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Plugin.CacheProvider.Collect </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.System.IDisposable</td>          <td class="paramname"><span class="paramname"><em>source</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたキーとソースをキャッシュに収集します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>キャッシュのキー。通常はファイルパスが使用されます。</td></tr>
+    <tr><td class="paramname">source</td><td>キャッシュするglobal::System.IDisposableを実装するリソース。</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>同じキーで複数のソースを収集した場合、それらはリストに追加されます。 </p>
+<div class="fragment"></div><!-- fragment --> 
+</div>
+</div>
+<a id="a9c33cbe42eb43488c0a84c149c9ccc71" name="a9c33cbe42eb43488c0a84c149c9ccc71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c33cbe42eb43488c0a84c149c9ccc71">&#9670;&#160;</a></span>Dispose() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Plugin.CacheProvider.Dispose </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>このインスタンスによって使用されているすべてのリソースを解放します。 </p>
+<p>このメソッドは、ガベージコレクタがオブジェクトをファイナライズするのを防ぎ、 リソースが確実に解放されるようにします。 </p>
+
+</div>
+</div>
+<a id="a42994924bfc08cfdd97a5d3e5881d783" name="a42994924bfc08cfdd97a5d3e5881d783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42994924bfc08cfdd97a5d3e5881d783">&#9670;&#160;</a></span>Dispose() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void YukkuriMovieMaker.Plugin.CacheProvider.Dispose </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>disposing</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>このインスタンスによって使用されているアンマネージドおよびオプションでマネージドなリソースを解放します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disposing</td><td>マネージドリソースを解放する場合は <code>true</code>。それ以外の場合は <code>false</code>。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7541a1d6e4d78580e1620265ced4d3c5" name="a7541a1d6e4d78580e1620265ced4d3c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7541a1d6e4d78580e1620265ced4d3c5">&#9670;&#160;</a></span>TryGetValue&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Plugin.CacheProvider.TryGetValue&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System::Diagnostics::CodeAnalysis::NotNullWhen(true)] out T</td>          <td class="paramname"><span class="paramname"><em>source</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたファイルパスに対応するキャッシュされたソースを取得します。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>取得するソースの型。必ずglobal::System.IDisposableを実装している必要があります。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>取得するキャッシュのキー（ファイルパス）。</td></tr>
+    <tr><td class="paramname">source</td><td>メソッドが成功した場合に、取得されたソースが格納されます。失敗した場合は&lt;c&gt;default(T)。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>ソースが正常に取得され、かつ指定された型にキャストできた場合は <code>true</code>、それ以外の場合は <code>false</code>。</dd></dl>
+<p>このメソッドは、キャッシュからアイテムを取得すると同時に、そのアイテムをキャッシュから削除します。 </p>
+<div class="fragment"></div><!-- fragment --> <div class="typeconstraint">
+<dl><dt><b>型制約</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>class</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>global</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>System.IDisposable</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Plugin/<a class="el" href="_cache_provider_8cs.html">CacheProvider.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_plugin.html">Plugin</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_plugin_1_1_cache_provider.html">CacheProvider</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

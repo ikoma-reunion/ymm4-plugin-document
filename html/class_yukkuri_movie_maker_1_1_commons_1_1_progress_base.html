@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.ProgressBase クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_progress_base.html','','class_yukkuri_movie_maker_1_1_commons_1_1_progress_base-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.ProgressBase クラス<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>進捗状況を報告するための基底抽象クラス。 INotifyPropertyChangedを実装し、進捗率とメッセージの変更を通知します。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.Commons.ProgressBase の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_commons_1_1_progress_base.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a25ffab42442826594236a9f785bdbeff" id="r_a25ffab42442826594236a9f785bdbeff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25ffab42442826594236a9f785bdbeff">ProgressBase</a> ()</td></tr>
+<tr class="memdesc:a25ffab42442826594236a9f785bdbeff"><td class="mdescLeft">&#160;</td><td class="mdescRight">ProgressBaseクラスの新しいインスタンスを初期化します。  <br /></td></tr>
+<tr class="memitem:aa73c59ae186bed58237a076891e53601" id="r_aa73c59ae186bed58237a076891e53601"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa73c59ae186bed58237a076891e53601">ProgressBase</a> (global::YukkuriMovieMaker.Commons.ProgressBase parent, double rateFrom, double rateTo)</td></tr>
+<tr class="memdesc:aa73c59ae186bed58237a076891e53601"><td class="mdescLeft">&#160;</td><td class="mdescRight">親の進捗報告オブジェクトと進捗率の範囲を指定して、ProgressBaseクラスの新しいインスタンスを初期化します。  <br /></td></tr>
+<tr class="memitem:a54f7e733fed62c9884971b03a15d8214" id="r_a54f7e733fed62c9884971b03a15d8214"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54f7e733fed62c9884971b03a15d8214">ReportToParent</a> (double rate, string message)</td></tr>
+<tr class="memdesc:a54f7e733fed62c9884971b03a15d8214"><td class="mdescLeft">&#160;</td><td class="mdescRight">親オブジェクトに進捗を報告します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a6e6ae8f8582b7fff5aa996c939394717" id="r_a6e6ae8f8582b7fff5aa996c939394717"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e6ae8f8582b7fff5aa996c939394717">Rate</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6e6ae8f8582b7fff5aa996c939394717"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在の進捗率を取得します。  <br /></td></tr>
+<tr class="memitem:a2fd74e08c2ed0f32837ea475cfa5ec46" id="r_a2fd74e08c2ed0f32837ea475cfa5ec46"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fd74e08c2ed0f32837ea475cfa5ec46">Message</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2fd74e08c2ed0f32837ea475cfa5ec46"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在の進捗メッセージを取得します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-events" class="groupheader"><a id="events" name="events"></a>
+イベント</h2></td></tr>
+<tr class="memitem:a5e511d9efcdb1db78030595425df0457" id="r_a5e511d9efcdb1db78030595425df0457"><td class="memItemLeft" align="right" valign="top">global::System.ComponentModel.PropertyChangedEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e511d9efcdb1db78030595425df0457">PropertyChanged</a><code> [add, remove]</code></td></tr>
+<tr class="memdesc:a5e511d9efcdb1db78030595425df0457"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロパティ値が変更されたときに発生します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>進捗状況を報告するための基底抽象クラス。 INotifyPropertyChangedを実装し、進捗率とメッセージの変更を通知します。 </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="a25ffab42442826594236a9f785bdbeff" name="a25ffab42442826594236a9f785bdbeff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ffab42442826594236a9f785bdbeff">&#9670;&#160;</a></span>ProgressBase() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Commons.ProgressBase.ProgressBase </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ProgressBaseクラスの新しいインスタンスを初期化します。 </p>
+
+</div>
+</div>
+<a id="aa73c59ae186bed58237a076891e53601" name="aa73c59ae186bed58237a076891e53601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa73c59ae186bed58237a076891e53601">&#9670;&#160;</a></span>ProgressBase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Commons.ProgressBase.ProgressBase </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Commons.ProgressBase</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rateFrom</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rateTo</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>親の進捗報告オブジェクトと進捗率の範囲を指定して、ProgressBaseクラスの新しいインスタンスを初期化します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>親の進捗報告オブジェクト。</td></tr>
+    <tr><td class="paramname">rateFrom</td><td>進捗率の開始値。</td></tr>
+    <tr><td class="paramname">rateTo</td><td>進捗率の終了値。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a54f7e733fed62c9884971b03a15d8214" name="a54f7e733fed62c9884971b03a15d8214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54f7e733fed62c9884971b03a15d8214">&#9670;&#160;</a></span>ReportToParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.ProgressBase.ReportToParent </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>message</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>親オブジェクトに進捗を報告します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rate</td><td>現在の進捗率。</td></tr>
+    <tr><td class="paramname">message</td><td>進捗メッセージ。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="a2fd74e08c2ed0f32837ea475cfa5ec46" name="a2fd74e08c2ed0f32837ea475cfa5ec46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fd74e08c2ed0f32837ea475cfa5ec46">&#9670;&#160;</a></span>Message</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Commons.ProgressBase.Message</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在の進捗メッセージを取得します。 </p>
+
+</div>
+</div>
+<a id="a6e6ae8f8582b7fff5aa996c939394717" name="a6e6ae8f8582b7fff5aa996c939394717"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e6ae8f8582b7fff5aa996c939394717">&#9670;&#160;</a></span>Rate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double YukkuriMovieMaker.Commons.ProgressBase.Rate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在の進捗率を取得します。 </p>
+
+</div>
+</div>
+<a name="doc-event-members" id="doc-event-members"></a><h2 id="header-doc-event-members" class="groupheader">イベント詳解</h2>
+<a id="a5e511d9efcdb1db78030595425df0457" name="a5e511d9efcdb1db78030595425df0457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e511d9efcdb1db78030595425df0457">&#9670;&#160;</a></span>PropertyChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_tachie_source_description_8cs.html#a81a223a02c34d82b47199f08308847f2">System</a> ComponentModel global.PropertyChangedEventHandler YukkuriMovieMaker.Commons.ProgressBase.PropertyChanged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel add">add</span><span class="mlabel remove">remove</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>プロパティ値が変更されたときに発生します。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_progress_base_8cs.html">ProgressBase.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_progress_base.html">ProgressBase</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+var class_yukkuri_movie_maker_1_1_undo_redo_1_1_undo_redo_not_subscribe_child_attribute =
+[
+    [ "UndoRedoNotSubscribeChildAttribute", "class_yukkuri_movie_maker_1_1_undo_redo_1_1_undo_redo_not_subscribe_child_attribute.html#af03fe638f298a13935c2468880a4f5ed", null ]
+];

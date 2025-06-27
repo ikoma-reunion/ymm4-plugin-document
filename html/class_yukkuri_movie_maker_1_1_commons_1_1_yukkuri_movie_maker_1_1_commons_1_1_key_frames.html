@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_yukkuri_movie_maker_1_1_commons_1_1_key_frames.html','','class_yukkuri_movie_maker_1_1_commons_1_1_yukkuri_movie_maker_1_1_commons_1_1_key_frames-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>キーフレームを管理するクラス。 キーフレームはフレーム番号(int)のリストとして保持されます。 このクラスはUndo/Redoに対応しています。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_commons_1_1_yukkuri_movie_maker_1_1_commons_1_1_key_frames.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a8015a7f088440ff9beb972aa8e3eb147" id="r_a8015a7f088440ff9beb972aa8e3eb147"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8015a7f088440ff9beb972aa8e3eb147">Insert</a> (int frame)</td></tr>
+<tr class="memdesc:a8015a7f088440ff9beb972aa8e3eb147"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したフレーム番号を、ソートされた状態を維持したままリストに挿入します。  <br /></td></tr>
+<tr class="memitem:a8901bf5124c513bc96eb5cac69d11553" id="r_a8901bf5124c513bc96eb5cac69d11553"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8901bf5124c513bc96eb5cac69d11553">SetFrame</a> (int index, int frame)</td></tr>
+<tr class="memdesc:a8901bf5124c513bc96eb5cac69d11553"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したインデックスのキーフレームを新しいフレーム番号に設定します。  <br /></td></tr>
+<tr class="memitem:a1b57ff53488315e7f0893004635b53a4" id="r_a1b57ff53488315e7f0893004635b53a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b57ff53488315e7f0893004635b53a4">RemoveAt</a> (int index)</td></tr>
+<tr class="memdesc:a1b57ff53488315e7f0893004635b53a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したインデックスのキーフレームを削除します。  <br /></td></tr>
+<tr class="memitem:a6efef9fe9ffa1feaf5fe98a608b2d7b6" id="r_a6efef9fe9ffa1feaf5fe98a608b2d7b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6efef9fe9ffa1feaf5fe98a608b2d7b6">Remove</a> (int frame)</td></tr>
+<tr class="memdesc:a6efef9fe9ffa1feaf5fe98a608b2d7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したフレーム番号のキーフレームを削除します。  <br /></td></tr>
+<tr class="memitem:abd57d5ada0c6deda7aa90f7e127da7ce" id="r_abd57d5ada0c6deda7aa90f7e127da7ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd57d5ada0c6deda7aa90f7e127da7ce">RemovesLeft</a> (int frame)</td></tr>
+<tr class="memdesc:abd57d5ada0c6deda7aa90f7e127da7ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したフレーム番号より前のキーフレームをすべて削除し、残りのキーフレームのフレーム番号を調整します。  <br /></td></tr>
+<tr class="memitem:a572ed3aff73fa642e76a0ad7c470cf63" id="r_a572ed3aff73fa642e76a0ad7c470cf63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a572ed3aff73fa642e76a0ad7c470cf63">RemovesRight</a> (int frame)</td></tr>
+<tr class="memdesc:a572ed3aff73fa642e76a0ad7c470cf63"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したフレーム番号以降のキーフレームをすべて削除します。  <br /></td></tr>
+<tr class="memitem:a8ac406cbdb74c9c0145892ed829c6937" id="r_a8ac406cbdb74c9c0145892ed829c6937"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ac406cbdb74c9c0145892ed829c6937">Clear</a> ()</td></tr>
+<tr class="memdesc:a8ac406cbdb74c9c0145892ed829c6937"><td class="mdescLeft">&#160;</td><td class="mdescRight">すべてのキーフレームを削除します。  <br /></td></tr>
+<tr class="memitem:aac202e1956458aecaf463f9811bd8a23" id="r_aac202e1956458aecaf463f9811bd8a23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac202e1956458aecaf463f9811bd8a23">CopyFrom</a> (global::YukkuriMovieMaker.Commons.KeyFrames keyFrames)</td></tr>
+<tr class="memdesc:aac202e1956458aecaf463f9811bd8a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">別のKeyFramesオブジェクトからキーフレームをコピーします。  <br /></td></tr>
+<tr class="memitem:ac426f8b6d9214112a2f5ea40dba6084b" id="r_ac426f8b6d9214112a2f5ea40dba6084b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac426f8b6d9214112a2f5ea40dba6084b">Distribute</a> (int length)</td></tr>
+<tr class="memdesc:ac426f8b6d9214112a2f5ea40dba6084b"><td class="mdescLeft">&#160;</td><td class="mdescRight">キーフレームを指定された長さに合わせて均等に再配置します。  <br /></td></tr>
+<tr class="memitem:a99765cfe76358c34c11667d1a151b8ab" id="r_a99765cfe76358c34c11667d1a151b8ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99765cfe76358c34c11667d1a151b8ab">KeyFrames</a> ()</td></tr>
+<tr class="memdesc:a99765cfe76358c34c11667d1a151b8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">KeyFramesクラスの新しいインスタンスを初期化します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+公開変数類</h2></td></tr>
+<tr class="memitem:aac32b5dd493fae8fb6f780cb1a4056dd" id="r_aac32b5dd493fae8fb6f780cb1a4056dd"><td class="memItemLeft" align="right" valign="top">global::System.EventHandler&lt; global::YukkuriMovieMaker.Commons.KeyFramesChangedEventArgs &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac32b5dd493fae8fb6f780cb1a4056dd">KeyFramesChanging</a></td></tr>
+<tr class="memdesc:aac32b5dd493fae8fb6f780cb1a4056dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">キーフレームが変更される前に発生します。  <br /></td></tr>
+<tr class="memitem:ad78389494ffe7676e30268253439e890" id="r_ad78389494ffe7676e30268253439e890"><td class="memItemLeft" align="right" valign="top">global::System.EventHandler&lt; global::YukkuriMovieMaker.Commons.KeyFramesChangedEventArgs &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad78389494ffe7676e30268253439e890">KeyFramesChanged</a></td></tr>
+<tr class="memdesc:ad78389494ffe7676e30268253439e890"><td class="mdescLeft">&#160;</td><td class="mdescRight">キーフレームが変更された後に発生します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:adcd42771f19a3c33d5ac521dc5f0109a" id="r_adcd42771f19a3c33d5ac521dc5f0109a"><td class="memItemLeft" align="right" valign="top">global::System.Collections.Immutable.ImmutableList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd42771f19a3c33d5ac521dc5f0109a">Frames</a><code> [get]</code></td></tr>
+<tr class="memdesc:adcd42771f19a3c33d5ac521dc5f0109a"><td class="mdescLeft">&#160;</td><td class="mdescRight">キーフレームのフレーム番号を格納した不変リスト。  <br /></td></tr>
+<tr class="memitem:a01fb2bce56f00f82a7fdc3df63806380" id="r_a01fb2bce56f00f82a7fdc3df63806380"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01fb2bce56f00f82a7fdc3df63806380">Count</a><code> [get]</code></td></tr>
+<tr class="memdesc:a01fb2bce56f00f82a7fdc3df63806380"><td class="mdescLeft">&#160;</td><td class="mdescRight">キーフレームの数を取得します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>キーフレームを管理するクラス。 キーフレームはフレーム番号(int)のリストとして保持されます。 このクラスはUndo/Redoに対応しています。 </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="a99765cfe76358c34c11667d1a151b8ab" name="a99765cfe76358c34c11667d1a151b8ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99765cfe76358c34c11667d1a151b8ab">&#9670;&#160;</a></span>KeyFrames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.KeyFrames </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>KeyFramesクラスの新しいインスタンスを初期化します。 </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a8ac406cbdb74c9c0145892ed829c6937" name="a8ac406cbdb74c9c0145892ed829c6937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ac406cbdb74c9c0145892ed829c6937">&#9670;&#160;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.Clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>すべてのキーフレームを削除します。 </p>
+
+</div>
+</div>
+<a id="aac202e1956458aecaf463f9811bd8a23" name="aac202e1956458aecaf463f9811bd8a23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac202e1956458aecaf463f9811bd8a23">&#9670;&#160;</a></span>CopyFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.CopyFrom </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Commons.KeyFrames</td>          <td class="paramname"><span class="paramname"><em>keyFrames</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>別のKeyFramesオブジェクトからキーフレームをコピーします。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keyFrames</td><td>コピー元のKeyFramesオブジェクト。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac426f8b6d9214112a2f5ea40dba6084b" name="ac426f8b6d9214112a2f5ea40dba6084b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac426f8b6d9214112a2f5ea40dba6084b">&#9670;&#160;</a></span>Distribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.Distribute </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>length</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>キーフレームを指定された長さに合わせて均等に再配置します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">length</td><td>再配置の基準となる長さ（フレーム数）。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8015a7f088440ff9beb972aa8e3eb147" name="a8015a7f088440ff9beb972aa8e3eb147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8015a7f088440ff9beb972aa8e3eb147">&#9670;&#160;</a></span>Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.Insert </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>frame</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したフレーム番号を、ソートされた状態を維持したままリストに挿入します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frame</td><td>挿入するフレーム番号。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>挿入された位置のインデックス。</dd></dl>
+
+</div>
+</div>
+<a id="a6efef9fe9ffa1feaf5fe98a608b2d7b6" name="a6efef9fe9ffa1feaf5fe98a608b2d7b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6efef9fe9ffa1feaf5fe98a608b2d7b6">&#9670;&#160;</a></span>Remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.Remove </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>frame</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したフレーム番号のキーフレームを削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frame</td><td>削除するフレーム番号。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1b57ff53488315e7f0893004635b53a4" name="a1b57ff53488315e7f0893004635b53a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b57ff53488315e7f0893004635b53a4">&#9670;&#160;</a></span>RemoveAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.RemoveAt </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したインデックスのキーフレームを削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>削除するキーフレームのインデックス。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abd57d5ada0c6deda7aa90f7e127da7ce" name="abd57d5ada0c6deda7aa90f7e127da7ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd57d5ada0c6deda7aa90f7e127da7ce">&#9670;&#160;</a></span>RemovesLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.RemovesLeft </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>frame</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したフレーム番号より前のキーフレームをすべて削除し、残りのキーフレームのフレーム番号を調整します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frame</td><td>基準となるフレーム番号。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a572ed3aff73fa642e76a0ad7c470cf63" name="a572ed3aff73fa642e76a0ad7c470cf63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a572ed3aff73fa642e76a0ad7c470cf63">&#9670;&#160;</a></span>RemovesRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.RemovesRight </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>frame</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したフレーム番号以降のキーフレームをすべて削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frame</td><td>基準となるフレーム番号。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8901bf5124c513bc96eb5cac69d11553" name="a8901bf5124c513bc96eb5cac69d11553"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8901bf5124c513bc96eb5cac69d11553">&#9670;&#160;</a></span>SetFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.SetFrame </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>frame</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したインデックスのキーフレームを新しいフレーム番号に設定します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>設定するキーフレームのインデックス。</td></tr>
+    <tr><td class="paramname">frame</td><td>新しいフレーム番号。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">メンバ詳解</h2>
+<a id="ad78389494ffe7676e30268253439e890" name="ad78389494ffe7676e30268253439e890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad78389494ffe7676e30268253439e890">&#9670;&#160;</a></span>KeyFramesChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.EventHandler&lt;global.YukkuriMovieMaker.Commons.KeyFramesChangedEventArgs&gt; YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.KeyFramesChanged</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>キーフレームが変更された後に発生します。 </p>
+
+</div>
+</div>
+<a id="aac32b5dd493fae8fb6f780cb1a4056dd" name="aac32b5dd493fae8fb6f780cb1a4056dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac32b5dd493fae8fb6f780cb1a4056dd">&#9670;&#160;</a></span>KeyFramesChanging</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.EventHandler&lt;global.YukkuriMovieMaker.Commons.KeyFramesChangedEventArgs&gt; YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.KeyFramesChanging</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>キーフレームが変更される前に発生します。 </p>
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="a01fb2bce56f00f82a7fdc3df63806380" name="a01fb2bce56f00f82a7fdc3df63806380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01fb2bce56f00f82a7fdc3df63806380">&#9670;&#160;</a></span>Count</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.Count</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>キーフレームの数を取得します。 </p>
+
+</div>
+</div>
+<a id="adcd42771f19a3c33d5ac521dc5f0109a" name="adcd42771f19a3c33d5ac521dc5f0109a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcd42771f19a3c33d5ac521dc5f0109a">&#9670;&#160;</a></span>Frames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Immutable.ImmutableList&lt;int&gt; YukkuriMovieMaker.Commons.YukkuriMovieMaker.Commons.KeyFrames.Frames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>キーフレームのフレーム番号を格納した不変リスト。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_key_frames_8cs.html">KeyFrames.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons_1_1_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons_1_1_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_yukkuri_movie_maker_1_1_commons_1_1_key_frames.html">KeyFrames</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

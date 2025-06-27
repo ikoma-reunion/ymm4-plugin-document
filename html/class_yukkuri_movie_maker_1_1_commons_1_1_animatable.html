@@ -1,0 +1,536 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.Animatable クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_animatable.html','','class_yukkuri_movie_maker_1_1_commons_1_1_animatable-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.Animatable クラス<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>アニメーション可能なプロパティを持つオブジェクトの基本クラス。 Undo/Redo機能を持ち、子のIAnimatableオブジェクトのキーフレームやアニメーション設定を管理します。  
+ <a href="#details">[詳解]</a></p>
+<div class="dynheader">
+YukkuriMovieMaker.Commons.Animatable の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_yukkuri_movie_maker_1_1_commons_1_1_animatable.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a85687b04c1abbbfd6ea6abbce878a276" id="r_a85687b04c1abbbfd6ea6abbce878a276"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85687b04c1abbbfd6ea6abbce878a276">Animatable</a> ()</td></tr>
+<tr class="memdesc:a85687b04c1abbbfd6ea6abbce878a276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Animatableクラスの新しいインスタンスを初期化します。  <br /></td></tr>
+<tr class="memitem:ac2e5180eac44c4b3f723c693226a081a" id="r_ac2e5180eac44c4b3f723c693226a081a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2e5180eac44c4b3f723c693226a081a">SetAnimationParameters</a> (int animationLength, int <a class="el" href="#a396a39a0a0380a174134962e4aef33e9">videoFPS</a>)</td></tr>
+<tr class="memdesc:ac2e5180eac44c4b3f723c693226a081a"><td class="mdescLeft">&#160;</td><td class="mdescRight">アニメーションの長さとビデオのフレームレートを設定します。 この設定は、管理下にあるすべての子IAnimatableオブジェクトに伝播されます。  <br /></td></tr>
+<tr class="memitem:afb9fd3c71d3482b8289258438bc29b76" id="r_afb9fd3c71d3482b8289258438bc29b76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb9fd3c71d3482b8289258438bc29b76">SetKeyFrames</a> (global::YukkuriMovieMaker.Commons.KeyFrames keyFrames)</td></tr>
+<tr class="memdesc:afb9fd3c71d3482b8289258438bc29b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">このオブジェクトおよび管理下にあるすべての子IAnimatableオブジェクトにキーフレームコレクションを設定します。  <br /></td></tr>
+<tr class="memitem:aeb869db2783bb071bfc070d1b1b62c71" id="r_aeb869db2783bb071bfc070d1b1b62c71"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb869db2783bb071bfc070d1b1b62c71">BeginEdit</a> ()</td></tr>
+<tr class="memdesc:aeb869db2783bb071bfc070d1b1b62c71"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクトの編集を開始します。 管理下にあるすべての子IAnimatableオブジェクトに対しても編集開始を通知します。  <br /></td></tr>
+<tr class="memitem:a81d27fa653b5a59a77552c7db4db9f55" id="r_a81d27fa653b5a59a77552c7db4db9f55"><td class="memItemLeft" align="right" valign="top">virtual async global::System.Threading.Tasks.ValueTask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d27fa653b5a59a77552c7db4db9f55">EndEditAsync</a> ()</td></tr>
+<tr class="memdesc:a81d27fa653b5a59a77552c7db4db9f55"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクトの編集を非同期で終了します。 管理下にあるすべての子IAnimatableオブジェクトに対しても編集終了を通知します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:af83464ab94e5422432c89e0b2e55577a" id="r_af83464ab94e5422432c89e0b2e55577a"><td class="memItemLeft" align="right" valign="top">global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Commons.IAnimatable &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af83464ab94e5422432c89e0b2e55577a">GetAnimatables</a> ()</td></tr>
+<tr class="memdesc:af83464ab94e5422432c89e0b2e55577a"><td class="mdescLeft">&#160;</td><td class="mdescRight">このオブジェクトが管理するアニメーション可能な子要素のコレクションを取得します。  <br /></td></tr>
+<tr class="memitem:a3758534448e9d2f58c71ba97d81da5ec" id="r_a3758534448e9d2f58c71ba97d81da5ec"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3758534448e9d2f58c71ba97d81da5ec">Set&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;</a> (ref T storage, T value, [global::System.Runtime.CompilerServices.CallerMemberName] string name=&quot;&quot;, params string[] etcChangedPropertyNames)</td></tr>
+<tr class="memdesc:a3758534448e9d2f58c71ba97d81da5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロパティ値を設定し、変更を通知します。 プロパティがIAnimatableまたはそのコレクションである場合、キーフレームの関連付けも更新します。  <br /></td></tr>
+<tr class="memitem:a78359f286326ffd385bbedb797605097" id="r_a78359f286326ffd385bbedb797605097"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78359f286326ffd385bbedb797605097">Set&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;</a> (global::System.Linq.Expressions.Expression&lt; global::System.Func&lt; T &gt; &gt; propertySelector, T value, [global::System.Runtime.CompilerServices.CallerMemberName] string name=&quot;&quot;, params string[] etcChangedPropertyNames)</td></tr>
+<tr class="memdesc:a78359f286326ffd385bbedb797605097"><td class="mdescLeft">&#160;</td><td class="mdescRight">プロパティ値を設定し、変更を通知します。 プロパティがIAnimatableまたはそのコレクションである場合、キーフレームの関連付けも更新します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a396a39a0a0380a174134962e4aef33e9" id="r_a396a39a0a0380a174134962e4aef33e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a396a39a0a0380a174134962e4aef33e9">videoFPS</a></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>アニメーション可能なプロパティを持つオブジェクトの基本クラス。 Undo/Redo機能を持ち、子のIAnimatableオブジェクトのキーフレームやアニメーション設定を管理します。 </p>
+<p>このクラスを継承することで、プロパティの変更がアニメーションのキーフレームと連動し、 Undo/Redoの履歴にも自動的に記録されるようになります。 </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="a85687b04c1abbbfd6ea6abbce878a276" name="a85687b04c1abbbfd6ea6abbce878a276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85687b04c1abbbfd6ea6abbce878a276">&#9670;&#160;</a></span>Animatable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">YukkuriMovieMaker.Commons.Animatable.Animatable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Animatableクラスの新しいインスタンスを初期化します。 </p>
+<div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MyAnimatableObject : <a class="code hl_function" href="#a85687b04c1abbbfd6ea6abbce878a276">Animatable</a></div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">// 子のIAnimatableオブジェクトを返す実装</span></div>
+<div class="line">    <span class="keyword">protected</span> <span class="keyword">override</span> IEnumerable&lt;IAnimatable&gt; <a class="code hl_function" href="#af83464ab94e5422432c89e0b2e55577a">GetAnimatables</a>()</div>
+<div class="line">    {</div>
+<div class="line">        yield <span class="keywordflow">break</span>;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span> MyAnimatableObject()</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// コンストラクタで特別な初期化が必要な場合はここに記述</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_animatable_html_a85687b04c1abbbfd6ea6abbce878a276"><div class="ttname"><a href="#a85687b04c1abbbfd6ea6abbce878a276">YukkuriMovieMaker.Commons.Animatable.Animatable</a></div><div class="ttdeci">Animatable()</div><div class="ttdoc">Animatableクラスの新しいインスタンスを初期化します。</div><div class="ttdef"><b>Definition</b> Animatable.cs:52</div></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_animatable_html_af83464ab94e5422432c89e0b2e55577a"><div class="ttname"><a href="#af83464ab94e5422432c89e0b2e55577a">YukkuriMovieMaker.Commons.Animatable.GetAnimatables</a></div><div class="ttdeci">global::System.Collections.Generic.IEnumerable&lt; global::YukkuriMovieMaker.Commons.IAnimatable &gt; GetAnimatables()</div><div class="ttdoc">このオブジェクトが管理するアニメーション可能な子要素のコレクションを取得します。</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="aeb869db2783bb071bfc070d1b1b62c71" name="aeb869db2783bb071bfc070d1b1b62c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb869db2783bb071bfc070d1b1b62c71">&#9670;&#160;</a></span>BeginEdit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void YukkuriMovieMaker.Commons.Animatable.BeginEdit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オブジェクトの編集を開始します。 管理下にあるすべての子IAnimatableオブジェクトに対しても編集開始を通知します。 </p>
+<div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MyAnimatableObject : <a class="code hl_function" href="#a85687b04c1abbbfd6ea6abbce878a276">Animatable</a></div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">protected</span> <span class="keyword">override</span> IEnumerable&lt;IAnimatable&gt; <a class="code hl_function" href="#af83464ab94e5422432c89e0b2e55577a">GetAnimatables</a>()</div>
+<div class="line">    {</div>
+<div class="line">        yield <span class="keywordflow">break</span>;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> EditProperties()</div>
+<div class="line">    {</div>
+<div class="line">        <a class="code hl_function" href="#aeb869db2783bb071bfc070d1b1b62c71">BeginEdit</a>(); <span class="comment">// 編集開始</span></div>
+<div class="line">        <span class="comment">// プロパティの変更など</span></div>
+<div class="line">        <span class="comment">// ...</span></div>
+<div class="line">        <a class="code hl_function" href="#a81d27fa653b5a59a77552c7db4db9f55">EndEditAsync</a>(); <span class="comment">// 編集終了</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_animatable_html_a81d27fa653b5a59a77552c7db4db9f55"><div class="ttname"><a href="#a81d27fa653b5a59a77552c7db4db9f55">YukkuriMovieMaker.Commons.Animatable.EndEditAsync</a></div><div class="ttdeci">virtual async global::System.Threading.Tasks.ValueTask EndEditAsync()</div><div class="ttdoc">オブジェクトの編集を非同期で終了します。 管理下にあるすべての子IAnimatableオブジェクトに対しても編集終了を通知します。</div><div class="ttdef"><b>Definition</b> Animatable.cs:282</div></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_animatable_html_aeb869db2783bb071bfc070d1b1b62c71"><div class="ttname"><a href="#aeb869db2783bb071bfc070d1b1b62c71">YukkuriMovieMaker.Commons.Animatable.BeginEdit</a></div><div class="ttdeci">virtual void BeginEdit()</div><div class="ttdoc">オブジェクトの編集を開始します。 管理下にあるすべての子IAnimatableオブジェクトに対しても編集開始を通知します。</div><div class="ttdef"><b>Definition</b> Animatable.cs:246</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="a81d27fa653b5a59a77552c7db4db9f55" name="a81d27fa653b5a59a77552c7db4db9f55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d27fa653b5a59a77552c7db4db9f55">&#9670;&#160;</a></span>EndEditAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async global.System.Threading.Tasks.ValueTask YukkuriMovieMaker.Commons.Animatable.EndEditAsync </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オブジェクトの編集を非同期で終了します。 管理下にあるすべての子IAnimatableオブジェクトに対しても編集終了を通知します。 </p>
+<div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MyAnimatableObject : <a class="code hl_function" href="#a85687b04c1abbbfd6ea6abbce878a276">Animatable</a></div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">protected</span> <span class="keyword">override</span> IEnumerable&lt;IAnimatable&gt; <a class="code hl_function" href="#af83464ab94e5422432c89e0b2e55577a">GetAnimatables</a>()</div>
+<div class="line">    {</div>
+<div class="line">        yield <span class="keywordflow">break</span>;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span> async ValueTask EditPropertiesAsync()</div>
+<div class="line">    {</div>
+<div class="line">        <a class="code hl_function" href="#aeb869db2783bb071bfc070d1b1b62c71">BeginEdit</a>(); <span class="comment">// 編集開始</span></div>
+<div class="line">        <span class="comment">// プロパティの変更など</span></div>
+<div class="line">        <span class="comment">// ...</span></div>
+<div class="line">        await <a class="code hl_function" href="#a81d27fa653b5a59a77552c7db4db9f55">EndEditAsync</a>(); <span class="comment">// 編集終了を待機</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="af83464ab94e5422432c89e0b2e55577a" name="af83464ab94e5422432c89e0b2e55577a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af83464ab94e5422432c89e0b2e55577a">&#9670;&#160;</a></span>GetAnimatables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Collections.Generic.IEnumerable&lt; global.YukkuriMovieMaker.Commons.IAnimatable &gt; YukkuriMovieMaker.Commons.Animatable.GetAnimatables </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel abstract">abstract</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>このオブジェクトが管理するアニメーション可能な子要素のコレクションを取得します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>アニメーション可能な子要素のコレクション。</dd></dl>
+
+</div>
+</div>
+<a id="a78359f286326ffd385bbedb797605097" name="a78359f286326ffd385bbedb797605097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78359f286326ffd385bbedb797605097">&#9670;&#160;</a></span>Set&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool YukkuriMovieMaker.Commons.Animatable.Set&lt;[global.System.Runtime.CompilerServices.Nullable(2)] T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">global.System.Linq.Expressions.Expression&lt; global.System.Func&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>propertySelector</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System::Runtime::CompilerServices::CallerMemberName] string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;&quot;</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params string[]</td>          <td class="paramname"><span class="paramname"><em>etcChangedPropertyNames</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>プロパティ値を設定し、変更を通知します。 プロパティがIAnimatableまたはそのコレクションである場合、キーフレームの関連付けも更新します。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>プロパティの型。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">propertySelector</td><td>設定するプロパティを指定する式ツリー。</td></tr>
+    <tr><td class="paramname">value</td><td>新しい値。</td></tr>
+    <tr><td class="paramname">name</td><td>プロパティ名。通常は自動的に設定されます。</td></tr>
+    <tr><td class="paramname">etcChangedPropertyNames</td><td>同時に変更通知を行う他のプロパティ名。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>値が変更された場合はtrue、それ以外はfalse。</dd></dl>
+
+</div>
+</div>
+<a id="a3758534448e9d2f58c71ba97d81da5ec" name="a3758534448e9d2f58c71ba97d81da5ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3758534448e9d2f58c71ba97d81da5ec">&#9670;&#160;</a></span>Set&lt;[global::System.Runtime.CompilerServices.Nullable(2)] T &gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool YukkuriMovieMaker.Commons.Animatable.Set&lt;[global.System.Runtime.CompilerServices.Nullable(2)] T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">ref T</td>          <td class="paramname"><span class="paramname"><em>storage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System::Runtime::CompilerServices::CallerMemberName] string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;&quot;</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params string[]</td>          <td class="paramname"><span class="paramname"><em>etcChangedPropertyNames</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>プロパティ値を設定し、変更を通知します。 プロパティがIAnimatableまたはそのコレクションである場合、キーフレームの関連付けも更新します。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>プロパティの型。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">storage</td><td>プロパティのバッキングフィールド。</td></tr>
+    <tr><td class="paramname">value</td><td>新しい値。</td></tr>
+    <tr><td class="paramname">name</td><td>プロパティ名。通常は自動的に設定されます。</td></tr>
+    <tr><td class="paramname">etcChangedPropertyNames</td><td>同時に変更通知を行う他のプロパティ名。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>値が変更された場合はtrue、それ以外はfalse。</dd></dl>
+<div class="fragment"><div class="line"><span class="keyword">private</span> <span class="keywordtype">string</span> _myProperty;</div>
+<div class="line"><span class="keyword">public</span> <span class="keywordtype">string</span> MyProperty</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">get</span> =&gt; _myProperty;</div>
+<div class="line">    <span class="keyword">set</span> =&gt; Set(ref _myProperty, value);</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="ac2e5180eac44c4b3f723c693226a081a" name="ac2e5180eac44c4b3f723c693226a081a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2e5180eac44c4b3f723c693226a081a">&#9670;&#160;</a></span>SetAnimationParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.Animatable.SetAnimationParameters </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>animationLength</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>videoFPS</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>アニメーションの長さとビデオのフレームレートを設定します。 この設定は、管理下にあるすべての子IAnimatableオブジェクトに伝播されます。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">animationLength</td><td>アニメーションの全長（フレーム数）。</td></tr>
+    <tr><td class="paramname">videoFPS</td><td>ビデオのフレームレート。</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MyAnimatableObject : <a class="code hl_function" href="#a85687b04c1abbbfd6ea6abbce878a276">Animatable</a></div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">protected</span> <span class="keyword">override</span> IEnumerable&lt;IAnimatable&gt; <a class="code hl_function" href="#af83464ab94e5422432c89e0b2e55577a">GetAnimatables</a>()</div>
+<div class="line">    {</div>
+<div class="line">        yield <span class="keywordflow">break</span>;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> UpdateAnimationSettings(<span class="keywordtype">int</span> length, <span class="keywordtype">int</span> fps)</div>
+<div class="line">    {</div>
+<div class="line">        <a class="code hl_function" href="#ac2e5180eac44c4b3f723c693226a081a">SetAnimationParameters</a>(length, fps);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">var animatableObj = <span class="keyword">new</span> MyAnimatableObject();</div>
+<div class="line">animatableObj.UpdateAnimationSettings(1800, 30); <span class="comment">// 1800フレーム、30FPSに設定</span></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_animatable_html_ac2e5180eac44c4b3f723c693226a081a"><div class="ttname"><a href="#ac2e5180eac44c4b3f723c693226a081a">YukkuriMovieMaker.Commons.Animatable.SetAnimationParameters</a></div><div class="ttdeci">void SetAnimationParameters(int animationLength, int videoFPS)</div><div class="ttdoc">アニメーションの長さとビデオのフレームレートを設定します。 この設定は、管理下にあるすべての子IAnimatableオブジェクトに伝播されます。</div><div class="ttdef"><b>Definition</b> Animatable.cs:172</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a id="afb9fd3c71d3482b8289258438bc29b76" name="afb9fd3c71d3482b8289258438bc29b76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9fd3c71d3482b8289258438bc29b76">&#9670;&#160;</a></span>SetKeyFrames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void YukkuriMovieMaker.Commons.Animatable.SetKeyFrames </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Commons.KeyFrames</td>          <td class="paramname"><span class="paramname"><em>keyFrames</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>このオブジェクトおよび管理下にあるすべての子IAnimatableオブジェクトにキーフレームコレクションを設定します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keyFrames</td><td>設定するキーフレームコレクション。nullを設定するとキーフレームの関連付けが解除されます。</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MyAnimatableObject : <a class="code hl_function" href="#a85687b04c1abbbfd6ea6abbce878a276">Animatable</a></div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">protected</span> <span class="keyword">override</span> IEnumerable&lt;IAnimatable&gt; <a class="code hl_function" href="#af83464ab94e5422432c89e0b2e55577a">GetAnimatables</a>()</div>
+<div class="line">    {</div>
+<div class="line">        yield <span class="keywordflow">break</span>;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> AssignKeyFrames(KeyFrames newKeyFrames)</div>
+<div class="line">    {</div>
+<div class="line">        <a class="code hl_function" href="#afb9fd3c71d3482b8289258438bc29b76">SetKeyFrames</a>(newKeyFrames);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">var animatableObj = <span class="keyword">new</span> MyAnimatableObject();</div>
+<div class="line">var myKeyFrames = <span class="keyword">new</span> KeyFrames();</div>
+<div class="line">animatableObj.AssignKeyFrames(myKeyFrames); <span class="comment">// キーフレームを設定</span></div>
+<div class="line">animatableObj.AssignKeyFrames(<span class="keyword">null</span>); <span class="comment">// キーフレームの関連付けを解除</span></div>
+<div class="ttc" id="aclass_yukkuri_movie_maker_1_1_commons_1_1_animatable_html_afb9fd3c71d3482b8289258438bc29b76"><div class="ttname"><a href="#afb9fd3c71d3482b8289258438bc29b76">YukkuriMovieMaker.Commons.Animatable.SetKeyFrames</a></div><div class="ttdeci">void SetKeyFrames(global::YukkuriMovieMaker.Commons.KeyFrames keyFrames)</div><div class="ttdoc">このオブジェクトおよび管理下にあるすべての子IAnimatableオブジェクトにキーフレームコレクションを設定します。</div><div class="ttdef"><b>Definition</b> Animatable.cs:211</div></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">メンバ詳解</h2>
+<a id="a396a39a0a0380a174134962e4aef33e9" name="a396a39a0a0380a174134962e4aef33e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a396a39a0a0380a174134962e4aef33e9">&#9670;&#160;</a></span>videoFPS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int YukkuriMovieMaker.Commons.Animatable.videoFPS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_animatable_8cs.html">Animatable.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_animatable.html">Animatable</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

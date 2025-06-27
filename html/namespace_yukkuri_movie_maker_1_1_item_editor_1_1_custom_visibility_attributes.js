@@ -1,0 +1,4 @@
+var namespace_yukkuri_movie_maker_1_1_item_editor_1_1_custom_visibility_attributes =
+[
+    [ "ShowPropertyEditorWhenAttribute", "class_yukkuri_movie_maker_1_1_item_editor_1_1_custom_visibility_attributes_1_1_show_property_editor_when_attribute.html", "class_yukkuri_movie_maker_1_1_item_editor_1_1_custom_visibility_attributes_1_1_show_property_editor_when_attribute" ]
+];

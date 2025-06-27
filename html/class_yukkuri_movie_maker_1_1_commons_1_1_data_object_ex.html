@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Commons.DataObjectEx クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_yukkuri_movie_maker_1_1_commons_1_1_data_object_ex.html','','class_yukkuri_movie_maker_1_1_commons_1_1_data_object_ex-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Commons.DataObjectEx クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>IDataObjectインターフェースを拡張し、特にファイルのドラッグ＆ドロップ操作を容易にするための静的メソッドを提供します。  
+ <a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+クラス</h2></td></tr>
+<tr class="memitem:FileContent" id="r_FileContent"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_yukkuri_movie_maker_1_1_commons_1_1_data_object_ex_1_1_file_content.html">FileContent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">クリップボードやドラッグ＆ドロップ操作から取得したファイルの内容を保持します。  <a href="class_yukkuri_movie_maker_1_1_commons_1_1_data_object_ex_1_1_file_content.html#details">[詳解]</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a8ba278a578983ceff7a7c1f18d8c6177" id="r_a8ba278a578983ceff7a7c1f18d8c6177"><td class="memItemLeft" align="right" valign="top">static object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ba278a578983ceff7a7c1f18d8c6177">GetData</a> (this global::System.Runtime.InteropServices.ComTypes.IDataObject dataObject, string format)</td></tr>
+<tr class="memdesc:a8ba278a578983ceff7a7c1f18d8c6177"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたフォーマット名を使用して、IDataObjectからデータを取得します。  <br /></td></tr>
+<tr class="memitem:ae88012ab7b034953655d3cf0f2a2cf72" id="r_ae88012ab7b034953655d3cf0f2a2cf72"><td class="memItemLeft" align="right" valign="top">static global::YukkuriMovieMaker.Commons.DataObjectEx.FileContent[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae88012ab7b034953655d3cf0f2a2cf72">GetFileContents</a> (this global::System.Runtime.InteropServices.ComTypes.IDataObject dataObject)</td></tr>
+<tr class="memdesc:ae88012ab7b034953655d3cf0f2a2cf72"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectからファイルの内容（ファイル名とストリーム）の配列を取得します。  <br /></td></tr>
+<tr class="memitem:aabb8739a0802bd38dd22c974d574e547" id="r_aabb8739a0802bd38dd22c974d574e547"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabb8739a0802bd38dd22c974d574e547">TryGetFORMATETC</a> (this global::System.Runtime.InteropServices.ComTypes.IDataObject dataObject, string format, out global::System.Runtime.InteropServices.ComTypes.FORMATETC fmt)</td></tr>
+<tr class="memdesc:aabb8739a0802bd38dd22c974d574e547"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたフォーマット名に一致するFORMATETC構造体を検索します。  <br /></td></tr>
+<tr class="memitem:a7ee7c131dbb0bd20f42386698a7d89f7" id="r_a7ee7c131dbb0bd20f42386698a7d89f7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee7c131dbb0bd20f42386698a7d89f7">TryGetFORMATETC</a> (this global::System.Runtime.InteropServices.ComTypes.IDataObject dataObject, short format, out global::System.Runtime.InteropServices.ComTypes.FORMATETC fmt)</td></tr>
+<tr class="memdesc:a7ee7c131dbb0bd20f42386698a7d89f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたクリップボードフォーマットIDに一致するFORMATETC構造体を検索します。  <br /></td></tr>
+<tr class="memitem:a390ed50d3e9683137010668410dc446a" id="r_a390ed50d3e9683137010668410dc446a"><td class="memItemLeft" align="right" valign="top">static global::System.Runtime.InteropServices.ComTypes.FORMATETC[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a390ed50d3e9683137010668410dc446a">GetFORMATETCs</a> (this global::System.Runtime.InteropServices.ComTypes.IDataObject dataObject)</td></tr>
+<tr class="memdesc:a390ed50d3e9683137010668410dc446a"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDataObjectで利用可能なすべてのFORMATETC構造体の配列を取得します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+静的公開変数類</h2></td></tr>
+<tr class="memitem:adcb3e9f0d317bf123f49994098be8178" id="r_adcb3e9f0d317bf123f49994098be8178"><td class="memItemLeft" align="right" valign="top">const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcb3e9f0d317bf123f49994098be8178">FileContents</a> = -16264</td></tr>
+<tr class="memdesc:adcb3e9f0d317bf123f49994098be8178"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルの内容を示すクリップボードフォーマットID。  <br /></td></tr>
+<tr class="memitem:a3277a67bf7e09b4ae3c602eb6ff4da0e" id="r_a3277a67bf7e09b4ae3c602eb6ff4da0e"><td class="memItemLeft" align="right" valign="top">const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3277a67bf7e09b4ae3c602eb6ff4da0e">FileGroupDescriptorW</a> = -16056</td></tr>
+<tr class="memdesc:a3277a67bf7e09b4ae3c602eb6ff4da0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルグループ記述子(Unicode)を示すクリップボードフォーマットID。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>IDataObjectインターフェースを拡張し、特にファイルのドラッグ＆ドロップ操作を容易にするための静的メソッドを提供します。 </p>
+<p>このクラスは、クリップボードやドラッグ＆ドロップ操作でよく使われる "FileGroupDescriptorW" や "FileContents" といった クリップボードフォーマットを扱うためのヘルパーメソッドを定義します。 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="a8ba278a578983ceff7a7c1f18d8c6177" name="a8ba278a578983ceff7a7c1f18d8c6177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ba278a578983ceff7a7c1f18d8c6177">&#9670;&#160;</a></span>GetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">object YukkuriMovieMaker.Commons.DataObjectEx.GetData </td>
+          <td>(</td>
+          <td class="paramtype">this global.System.Runtime.InteropServices.ComTypes.IDataObject</td>          <td class="paramname"><span class="paramname"><em>dataObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>format</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたフォーマット名を使用して、IDataObjectからデータを取得します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataObject</td><td>データを取得する対象のIDataObject。</td></tr>
+    <tr><td class="paramname">format</td><td>取得するデータのフォーマット名。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>取得したデータオブジェクト。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InvalidOperationException</td><td>指定されたフォーマットがデータオブジェクトに存在しない場合にスローされます。</td></tr>
+    <tr><td class="paramname">NotSupportedException</td><td>現在サポートされていないフォーマットが指定された場合にスローされます（現在は "FileGroupDescriptorW" のみサポート）。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae88012ab7b034953655d3cf0f2a2cf72" name="ae88012ab7b034953655d3cf0f2a2cf72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae88012ab7b034953655d3cf0f2a2cf72">&#9670;&#160;</a></span>GetFileContents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Commons.DataObjectEx.FileContent[] YukkuriMovieMaker.Commons.DataObjectEx.GetFileContents </td>
+          <td>(</td>
+          <td class="paramtype">this global.System.Runtime.InteropServices.ComTypes.IDataObject</td>          <td class="paramname"><span class="paramname"><em>dataObject</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>IDataObjectからファイルの内容（ファイル名とストリーム）の配列を取得します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataObject</td><td>ファイル内容を取得する対象のIDataObject。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>ファイルの内容を保持する<a class="el" href="class_yukkuri_movie_maker_1_1_commons_1_1_data_object_ex_1_1_file_content.html" title="クリップボードやドラッグ＆ドロップ操作から取得したファイルの内容を保持します。">FileContent</a>オブジェクトの配列。</dd></dl>
+<p>このメソッドは、まず "FileGroupDescriptorW" を使ってファイル記述子のリストを取得し、 次に各ファイル記述子に対応する "FileContents" をストリームとして取得します。 Outlookの添付ファイルなどをドラッグ＆ドロップした際のデータ取得に利用できます。 </p>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InvalidOperationException</td><td>"FileGroupDescriptorW" または "FileContents" フォーマットが見つからない場合にスローされます。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a390ed50d3e9683137010668410dc446a" name="a390ed50d3e9683137010668410dc446a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390ed50d3e9683137010668410dc446a">&#9670;&#160;</a></span>GetFORMATETCs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Runtime.InteropServices.ComTypes.FORMATETC[] YukkuriMovieMaker.Commons.DataObjectEx.GetFORMATETCs </td>
+          <td>(</td>
+          <td class="paramtype">this global.System.Runtime.InteropServices.ComTypes.IDataObject</td>          <td class="paramname"><span class="paramname"><em>dataObject</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>IDataObjectで利用可能なすべてのFORMATETC構造体の配列を取得します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataObject</td><td>対象のIDataObject。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>利用可能なFORMATETC構造体の配列。</dd></dl>
+
+</div>
+</div>
+<a id="a7ee7c131dbb0bd20f42386698a7d89f7" name="a7ee7c131dbb0bd20f42386698a7d89f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ee7c131dbb0bd20f42386698a7d89f7">&#9670;&#160;</a></span>TryGetFORMATETC() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Commons.DataObjectEx.TryGetFORMATETC </td>
+          <td>(</td>
+          <td class="paramtype">this global.System.Runtime.InteropServices.ComTypes.IDataObject</td>          <td class="paramname"><span class="paramname"><em>dataObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">short</td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.System.Runtime.InteropServices.ComTypes.FORMATETC</td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたクリップボードフォーマットIDに一致するFORMATETC構造体を検索します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataObject</td><td>検索対象のIDataObject。</td></tr>
+    <tr><td class="paramname">format</td><td>検索するクリップボードフォーマットID。</td></tr>
+    <tr><td class="paramname">fmt</td><td>見つかったFORMATETC構造体。見つからなかった場合はdefault値が設定されます。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>フォーマットが見つかった場合はtrue、それ以外はfalse。</dd></dl>
+
+</div>
+</div>
+<a id="aabb8739a0802bd38dd22c974d574e547" name="aabb8739a0802bd38dd22c974d574e547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabb8739a0802bd38dd22c974d574e547">&#9670;&#160;</a></span>TryGetFORMATETC() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Commons.DataObjectEx.TryGetFORMATETC </td>
+          <td>(</td>
+          <td class="paramtype">this global.System.Runtime.InteropServices.ComTypes.IDataObject</td>          <td class="paramname"><span class="paramname"><em>dataObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out global.System.Runtime.InteropServices.ComTypes.FORMATETC</td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたフォーマット名に一致するFORMATETC構造体を検索します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataObject</td><td>検索対象のIDataObject。</td></tr>
+    <tr><td class="paramname">format</td><td>検索するフォーマット名。</td></tr>
+    <tr><td class="paramname">fmt</td><td>見つかったFORMATETC構造体。見つからなかった場合はdefault値が設定されます。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>フォーマットが見つかった場合はtrue、それ以外はfalse。</dd></dl>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">メンバ詳解</h2>
+<a id="adcb3e9f0d317bf123f49994098be8178" name="adcb3e9f0d317bf123f49994098be8178"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcb3e9f0d317bf123f49994098be8178">&#9670;&#160;</a></span>FileContents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short YukkuriMovieMaker.Commons.DataObjectEx.FileContents = -16264</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルの内容を示すクリップボードフォーマットID。 </p>
+
+</div>
+</div>
+<a id="a3277a67bf7e09b4ae3c602eb6ff4da0e" name="a3277a67bf7e09b4ae3c602eb6ff4da0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3277a67bf7e09b4ae3c602eb6ff4da0e">&#9670;&#160;</a></span>FileGroupDescriptorW</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short YukkuriMovieMaker.Commons.DataObjectEx.FileGroupDescriptorW = -16056</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルグループ記述子(Unicode)を示すクリップボードフォーマットID。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Commons/<a class="el" href="_data_object_ex_8cs.html">DataObjectEx.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_commons.html">Commons</a></li><li class="navelem"><a href="class_yukkuri_movie_maker_1_1_commons_1_1_data_object_ex.html">DataObjectEx</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,602 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ymm4-plugin-document: YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker インタフェース</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ymm4-plugin-document
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('interface_yukkuri_movie_maker_1_1_plugin_1_1_voice_1_1_i_voice_speaker.html','','interface_yukkuri_movie_maker_1_1_plugin_1_1_voice_1_1_i_voice_speaker-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker インタフェース</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>音声話者を表すインターフェース  
+ <a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:af66ab961fd715dbc73ba32e133632170" id="r_af66ab961fd715dbc73ba32e133632170"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af66ab961fd715dbc73ba32e133632170">IsMatch</a> (string api, string id)</td></tr>
+<tr class="memdesc:af66ab961fd715dbc73ba32e133632170"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたAPIとIDがこの話者と一致するかどうかを判断します。  <br /></td></tr>
+<tr class="memitem:a09e82cb4982a7c95352d0dacad41d9a6" id="r_a09e82cb4982a7c95352d0dacad41d9a6"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Plugin.Voice.IVoiceParameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09e82cb4982a7c95352d0dacad41d9a6">CreateVoiceParameter</a> ()</td></tr>
+<tr class="memdesc:a09e82cb4982a7c95352d0dacad41d9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">新しい音声パラメーターを作成します。  <br /></td></tr>
+<tr class="memitem:a17528794ea1421e46e9e7e7b078f9549" id="r_a17528794ea1421e46e9e7e7b078f9549"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Plugin.Voice.IVoiceParameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17528794ea1421e46e9e7e7b078f9549">MigrateParameter</a> (global::YukkuriMovieMaker.Plugin.Voice.IVoiceParameter currentParameter)</td></tr>
+<tr class="memdesc:a17528794ea1421e46e9e7e7b078f9549"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の音声パラメーターをこの話者用に移行します。  <br /></td></tr>
+<tr class="memitem:ac5e096df61f303da2452ba3e0492d9c9" id="r_ac5e096df61f303da2452ba3e0492d9c9"><td class="memItemLeft" align="right" valign="top">global::System.Threading.Tasks.Task&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5e096df61f303da2452ba3e0492d9c9">ConvertKanjiToYomiAsync</a> (string <a class="el" href="_fast_canvas_items_control_8cs.html#af575f17e6be3f269b86b041a60560dbf">text</a>, global::YukkuriMovieMaker.Plugin.Voice.IVoiceParameter voiceParameter)</td></tr>
+<tr class="memdesc:ac5e096df61f303da2452ba3e0492d9c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">漢字を含むテキストを非同期で読み仮名に変換します。  <br /></td></tr>
+<tr class="memitem:a8162c263d0fc88f319e9b433055db4f2" id="r_a8162c263d0fc88f319e9b433055db4f2"><td class="memItemLeft" align="right" valign="top">global::System.Threading.Tasks.Task&lt; global::YukkuriMovieMaker.Plugin.Voice.IVoicePronounce &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8162c263d0fc88f319e9b433055db4f2">CreateVoiceAsync</a> (string <a class="el" href="_fast_canvas_items_control_8cs.html#af575f17e6be3f269b86b041a60560dbf">text</a>, [global::System.Runtime.CompilerServices.Nullable(2)] global::YukkuriMovieMaker.Plugin.Voice.IVoicePronounce pronounce, [global::System.Runtime.CompilerServices.Nullable(2)] global::YukkuriMovieMaker.Plugin.Voice.IVoiceParameter parameter, string filePath)</td></tr>
+<tr class="memdesc:a8162c263d0fc88f319e9b433055db4f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">音声を非同期で作成します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:ad6af652c8f8f012680a770353d3aaa8c" id="r_ad6af652c8f8f012680a770353d3aaa8c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6af652c8f8f012680a770353d3aaa8c">EngineName</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad6af652c8f8f012680a770353d3aaa8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンジン名を取得します。  <br /></td></tr>
+<tr class="memitem:affe5fa7cdae204d4ce2f179562967140" id="r_affe5fa7cdae204d4ce2f179562967140"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affe5fa7cdae204d4ce2f179562967140">SpeakerName</a><code> [get]</code></td></tr>
+<tr class="memdesc:affe5fa7cdae204d4ce2f179562967140"><td class="mdescLeft">&#160;</td><td class="mdescRight">話者名を取得します。  <br /></td></tr>
+<tr class="memitem:a1ce1f23b9f8d32c1aeeca9a1e85c0655" id="r_a1ce1f23b9f8d32c1aeeca9a1e85c0655"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ce1f23b9f8d32c1aeeca9a1e85c0655">API</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1ce1f23b9f8d32c1aeeca9a1e85c0655"><td class="mdescLeft">&#160;</td><td class="mdescRight">API名を取得します。  <br /></td></tr>
+<tr class="memitem:a3702dcfd30ff0e4066f710cd6fd2c6d3" id="r_a3702dcfd30ff0e4066f710cd6fd2c6d3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3702dcfd30ff0e4066f710cd6fd2c6d3">ID</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3702dcfd30ff0e4066f710cd6fd2c6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDを取得します。  <br /></td></tr>
+<tr class="memitem:ad74e6c532d12fb0fa73362060c21aff6" id="r_ad74e6c532d12fb0fa73362060c21aff6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad74e6c532d12fb0fa73362060c21aff6">IsVoiceDataCachingRequired</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad74e6c532d12fb0fa73362060c21aff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">音声データのキャッシュが必要かどうかを取得します。  <br /></td></tr>
+<tr class="memitem:a02983893797ec831bed14b0352a2a6c0" id="r_a02983893797ec831bed14b0352a2a6c0"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Plugin.Voice.SupportedTextFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02983893797ec831bed14b0352a2a6c0">Format</a><code> [get]</code></td></tr>
+<tr class="memdesc:a02983893797ec831bed14b0352a2a6c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">サポートされているテキストフォーマットを取得します。  <br /></td></tr>
+<tr class="memitem:a1f2f549ea2df006cc1be0dcc01ea7f61" id="r_a1f2f549ea2df006cc1be0dcc01ea7f61"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Plugin.Voice.IVoiceLicense&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f2f549ea2df006cc1be0dcc01ea7f61">License</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1f2f549ea2df006cc1be0dcc01ea7f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">音声ライセンスを取得します。  <br /></td></tr>
+<tr class="memitem:a6506cf036fd05676067cc669d74d05f2" id="r_a6506cf036fd05676067cc669d74d05f2"><td class="memItemLeft" align="right" valign="top">global::YukkuriMovieMaker.Plugin.Voice.IVoiceResource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6506cf036fd05676067cc669d74d05f2">Resource</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6506cf036fd05676067cc669d74d05f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">音声リソースを取得します。  <br /></td></tr>
+<tr class="memitem:a23873436aa98afbde0382388763c9f5f" id="r_a23873436aa98afbde0382388763c9f5f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23873436aa98afbde0382388763c9f5f">SpeakerAuthor</a><code> [get]</code></td></tr>
+<tr class="memdesc:a23873436aa98afbde0382388763c9f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">話者の作者を取得します。  <br /></td></tr>
+<tr class="memitem:a5e6110d8d1f77f5745f2237b8d49fbc6" id="r_a5e6110d8d1f77f5745f2237b8d49fbc6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e6110d8d1f77f5745f2237b8d49fbc6">SpeakerContentId</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5e6110d8d1f77f5745f2237b8d49fbc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">話者のコンテンツIDを取得します。  <br /></td></tr>
+<tr class="memitem:ac56bfca4fb2ca2a5920ca27734e3fae9" id="r_ac56bfca4fb2ca2a5920ca27734e3fae9"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac56bfca4fb2ca2a5920ca27734e3fae9">EngineAuthor</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac56bfca4fb2ca2a5920ca27734e3fae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンジンの作者を取得します。  <br /></td></tr>
+<tr class="memitem:ab34461c2f0e5b523897dafcb0fa24bc9" id="r_ab34461c2f0e5b523897dafcb0fa24bc9"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab34461c2f0e5b523897dafcb0fa24bc9">EngineContentId</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab34461c2f0e5b523897dafcb0fa24bc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンジンのコンテンツIDを取得します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>音声話者を表すインターフェース </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
+<a id="ac5e096df61f303da2452ba3e0492d9c9" name="ac5e096df61f303da2452ba3e0492d9c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5e096df61f303da2452ba3e0492d9c9">&#9670;&#160;</a></span>ConvertKanjiToYomiAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Threading.Tasks.Task&lt; string &gt; YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.ConvertKanjiToYomiAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">global.YukkuriMovieMaker.Plugin.Voice.IVoiceParameter</td>          <td class="paramname"><span class="paramname"><em>voiceParameter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>漢字を含むテキストを非同期で読み仮名に変換します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>変換するテキスト。</td></tr>
+    <tr><td class="paramname">voiceParameter</td><td>音声パラメーター。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>読み仮名に変換されたテキストを返すタスク。</dd></dl>
+
+</div>
+</div>
+<a id="a8162c263d0fc88f319e9b433055db4f2" name="a8162c263d0fc88f319e9b433055db4f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8162c263d0fc88f319e9b433055db4f2">&#9670;&#160;</a></span>CreateVoiceAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.System.Threading.Tasks.Task&lt; global.YukkuriMovieMaker.Plugin.Voice.IVoicePronounce &gt; YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.CreateVoiceAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System.Runtime.CompilerServices.Nullable(2)] global.YukkuriMovieMaker.Plugin.Voice.IVoicePronounce</td>          <td class="paramname"><span class="paramname"><em>pronounce</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[global::System.Runtime.CompilerServices.Nullable(2)] global.YukkuriMovieMaker.Plugin.Voice.IVoiceParameter</td>          <td class="paramname"><span class="paramname"><em>parameter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>音声を非同期で作成します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>音声にするテキスト。</td></tr>
+    <tr><td class="paramname">pronounce</td><td>既存の発音情報（オプション）。</td></tr>
+    <tr><td class="paramname">parameter</td><td>音声パラメーター（オプション）。</td></tr>
+    <tr><td class="paramname">filePath</td><td>音声ファイルの出力パス。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>作成された音声の発音情報を返すタスク。</dd></dl>
+
+</div>
+</div>
+<a id="a09e82cb4982a7c95352d0dacad41d9a6" name="a09e82cb4982a7c95352d0dacad41d9a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09e82cb4982a7c95352d0dacad41d9a6">&#9670;&#160;</a></span>CreateVoiceParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Plugin.Voice.IVoiceParameter YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.CreateVoiceParameter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>新しい音声パラメーターを作成します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>作成された音声パラメーター。</dd></dl>
+
+</div>
+</div>
+<a id="af66ab961fd715dbc73ba32e133632170" name="af66ab961fd715dbc73ba32e133632170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66ab961fd715dbc73ba32e133632170">&#9670;&#160;</a></span>IsMatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.IsMatch </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>api</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたAPIとIDがこの話者と一致するかどうかを判断します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">api</td><td>API名。</td></tr>
+    <tr><td class="paramname">id</td><td>ID。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>一致する場合はtrue、それ以外の場合はfalse。</dd></dl>
+
+</div>
+</div>
+<a id="a17528794ea1421e46e9e7e7b078f9549" name="a17528794ea1421e46e9e7e7b078f9549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17528794ea1421e46e9e7e7b078f9549">&#9670;&#160;</a></span>MigrateParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Plugin.Voice.IVoiceParameter YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.MigrateParameter </td>
+          <td>(</td>
+          <td class="paramtype">global.YukkuriMovieMaker.Plugin.Voice.IVoiceParameter</td>          <td class="paramname"><span class="paramname"><em>currentParameter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>既存の音声パラメーターをこの話者用に移行します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">currentParameter</td><td>現在の音声パラメーター。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>移行された音声パラメーター。</dd></dl>
+
+</div>
+</div>
+<a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">プロパティ詳解</h2>
+<a id="a1ce1f23b9f8d32c1aeeca9a1e85c0655" name="a1ce1f23b9f8d32c1aeeca9a1e85c0655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ce1f23b9f8d32c1aeeca9a1e85c0655">&#9670;&#160;</a></span>API</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.API</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>API名を取得します。 </p>
+
+</div>
+</div>
+<a id="ac56bfca4fb2ca2a5920ca27734e3fae9" name="ac56bfca4fb2ca2a5920ca27734e3fae9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56bfca4fb2ca2a5920ca27734e3fae9">&#9670;&#160;</a></span>EngineAuthor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.EngineAuthor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>エンジンの作者を取得します。 </p>
+
+</div>
+</div>
+<a id="ab34461c2f0e5b523897dafcb0fa24bc9" name="ab34461c2f0e5b523897dafcb0fa24bc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34461c2f0e5b523897dafcb0fa24bc9">&#9670;&#160;</a></span>EngineContentId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.EngineContentId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>エンジンのコンテンツIDを取得します。 </p>
+
+</div>
+</div>
+<a id="ad6af652c8f8f012680a770353d3aaa8c" name="ad6af652c8f8f012680a770353d3aaa8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6af652c8f8f012680a770353d3aaa8c">&#9670;&#160;</a></span>EngineName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.EngineName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>エンジン名を取得します。 </p>
+
+</div>
+</div>
+<a id="a02983893797ec831bed14b0352a2a6c0" name="a02983893797ec831bed14b0352a2a6c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02983893797ec831bed14b0352a2a6c0">&#9670;&#160;</a></span>Format</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Plugin.Voice.SupportedTextFormat YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.Format</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>サポートされているテキストフォーマットを取得します。 </p>
+
+</div>
+</div>
+<a id="a3702dcfd30ff0e4066f710cd6fd2c6d3" name="a3702dcfd30ff0e4066f710cd6fd2c6d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3702dcfd30ff0e4066f710cd6fd2c6d3">&#9670;&#160;</a></span>ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.ID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>IDを取得します。 </p>
+
+</div>
+</div>
+<a id="ad74e6c532d12fb0fa73362060c21aff6" name="ad74e6c532d12fb0fa73362060c21aff6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad74e6c532d12fb0fa73362060c21aff6">&#9670;&#160;</a></span>IsVoiceDataCachingRequired</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.IsVoiceDataCachingRequired</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>音声データのキャッシュが必要かどうかを取得します。 </p>
+
+</div>
+</div>
+<a id="a1f2f549ea2df006cc1be0dcc01ea7f61" name="a1f2f549ea2df006cc1be0dcc01ea7f61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f2f549ea2df006cc1be0dcc01ea7f61">&#9670;&#160;</a></span>License</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Plugin.Voice.IVoiceLicense YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.License</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>音声ライセンスを取得します。 </p>
+
+</div>
+</div>
+<a id="a6506cf036fd05676067cc669d74d05f2" name="a6506cf036fd05676067cc669d74d05f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6506cf036fd05676067cc669d74d05f2">&#9670;&#160;</a></span>Resource</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.YukkuriMovieMaker.Plugin.Voice.IVoiceResource YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.Resource</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>音声リソースを取得します。 </p>
+
+</div>
+</div>
+<a id="a23873436aa98afbde0382388763c9f5f" name="a23873436aa98afbde0382388763c9f5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23873436aa98afbde0382388763c9f5f">&#9670;&#160;</a></span>SpeakerAuthor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.SpeakerAuthor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>話者の作者を取得します。 </p>
+
+</div>
+</div>
+<a id="a5e6110d8d1f77f5745f2237b8d49fbc6" name="a5e6110d8d1f77f5745f2237b8d49fbc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e6110d8d1f77f5745f2237b8d49fbc6">&#9670;&#160;</a></span>SpeakerContentId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.SpeakerContentId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>話者のコンテンツIDを取得します。 </p>
+
+</div>
+</div>
+<a id="affe5fa7cdae204d4ce2f179562967140" name="affe5fa7cdae204d4ce2f179562967140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe5fa7cdae204d4ce2f179562967140">&#9670;&#160;</a></span>SpeakerName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string YukkuriMovieMaker.Plugin.Voice.IVoiceSpeaker.SpeakerName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>話者名を取得します。 </p>
+
+</div>
+</div>
+<hr/>このインタフェース詳解は次のファイルから抽出されました:<ul>
+<li>YukkuriMovieMaker.Plugin/YukkuriMovieMaker/Plugin/Voice/<a class="el" href="_i_voice_speaker_8cs.html">IVoiceSpeaker.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_yukkuri_movie_maker.html">YukkuriMovieMaker</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_plugin.html">Plugin</a></li><li class="navelem"><a href="namespace_yukkuri_movie_maker_1_1_plugin_1_1_voice.html">Voice</a></li><li class="navelem"><a href="interface_yukkuri_movie_maker_1_1_plugin_1_1_voice_1_1_i_voice_speaker.html">IVoiceSpeaker</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

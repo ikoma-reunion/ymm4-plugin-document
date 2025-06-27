@@ -1,0 +1,5 @@
+var _item_properties_binding_8cs =
+[
+    [ "YukkuriMovieMaker.Views.Converters.ItemPropertiesBinding", "class_yukkuri_movie_maker_1_1_views_1_1_converters_1_1_item_properties_binding.html", "class_yukkuri_movie_maker_1_1_views_1_1_converters_1_1_item_properties_binding" ],
+    [ "YukkuriMovieMaker.Views.Converters.ItemPropertiesBinding.MultiItemPropertyConverter", "class_yukkuri_movie_maker_1_1_views_1_1_converters_1_1_item_properties_binding_1_1_multi_item_property_converter.html", "class_yukkuri_movie_maker_1_1_views_1_1_converters_1_1_item_properties_binding_1_1_multi_item_property_converter" ]
+];
